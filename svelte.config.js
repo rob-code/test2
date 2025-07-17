@@ -19,7 +19,11 @@ const config = {
 			fallback: undefined,
 			precompress: false,
 			strict: true,
-		})
+		}),
+			paths: {
+			base: '/svelte-test2-build'
+			// process.argv.includes('dev') ? '' : process.env.BASE_PATH
+		}
 	}
 };
 
