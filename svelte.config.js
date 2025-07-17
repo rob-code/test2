@@ -21,8 +21,7 @@ const config = {
 			strict: true,
 		}),
 			paths: {
-			base: '/svelte-test2-build'
-			// process.argv.includes('dev') ? '' : process.env.BASE_PATH
+			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
 		}
 	}
 };
