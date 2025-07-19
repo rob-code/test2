@@ -1,0 +1,1 @@
+import"../chunks/NZTpNUN0.js";import"../chunks/BnWhiKun.js";import{j as r,k as t}from"../chunks/CP3Z9cb8.js";/* empty css                */var a=r('<div class="container"><p>about</p></div>');function s(o){var p=a();t(o,p)}export{s as component};
