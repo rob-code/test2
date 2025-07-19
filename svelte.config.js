@@ -20,11 +20,7 @@ const config = {
 			precompress: false,
 			strict: true,
 		}),
-		paths: {
-			//works!!
-			//base: process.env.NODE_ENV === 'production' ? '/svelte-test2-build' : '', 
-			
-			//works too
+		paths: {			
 			base:process.argv.includes('dev') ? '' : process.env.BASE_PATH
 		}
 	}

@@ -1,16 +1,9 @@
 <script lang="ts">
+    import Navigation from "../components/navigation.svelte"
     let {children} = $props();
-    import {base} from '$app/paths';
-
 </script>
 
-<nav>
-    <a href="{base}/">Home</a>
-    <a href="{base}/about">About</a>
-    <a href="{base}/contact">Contact</a>
-</nav>
+
+<Navigation />
 
 {@render children()}
-
-
-
