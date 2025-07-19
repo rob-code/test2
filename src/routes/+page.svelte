@@ -1,5 +1,5 @@
 <script>
-    import '../robertbrice.css';
+    import '../lib/robertbrice.css';
 </script>
 
 <div class = "container">
