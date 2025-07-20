@@ -8,7 +8,8 @@
     import david from '$lib/images/david-index-image.webp';
     import modernromance from '$lib/images/flowers-index-multicoloured.webp';
     import colourfield from '$lib/images/colourfield-index-image.webp';
-    import lovehearts from '$lib/images/lovehearts-index.png'; 
+    import lovehearts from '$lib/images/lovehearts-index.png';
+    import arrow_right from '$lib/assets/arrow-right.svg';  
 
 </script>
 
@@ -44,7 +45,7 @@
     <div class="col-lg-6 px-0">
         <h1 class="display-4 fst-italic">Title of a longer featured blog post</h1> 
     <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
-    <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">Continue reading...</a></p>
+    <p class="lead mb-0">Continue reading...</p>
 </div> 
 </div>
 </section>
@@ -53,6 +54,103 @@
     <hr>    
 </div>
 
+
+
+
+
+<!--
+<div class="container hr-title">
+    <hr>    
+</div>
+
+ <section class="container">
+        <div class="row">
+  <div class="col-lg-4"> <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140" preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> <h2 class="fw-normal">Heading</h2> <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p> <p><a class="btn btn-secondary" href="#">View details »</a></p> </div>
+  <div class="col-lg-4"> <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140" preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> <h2 class="fw-normal">Heading</h2> <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p> <p><a class="btn btn-secondary" href="#">View details »</a></p> </div>
+  <div class="col-lg-4"> <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140" preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> <h2 class="fw-normal">Heading</h2> <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p> <p><a class="btn btn-secondary" href="#">View details »</a></p> </div>
+        </div>
+  </section> -->
+
+
+      <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 g-3">
+
+            <div class="col">
+              <div class="card">
+                <img src="{cricketball}" alt="Three Rugby Balls" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text">Everyone Can Play<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/everyone-can-play.html" aria-label="more information about cricket ball images" class="stretched-link"></a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                <img src="{thongs}" alt="Thongs" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text">Everyday Icons<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/everyday-icons.html" aria-label="more information about everyday icon images" class="stretched-link"></a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card"> 
+                <img src="{xrays}" alt="Colourful block colour portraits" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text">Block Colour Portraits<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/block-colour-portraits.html" aria-label="more information about block colour portraits" class="stretched-link"></a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card" > 
+                <img src="{mow}" alt="Meaning of Words" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text">A Meaning Of Words<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/a-meaning-of-words.html" aria-label="more information about a meaning of words" class="stretched-link"></a></p>
+                </div>
+              </div>
+            </div>
+
+        <div class="col">
+          <div class="card" > 
+            <img src="{david}" alt="Six David images with colourful backgrounds" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Not Shot David<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/not-shot-david.html" aria-label="more information about not shot david" class="stretched-link"></a></p>
+            </div>
+          </div>
+        </div>
+
+          <div class="col">
+           <div class="card" > 
+            <img src="{modernromance}" alt="computer generated yellow roses" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Modern Romance<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/modern-romance.html" aria-label="more information about modern romance" class="stretched-link"></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" > 
+            <img src="{colourfield}" alt="Colourfield in rust green" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Colour Fields<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/colour-fields.html" aria-label="more information about colour fields" class="stretched-link"></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" > 
+            <img src="{lovehearts}" alt="Lovehearts" class="card-img-top">
+              <div class="card-body">
+                <p class="card-text">True Love Hearts<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/true-love-hearts.html" aria-label="more information about love hearts" class="stretched-link"></a></p>
+              </div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
 
 <section class="container">
       <div class="py-5 text-center container">
@@ -65,109 +163,7 @@
 </section>
 
 
-
-<div class="container hr-title">
-    <hr>    
-</div>
-
-<section class="container">
-        <div class="row">
-  <div class="col-lg-4"> <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140" preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> <h2 class="fw-normal">Heading</h2> <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p> <p><a class="btn btn-secondary" href="#">View details »</a></p> </div>
-  <div class="col-lg-4"> <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140" preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> <h2 class="fw-normal">Heading</h2> <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p> <p><a class="btn btn-secondary" href="#">View details »</a></p> </div>
-  <div class="col-lg-4"> <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140" preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> <h2 class="fw-normal">Heading</h2> <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p> <p><a class="btn btn-secondary" href="#">View details »</a></p> </div>
-        </div>
-  </section>
-
-
-
-<div class="container hr-title">
-    <hr>    
-</div>
-
-      <div class="album py-5 bg-body-tertiary">
-        <div class="container">
-          <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 g-3">
-
-            <div class="col">
-              <div class="card">
-                <img src="{cricketball}" alt="Three Rugby Balls" class="card-img-top">
-                <div class="card-body">
-                  <p class="card-text">Everyone Can Play<img src="assets/arrow-right.svg" class="arrow-right"><a href="project-pages/everyone-can-play.html" class="stretched-link"></a></p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card">
-                <img src="{thongs}" alt="Thongs" class="card-img-top">
-                <div class="card-body">
-                  <p class="card-text">Everyday Icons<img src="assets/arrow-right.svg" class="arrow-right"><a href="project-pages/everyday-icons.html" class="stretched-link"></a></p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card"> 
-                <img src="{xrays}" alt="Colourful X ray image" class="card-img-top">
-                <div class="card-body">
-                  <p class="card-text">Block Colour Portraits<img src="assets/arrow-right.svg" class="arrow-right"><a href="project-pages/block-colour-portraits.html" class="stretched-link"></a></p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card" > 
-                <img src="{mow}" alt="Meaning of Words" class="card-img-top">
-                <div class="card-body">
-                  <p class="card-text">A Meaning Of Words<img src="assets/arrow-right.svg" class="arrow-right"><a href="project-pages/a-meaning-of-words.html" class="stretched-link"></a></p>
-                </div>
-              </div>
-            </div>
-
-        <div class="col">
-          <div class="card" > 
-            <img src="{david}" alt="Six David images with colourful backgrounds" class="card-img-top">
-            <div class="card-body">
-              <p class="card-text">Not Shot David<img src="assets/arrow-right.svg" class="arrow-right"><a href="project-pages/not-shot-david.html" class="stretched-link"></a></p>
-            </div>
-          </div>
-        </div>
-
-          <div class="col">
-           <div class="card" > 
-            <img src="{modernromance}" alt="computer generated yellow roses" class="card-img-top">
-            <div class="card-body">
-              <p class="card-text">Modern Romance<img src="assets/arrow-right.svg" class="arrow-right"><a href="project-pages/modern-romance.html" class="stretched-link"></a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card" > 
-            <img src="{colourfield}" alt="Colourfield in rust green" class="card-img-top">
-            <div class="card-body">
-              <p class="card-text">Colour Fields<img src="assets/arrow-right.svg" class="arrow-right"><a href="project-pages/colour-fields.html" class="stretched-link"></a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card" > 
-            <img src="{lovehearts}" alt="Lovehearts" class="card-img-top">
-              <div class="card-body">
-                <p class="card-text">True Love Hearts<img src="assets/arrow-right.svg" class="arrow-right"><a href="project-pages/true-love-hearts.html" class="stretched-link"></a></p>
-              </div>
-            </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-
-
-
-      <p class="float-left container"><a href="#" class="link-black">Back to top</a></p>  
+      <p class="float-left container"><a href="#" class="link-black">Back to top</a></p> 
 
 
 
