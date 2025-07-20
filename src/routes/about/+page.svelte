@@ -1,7 +1,11 @@
 <script>
-    import '../../lib/robertbrice.css';
+    import "../../lib/robertbrice.css";
 </script>
 
-<div class = "container">
-<p>about</p>
+<svelte:head>
+    <title>Robert Brice - About</title>
+</svelte:head>
+
+<div class="container">
+    <p>about</p>
 </div>

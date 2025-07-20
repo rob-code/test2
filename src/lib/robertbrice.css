@@ -1,6 +1,6 @@
 /* ******************** robertbrice.net basic styles ******************** */
 
-.colors{
+.colors {
   color: red;
 }
 
@@ -9,11 +9,11 @@
 }
 
 .name-title {
-  text-align:center;
+  text-align: center;
 }
 
 .code-title {
-  text-align:center;
+  text-align: center;
 }
 
 .title-size {
@@ -22,38 +22,38 @@
 
 a.link-black {
   --bs-link-color-rgb: #000000;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
-.card{
+.card {
   background-color: transparent;
 }
 
-.card-body{
+.card-body {
   padding: 10px;
 }
 
-.card-text{
+.card-text {
   padding-left: .5rem;
 }
 
-.title-block{
-  padding-top: 3rem;  
+.title-block {
+  padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
 
-.bracket-colour{
+.bracket-colour {
   color: #FF0266
 }
 
 
-.footer-space-above{
-padding-top: 5rem;
+.footer-space-above {
+  padding-top: 5rem;
 
 }
 
-.footer-icon-spacing{
+.footer-icon-spacing {
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -72,16 +72,16 @@ padding-top: 5rem;
 
 /* ******************** project pages ******************** */
 
-.project-page-header{
+.project-page-header {
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
 
-.item-padding-top{
-  padding-top: 3rem;  
+.item-padding-top {
+  padding-top: 3rem;
 }
 
-.item-padding-bottom{
+.item-padding-bottom {
   padding-bottom: 3rem;
 }
 
@@ -90,9 +90,9 @@ padding-top: 5rem;
 }
 
 .arrow-right {
-width: 30px;
-height: 20px;
-padding-left: 10px;
+  width: 30px;
+  height: 20px;
+  padding-left: 10px;
 }
 
 .project-description-left {
@@ -115,12 +115,13 @@ padding-left: 10px;
   height: 45px;
 }
 
-.btn-close.offcanvas-text{
+.btn-close.offcanvas-text {
   --bs-btn-close-color: #FFF;
   color: #FFF;
 }
+
 .offcanvas {
-    background-color: #FF0067;
+  background-color: #FF0067;
 }
 
 .nav-scroller {
@@ -146,15 +147,15 @@ padding-left: 10px;
 }
 
 .navbar-toggler {
-  color: rgba(255,255,255,0);
+  color: rgba(255, 255, 255, 0);
 }
 
 .navbar-collapse-icon {
-fill: #FFFFFF;
-transform: scale(1.9);
-width: 26px;
-height: 26px;
-padding-top: 4px;
+  fill: #FFFFFF;
+  transform: scale(1.9);
+  width: 26px;
+  height: 26px;
+  padding-top: 4px;
 }
 
 .announcement {
@@ -162,28 +163,28 @@ padding-top: 4px;
   color: white;
   font-size: .85rem;
   padding-top: .6rem;
-  padding-bottom:.6rem ;
+  padding-bottom: .6rem;
 }
 
 .announcement-icon {
-fill: #FFFFFF;
-transform: scale(1);
-width: 26px;
-height: 26px;
-padding-top: 5px;
+  fill: #FFFFFF;
+  transform: scale(1);
+  width: 26px;
+  height: 26px;
+  padding-top: 5px;
 
 }
 
 /* ******************** snipcart ***************************************** */
 
 
-.snipcart-modal__container{  
+.snipcart-modal__container {
   margin-top: 0px;
   z-index: 1100;
 }
 
 
-.cart-button{
+.cart-button {
   border-style: none;
   background: none;
 }
@@ -197,8 +198,8 @@ padding-top: 5px;
 }
 
 .badge {
-  margin-left:-14px;
-  margin-top:-4px;
+  margin-left: -14px;
+  margin-top: -4px;
   font-size: .6rem;
   font-weight: light;
 }
@@ -229,16 +230,16 @@ padding-top: 5px;
   border-style: solid;
   line-height: 35px;
   padding-left: 5px;
-  line-height:  2;
+  line-height: 2;
 }
 
 .email-row {
-  padding-top:  20px;
+  padding-top: 20px;
 }
 
 .send-button-wrapper {
   padding-left: 15px;
-  padding-top:  20px;
+  padding-top: 20px;
 }
 
 .send-button {
@@ -270,13 +271,13 @@ padding-top: 5px;
   opacity: 0.4;
 }
 
-.thankyou-rocket{
+.thankyou-rocket {
   background-image: url(../images/rocket.svg);
   opacity: .4;
   background-size: cover;
   background-repeat: no-repeat;
-  height:  250px;
-  width:  250px;
+  height: 250px;
+  width: 250px;
   text-align: center;
   display: block;
   margin-left: auto;
@@ -284,9 +285,9 @@ padding-top: 5px;
 }
 
 .button-color,
-.button-color:hover{
+.button-color:hover {
   background-color: #FF0266;
-  border-color:  #FF0266;
+  border-color: #FF0266;
   padding: 12px 28px;
   font-size: 1rem;
 }
@@ -320,7 +321,7 @@ padding-top: 5px;
   border-radius: 3px;
 }
 
-.cookie-button{
+.cookie-button {
   height: 25px;
   width: 104px;
   color: #fff;
@@ -331,8 +332,8 @@ padding-top: 5px;
   background-color: #FF0266;
 }
 
-.cookie-statement{
-  padding-top:  5px;
+.cookie-statement {
+  padding-top: 5px;
   color: #dcdcdc;
 }
 
@@ -347,7 +348,7 @@ padding-top: 5px;
 
 .legal-subtitle {
   padding-top: 10px;
-  padding-bottom:0px;
+  padding-bottom: 0px;
   font-size: 18px;
   font-weight: bolder;
 }
@@ -364,7 +365,7 @@ padding-top: 5px;
 }
 
 @media (min-width: 992px) {
-  .rounded-lg-3 { 
+  .rounded-lg-3 {
     border-radius: .3rem;
   }
 
