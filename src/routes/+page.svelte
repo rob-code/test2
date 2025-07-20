@@ -82,7 +82,7 @@
               <div class="card">
                 <img src="{cricketball}" alt="Three Rugby Balls" class="card-img-top">
                 <div class="card-body">
-                  <p class="card-text">Everyone Can Play<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/everyone-can-play.html" aria-label="more information about cricket ball images" class="stretched-link"></a></p>
+                  <!-- <p class="card-text">Everyone Can Play<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/everyone-can-play.html" aria-label="more information about cricket ball images" class="stretched-link"></a></p> -->
                 </div>
               </div>
             </div>
@@ -91,7 +91,7 @@
               <div class="card">
                 <img src="{thongs}" alt="Thongs" class="card-img-top">
                 <div class="card-body">
-                  <p class="card-text">Everyday Icons<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/everyday-icons.html" aria-label="more information about everyday icon images" class="stretched-link"></a></p>
+                  <!-- <p class="card-text">Everyday Icons<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/everyday-icons.html" aria-label="more information about everyday icon images" class="stretched-link"></a></p> -->
                 </div>
               </div>
             </div>
@@ -100,7 +100,7 @@
               <div class="card"> 
                 <img src="{xrays}" alt="Colourful block colour portraits" class="card-img-top">
                 <div class="card-body">
-                  <p class="card-text">Block Colour Portraits<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/block-colour-portraits.html" aria-label="more information about block colour portraits" class="stretched-link"></a></p>
+                  <!-- <p class="card-text">Block Colour Portraits<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/block-colour-portraits.html" aria-label="more information about block colour portraits" class="stretched-link"></a></p> -->
                 </div>
               </div>
             </div>
@@ -109,7 +109,7 @@
               <div class="card" > 
                 <img src="{mow}" alt="Meaning of Words" class="card-img-top">
                 <div class="card-body">
-                  <p class="card-text">A Meaning Of Words<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/a-meaning-of-words.html" aria-label="more information about a meaning of words" class="stretched-link"></a></p>
+                  <!-- <p class="card-text">A Meaning Of Words<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/a-meaning-of-words.html" aria-label="more information about a meaning of words" class="stretched-link"></a></p> -->
                 </div>
               </div>
             </div>
@@ -118,7 +118,7 @@
           <div class="card" > 
             <img src="{david}" alt="Six David images with colourful backgrounds" class="card-img-top">
             <div class="card-body">
-              <p class="card-text">Not Shot David<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/not-shot-david.html" aria-label="more information about not shot david" class="stretched-link"></a></p>
+              <!-- <p class="card-text">Not Shot David<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/not-shot-david.html" aria-label="more information about not shot david" class="stretched-link"></a></p> -->
             </div>
           </div>
         </div>
@@ -127,7 +127,7 @@
            <div class="card" > 
             <img src="{modernromance}" alt="computer generated yellow roses" class="card-img-top">
             <div class="card-body">
-              <p class="card-text">Modern Romance<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/modern-romance.html" aria-label="more information about modern romance" class="stretched-link"></a></p>
+              <!-- <p class="card-text">Modern Romance<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/modern-romance.html" aria-label="more information about modern romance" class="stretched-link"></a></p> -->
             </div>
           </div>
         </div>
@@ -136,7 +136,7 @@
           <div class="card" > 
             <img src="{colourfield}" alt="Colourfield in rust green" class="card-img-top">
             <div class="card-body">
-              <p class="card-text">Colour Fields<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/colour-fields.html" aria-label="more information about colour fields" class="stretched-link"></a></p>
+              <!-- <p class="card-text">Colour Fields<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/colour-fields.html" aria-label="more information about colour fields" class="stretched-link"></a></p> -->
             </div>
           </div>
         </div>
@@ -145,7 +145,7 @@
           <div class="card" > 
             <img src="{lovehearts}" alt="Lovehearts" class="card-img-top">
               <div class="card-body">
-                <p class="card-text">True Love Hearts<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/true-love-hearts.html" aria-label="more information about love hearts" class="stretched-link"></a></p>
+                <!-- <p class="card-text">True Love Hearts<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/true-love-hearts.html" aria-label="more information about love hearts" class="stretched-link"></a></p> -->
               </div>
             </div>
         </div>
