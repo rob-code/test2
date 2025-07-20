@@ -51,14 +51,14 @@
     </div>
     <div class="offcanvas-text">
     <ul class="navbar-nav mb-2 mb-md-0">
-        <li class="nav-item">
-          <a class="nav-link active" href="{base}/index">Home</a>
+        <li class="nav-item"  data-bs-toggle="offcanvas" >
+          <a class="nav-link active"href="{base}/">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="{base}/about">About</a>
+        <li class="nav-item" data-bs-toggle="offcanvas">
+          <a class="nav-link active"  href="{base}/about">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="{base}/contact">Contact</a>
+        <li class="nav-item" data-bs-toggle="offcanvas">
+          <a class="nav-link active"   href="{base}/contact">Contact</a>
         </li>
 
         <!--<li class="nav-item">
