@@ -37,7 +37,7 @@
           <a class="nav-link active" aria-label="blah blah" href="{base}/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-label="blah blah" href="{base}/projects">Home</a>
+          <a class="nav-link active" aria-label="blah blah" href="{base}/projects">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-label="blah blah" href="{base}/about">About</a>
