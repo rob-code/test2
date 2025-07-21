@@ -34,21 +34,16 @@
     <div class="collapse navbar-collapse mr-auto" id="navbarCollapse">
       <ul class="navbar-nav mb-2 mb-md-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-label="blah blah" href="{base}/"
-            >Home</a
-          >
+          <a class="nav-link active" aria-label="blah blah" href="{base}/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-label="blah blah" href="{base}/about"
-            >About</a
-          >
+          <a class="nav-link active" aria-label="blah blah" href="{base}/projects">Home</a>
         </li>
         <li class="nav-item">
-          <a
-            class="nav-link active"
-            aria-label="blah blah"
-            href="{base}/contact">Contact</a
-          >
+          <a class="nav-link active" aria-label="blah blah" href="{base}/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-label="blah blah" href="{base}/contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -89,6 +84,9 @@
       <ul class="navbar-nav mb-2 mb-md-0">
         <li class="nav-item" data-bs-toggle="offcanvas">
           <a class="nav-link active" href="{base}/">Home</a>
+        </li>
+        <li class="nav-item" data-bs-toggle="offcanvas">
+          <a class="nav-link active" href="{base}/projects">Projects</a>
         </li>
         <li class="nav-item" data-bs-toggle="offcanvas">
           <a class="nav-link active" href="{base}/about">About</a>
