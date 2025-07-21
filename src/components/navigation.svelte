@@ -67,7 +67,7 @@
   aria-labelledby="offcanvasExampleLabel"
 >
   <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+    <!-- <h5 class="offcanvas-title" id="offcanvasExampleLabel">Please choose:</h5> -->
     <button
       type="button"
       class="btn-close btn-close-white"
@@ -76,10 +76,10 @@
     ></button>
   </div>
   <div class="offcanvas-body">
-    <div>
+    <!-- <div>
       Some text as placeholder. In real life you can have the elements you have
       chosen. Like, text, images, lists, etc.
-    </div>
+    </div> -->
     <div class="offcanvas-text">
       <ul class="navbar-nav mb-2 mb-md-0">
         <li class="nav-item" data-bs-toggle="offcanvas">
