@@ -158,7 +158,7 @@
       <div class="py-5 text-center container">
         <div class="row py-lg-5">
           <div class="col-lg-6 col-md-8 mx-auto">
-            <p class="lead text-body-secondary">All images shown are available as giclee prints on conservation grade paper. They can also be commissioned in any configuration of colour and size. Please <a href="contact.html">get in touch</a> for details.</p>
+            <p class="lead text-body-secondary">All images shown are available as giclee prints on conservation grade paper. They can also be commissioned in any configuration of colour and size. Please <a href="{base}/contact">get in touch</a> for details.</p>
           </div>
         </div>
       </div>
@@ -177,7 +177,7 @@
   <div id="cookie_directive_container" class="cookie-directive text-center" style="display: none"> 
     <div id="cookie_accept" class="btn btn-default cookie-button">Allow cookies</div>
     <div id="cookie_cancel" class="btn btn-default cookie-button">Cancel</div>
-    <p class="cookie-statement">While cookies are used on this website, we do not use them to identify you or to customise content. Neither do we share your details with any third party. <a href="cookie-privacy-policy.html" target="_blank">Learn more</a></p>
+    <!-- <p class="cookie-statement">While cookies are used on this website, we do not use them to identify you or to customise content. Neither do we share your details with any third party. <a href="cookie-privacy-policy.html" target="_blank">Learn more</a></p> -->
   </div>
   </div>
 
