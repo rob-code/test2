@@ -272,7 +272,7 @@ a.link-black {
 }
 
 .thankyou-rocket {
-  background-image: url(../images/rocket.svg);
+/*  background-image: url(../images/rocket.svg); */
   opacity: .4;
   background-size: cover;
   background-repeat: no-repeat;

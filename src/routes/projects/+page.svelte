@@ -93,7 +93,8 @@
           <div class="card"> 
             <img src="{colourfield}" alt="Colourfield in rust green" class="card-img-top">
             <div class="card-body">
-               <p class="card-text">Colour Fields<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/colour-fields.html" aria-label="more information about colour fields" class="stretched-link"></a></p>
+               <p class="card-text">Colour Fields<img src="{arrow_right}" alt="arrow right icon" class="arrow-right">
+                <!---<a href="project-pages/colour-fields.html" aria-label="more information about colour fields" class="stretched-link"></a>--></p>
             </div>
           </div>
         </div>
@@ -102,7 +103,8 @@
           <div class="card"> 
             <img src="{lovehearts}" alt="Lovehearts" class="card-img-top">
               <div class="card-body">
-                <p class="card-text">True Love Hearts<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/true-love-hearts.html" aria-label="more information about love hearts" class="stretched-link"></a></p>
+                <p class="card-text">True Love Hearts<img src="{arrow_right}" alt="arrow right icon" class="arrow-right">
+                <!--<a href="project-pages/true-love-hearts.html" aria-label="more information about love hearts" class="stretched-link"></a>--></p>
               </div>
             </div>
         </div>
@@ -111,13 +113,7 @@
     </div>
   </div>
 
-      <div class="py-5 text-center container">
-        <div class="row py-lg-5">
-          <div class="col-lg-6 col-md-8 mx-auto">
-            <p class="lead text-body-secondary">All images shown are available as giclee prints on conservation grade paper. They can also be commissioned in any configuration of colour and size. Please <a href="contact.html">get in touch</a> for details.</p>
-          </div>
-        </div>
-      </div>
+
 
 
 

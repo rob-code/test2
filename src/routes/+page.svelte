@@ -181,8 +181,8 @@
 
   <div class="container">     
   <div id="cookie_directive_container" class="cookie-directive text-center" style="display: none"> 
-    <div id="cookie_accept" class="btn btn-default cookie-button">Allow cookies</div>
-    <div id="cookie_cancel" class="btn btn-default cookie-button">Cancel</div>
+    <!-- <div id="cookie_accept" class="btn btn-default cookie-button">Allow cookies</div>
+    <div id="cookie_cancel" class="btn btn-default cookie-button">Cancel</div> -->
     <!-- <p class="cookie-statement">While cookies are used on this website, we do not use them to identify you or to customise content. Neither do we share your details with any third party. <a href="cookie-privacy-policy.html" target="_blank">Learn more</a></p> -->
   </div>
   </div>
