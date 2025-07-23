@@ -10,7 +10,6 @@
     import colourfield from '$lib/images/colourfield-index-image.webp';
     import lovehearts from '$lib/images/lovehearts-index.png';
     import arrow_right from '$lib/assets/arrow-right.svg';  
-
 </script>
 
 <svelte:head>
