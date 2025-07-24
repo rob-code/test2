@@ -21,10 +21,11 @@
 
 <script lang="ts">
     import { enhance } from "$app/forms";
-    import "../../lib/robertbrice.css";
+    import "$lib/robertbrice.css";
 
     import type { PageProps } from './$types';
-    let { form }: PageProps = $props();
+    let { data, form }: PageProps = $props();
+  
 
     let a = Math.floor(Math.random() * 9) + 1;
     let b = Math.floor(Math.random() * 9) + 1;
@@ -32,6 +33,13 @@
     let c = a + b;
     let randomValue = c.toString();
     let spamcheck = $state("");
+  
+    let spin = $state(false);
+
+    function spinner(){
+      spin = !spin
+    }
+
 </script>
 
 <svelte:head>
@@ -107,10 +115,11 @@
 
           <div class="row">
             <div class="send-button-wrapper col-md-2" id="send-button-wrapper">
-               {#if spamcheck == randomValue } <button id="send-button" class="send-button" type="submit">Send</button> 
+               {#if spamcheck == randomValue } <button id="send-button" class="send-button" type="submit" onclick={spinner}>Send</button> 
                 {:else} <button id="send-button" class="send-button" type="submit" disabled>Send</button>{/if}
             </div>
-            {#if form?.success} <p class="col-md-10" style="padding-top: 35px">Your email has been sent, thank you.</p>{/if}
+            {#if form?.success} <p class="col-md-10" style="padding-top: 35px">Your email has been sent, thank you.</p>{spinner}{/if}
+                {#if spin} button.innerHTML = '<div class="spinner-border text-primary" role="status"><span class="sr-only"></span></div>';{/if}
           </div>
 
         </div>
@@ -125,23 +134,3 @@
   </main>
 
 
-
-
-
-<!-- <div class="container">
-
-<form method="POST" action="?/send">
-
-    <label for="name">Name:</label>
-    <textarea id="name" name="name" required></textarea>
-
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required>
-
-  <label for="message">Message:</label>
-  <textarea id="message" name="message" required></textarea>
-
-  <button type="submit">Send Email</button>
-</form> -->
-
-<!-- </div> -->

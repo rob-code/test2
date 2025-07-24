@@ -1,5 +1,5 @@
 <script>
-    import "../../lib/robertbrice.css";
+    import "$lib/robertbrice.css";
     import portrait from '$lib/images/RobertBriceAboutPhoto2.jpg';
 </script>
 

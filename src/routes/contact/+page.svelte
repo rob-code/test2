@@ -1,5 +1,5 @@
 <script lang="ts">
-    import "../../lib/robertbrice.css";
+    import "$lib/robertbrice.css";
 
     // let form = document.getElementById('contact-form');
     // let button = document.getElementById("send-button-wrapper");

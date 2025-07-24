@@ -1,5 +1,5 @@
 <script>
-    import "../../lib/robertbrice.css";
+    import "$lib/robertbrice.css";
     import { base } from "$app/paths";
     import cricketball from '$lib/images/cricketball-index.png';
     import thongs from '$lib/images/thongs92.png';
