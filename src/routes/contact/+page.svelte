@@ -1,6 +1,94 @@
-<script>
+<script lang="ts">
     import "../../lib/robertbrice.css";
+
+    // let form = document.getElementById('contact-form');
+    // let button = document.getElementById("send-button-wrapper");
+
+
+
+// form?.addEventListener("submit", (event) => {
+//     event.preventDefault();
+//     let formData = new FormData(form?);
+
+//     console.log("form has been submitted with data : " + JSON.stringify(Object.fromEntries(formData)));  
+
+//     button.innerHTML = '<div class="spinner-border text-primary" role="status"><span class="sr-only"></span></div>';
+    
+//     fetch("https://script.google.com/macros/s/AKfycbxnJQr-jqbyiUowGvjAiWDHeh35NRj9e0Z5sZdHAVFBeZTS1Ck0JNDB9iwaqS8xDLFK/exec", {
+//       mode: 'cors',
+//       method: 'POST',
+//       body: formData,
+//     })
+//     .then(response => {
+//         if(response.ok) {
+//           console.log('Success! ',  response);
+//           window.location.href = "thankyou.html";
+//           form.reset();
+//           button.innerHTML = '<button id="send-button" class="send-button" type="submit" disabled="true">Send</button>';
+//           setUpSpamTest();
+//         } 
+//           else 
+//         {
+//           console.log("response else " + response);
+//           form.reset();
+//           button.innerHTML = '<button id="send-button" class="send-button" type="submit" disabled="true">Send</button>';
+//           alert("Sorry, there's been an error - response status: " + response.status);
+//           setUpSpamTest();
+//           }
+//     })
+//     .catch(error => {
+//           console.log("Error! " + error.message);
+//           alert("Sorry, there's been an error - response status: " + response.status);
+//     })
+// })
+
+
+// function setUpSpamTest(){
+
+//   document.getElementById('send-button').disabled = true;
+
+//   a = random_number();
+//   b = random_number();
+
+//   document.getElementById('number-1').innerHTML = a;
+//   document.getElementById('number-2').innerHTML = b;
+
+
+//   const inputField = document.getElementById('spam-input-field');
+//   inputField.placeholder = "To help prevent spam, please enter the sum of " + a.toString() + " + " + b.toString() + ".";
+
+//   c = sum(a,b); 
+//   inputField.addEventListener("input", validate);
+
+
+//   function validate(e) {
+
+//     if (c == Number(inputField.value)) {
+//       document.getElementById('send-button').disabled = false;
+//     } else {
+//       document.getElementById('send-button').disabled = true;
+//     }
+//   }
+// }
+
+// document.addEventListener("DOMContentLoaded", function() {
+//     setUpSpamTest();
+// });
+
+// function sum (a,b) {
+//     c = a + b;
+//     return c;
+// };
+
+// function random_number () {
+//     return Math.floor(Math.random() * 9) + 1; //returns an integer between 1 and 9
+// };
+
 </script>
+
+
+
+
 
 <svelte:head>
     <title>Robert Brice - Contact</title>
@@ -85,3 +173,5 @@
     </div>
     
   </main>
+
+
