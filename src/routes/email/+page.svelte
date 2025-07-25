@@ -22,11 +22,11 @@
 <script lang="ts">
     import { enhance } from "$app/forms";
     import "$lib/robertbrice.css";
-
+    import {redirect} from "@sveltejs/kit";
+  
     import type { PageProps } from './$types';
     let { data, form }: PageProps = $props();
   
-
     let a = Math.floor(Math.random() * 9) + 1;
     let b = Math.floor(Math.random() * 9) + 1;
     let placeholder = "To help prevent spam, please enter the sum of " + a + " + " + b;
@@ -34,11 +34,13 @@
     let randomValue = c.toString();
     let spamcheck = $state("");
   
-    let spin = $state(false);
 
     function spinner(){
-      spin = !spin
-    }
+
+
+
+     }
+
 
 </script>
 
@@ -115,11 +117,11 @@
 
           <div class="row">
             <div class="send-button-wrapper col-md-2" id="send-button-wrapper">
-               {#if spamcheck == randomValue } <button id="send-button" class="send-button" type="submit" onclick={spinner}>Send</button> 
+               {#if spamcheck == randomValue} <button id="send-button" class="send-button" type="submit" onclick={spinner}>Send</button> 
                 {:else} <button id="send-button" class="send-button" type="submit" disabled>Send</button>{/if}
             </div>
-            {#if form?.success} <p class="col-md-10" style="padding-top: 35px">Your email has been sent, thank you.</p>{spinner}{/if}
-                {#if spin} button.innerHTML = '<div class="spinner-border text-primary" role="status"><span class="sr-only"></span></div>';{/if}
+            <!-- {#if form?.success} <p class="col-md-10" style="padding-top: 35px">Your email has been sent, thank you.</p>{/if} -->
+                <!-- {#if form?.allFieldsCompleted}<div class="spinner-border text-primary" role="status"><span class="sr-only"></span></div>{/if} -->
           </div>
 
         </div>
