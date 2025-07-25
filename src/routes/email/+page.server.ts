@@ -49,10 +49,10 @@ export const actions = {
 
 		})
 
-		.catch(error => {
-			console.log("Sorry, there's been an error - response status: " + error);
-			redirect(308, '../email/error');
-		})
+		// .catch(error => {
+		// 	console.log("Sorry, there's been an error - response status: " + error);
+		// 	redirect(308, '../email/error');
+		// })
 
 		
 
