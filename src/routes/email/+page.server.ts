@@ -18,8 +18,8 @@ export const actions = {
 		// } else {
 		// 	return error(400, 'All fields must be completed');
 		// }
-
-
+		
+		console.log("this is the lot....  " + data.getAll);
 
 
 		let response = await fetch("https://script.google.com/macros/s/AKfycbxnJQr-jqbyiUowGvjAiWDHeh35NRj9e0Z5sZdHAVFBeZTS1Ck0JNDB9iwaqS8xDLFK/exec", {
@@ -49,10 +49,10 @@ export const actions = {
 
 		})
 
-		// .catch(error => {
-		// 	console.log("Sorry, there's been an error - response status: " + error);
-		// 	redirect(308, '../email/error');
-		// })
+		.catch(error => {
+			console.log("Sorry, there's been an error - response status: " + error);
+			redirect(308, '../email/error');
+		})
 
 		
 
