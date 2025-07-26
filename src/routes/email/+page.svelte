@@ -34,30 +34,29 @@
     let randomValue = c.toString();
     let spamcheck = $state("");
   
-
-    function spinner(){
-
-
-
-     }
-
-
+    let sendingData = $state(false); 
 </script>
 
 <svelte:head>
     <title>Robert Brice - Contact</title>
 </svelte:head>
 
-
-
     <main>
-
-
       <div class="container">
+
+	<!-- {#if form?.error}
+		<p class="error">{form.error}</p>
+	{/if} -->
 
        <div class="fw-light title-size" style="padding-top: 1em;">Svelte contact form experiments</div>
 
-       <form id="contact-form" method="POST" use:enhance>
+       <form id="contact-form" method="POST" use:enhance={() => {
+			  sendingData = true;
+			return async ({ update }) => {
+				await update();
+				sendingData = false;
+			};
+		}}>
 
         <div class="email-form">
           <div class="row email-row">
@@ -117,11 +116,11 @@
 
           <div class="row">
             <div class="send-button-wrapper col-md-2" id="send-button-wrapper">
-               {#if spamcheck == randomValue} <button id="send-button" class="send-button" type="submit" onclick={spinner}>Send</button> 
+               {#if spamcheck == randomValue} <button id="send-button" class="send-button" type="submit">Send</button> 
                 {:else} <button id="send-button" class="send-button" type="submit" disabled>Send</button>{/if}
             </div>
             <!-- {#if form?.success} <p class="col-md-10" style="padding-top: 35px">Your email has been sent, thank you.</p>{/if} -->
-                <!-- {#if form?.allFieldsCompleted}<div class="spinner-border text-primary" role="status"><span class="sr-only"></span></div>{/if} -->
+                {#if sendingData }<div class="spinner-border text-primary" role="status"><span class="sr-only"></span></div>{/if}
           </div>
 
         </div>
