@@ -1,5 +1,6 @@
 <script>
     import "$lib/robertbrice.css";
+    import { base } from "$app/paths";
     import hip_1 from "$lib/images/hip-arthroplasty2.png";
     import hip_2 from "$lib/images/hip-arthroplasty7.png";
     import spine_and_pelvis_1 from "$lib/images/back_xrays12.png";
@@ -69,12 +70,12 @@
 
       <div class="row project-pages-next-page">
         <div class="col">
-          <p class="text-start" style="padding-left:4%" ><a href="/projects/everyday_icons" class="link-black"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 20 20">
+          <p class="text-start" style="padding-left:4%" ><a href="{base}/projects/everyday_icons" class="link-black"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 20 20">
             <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
           </svg> Everyday Icons</a></p>
         </div>
         <div class="col">
-          <p class="text-end" style="padding-right:4%"><a href="/projects/meaning_of_words" class="link-black">A Meaning of Words <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 20 20">
+          <p class="text-end" style="padding-right:4%"><a href="{base}/projects/meaning_of_words" class="link-black">A Meaning of Words <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 20 20">
             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
           </svg></a></p>  
         </div>
