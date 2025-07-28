@@ -1,30 +1,9 @@
-
-<!-- src/routes/email/+page.svelte
-<script>
-  import { enhance } from '$app/forms';
-
-  let message = '';
-  let success = false;
-  let error = false;
-
-  async function handleSubmit({ update, form }) {
-    const { data, fetch } = update(); // `update` is from `use:enhance`
-    if (data?.success) {
-      success = true;
-      message = 'Email sent successfully!';
-    } else if (data?.error) {
-      error = true;
-      message = data.error;
-    }
-  }
-</script> -->
-
 <script lang="ts">
-    import { enhance } from "$app/forms";
     import "$lib/robertbrice.css";
-    import {redirect} from "@sveltejs/kit";
-  
+
+    import { enhance } from "$app/forms";
     import type { PageProps } from './$types';
+    import { goto } from "$app/navigation";
     let { data, form }: PageProps = $props();
   
     let a = Math.floor(Math.random() * 9) + 1;
@@ -44,18 +23,18 @@
     <main>
       <div class="container">
 
-	<!-- {#if form?.error}
-		<p class="error">{form.error}</p>
-	{/if} -->
-
        <div class="fw-light title-size" style="padding-top: 1em;">Svelte contact form experiments</div>
 
-       <form id="contact-form" method="POST" use:enhance={() => {
-			  sendingData = true;
-			return async ({ update }) => {
-				await update();
-				sendingData = false;
-			};
+       <form id="contact-form" method="POST" use:enhance={({}) => {
+			    
+         sendingData = true;
+			    
+        return async ({ result }) => {
+
+          if(result.type ==='redirect') {
+                goto(result.location);
+          }
+			  }
 		}}>
 
         <div class="email-form">
