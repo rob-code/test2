@@ -21,6 +21,7 @@
 </svelte:head>
 
     <main>
+
       <div class="container">
 
        <div class="fw-light title-size" style="padding-top: 1em;">How can I help?</div>
@@ -33,9 +34,9 @@
 
           if(result.type ==='redirect') {
                 goto(result.location);
-          }
-			  }
-		}}>
+            }
+			    }
+		    }}>
 
         <div class="email-form">
           <div class="row email-row">
@@ -93,13 +94,18 @@
             </div>
           </div>
 
-          <div class="row">
-            <div class="send-button-wrapper col-md-2" id="send-button-wrapper">
-               {#if spamcheck == randomValue} <button id="send-button" class="send-button" type="submit">Send</button> 
-                {:else} <button id="send-button" class="send-button" type="submit" disabled>Send</button>{/if}
-            </div>
-            <!-- {#if form?.success} <p class="col-md-10" style="padding-top: 35px">Your email has been sent, thank you.</p>{/if} -->
-                {#if sendingData }<div class="spinner-border text-primary" role="status"><span class="sr-only"></span></div>{/if}
+          <div class="row button-row">
+                {#if sendingData }
+                 <div class="send-button-wrapper col-md-2" id="send-button-wrapper">
+                    <button id="send-button" class="send-button" type="submit"><span class="spinner-border spinner-border-sm text-light spinner" role="status" aria-hidden="true"></span>Sending</button> 
+                 </div>
+                {:else}
+                      <div class="send-button-wrapper col-md-2" id="send-button-wrapper">
+                      {#if spamcheck == randomValue} <button id="send-button" class="send-button" type="submit">Send</button> 
+                        {:else}<button id="send-button" class="send-button" type="submit" disabled>Send</button>
+                      {/if}
+                      </div>
+                {/if}
           </div>
 
         </div>
@@ -113,4 +119,22 @@
 
   </main>
 
+
+
+  <style>
+    #send-button{
+      width: 150px;
+      text-align: center;
+    }
+
+    .button-row{
+      padding-top: 30px;
+
+    }
+
+    .spinner{
+      margin-right: 10px;
+    }
+
+  </style>
 
