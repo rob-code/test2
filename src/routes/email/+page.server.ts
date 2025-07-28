@@ -1,4 +1,4 @@
-import type { Actions, PageServerLoad } from './$types';
+import type { Actions } from './$types';
 import { error, redirect, fail } from '@sveltejs/kit';
 
 export const actions = {
@@ -28,6 +28,8 @@ export const actions = {
 
 	//this catches no internet connection run locally but not when live from the server. 
 	// Turns out the the try catch in the old website does not catch no internet either!!
+	// I've got more to learn about handling network errors in svelte and more widely in web prgramming.
+	//Turns out fetch out the box has alots of issues. ky is a library wirht looking at
 	// try {     
 	// ... fetch etc in here...
 
