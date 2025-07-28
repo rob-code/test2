@@ -19,11 +19,11 @@ export const actions = {
 		//this will capture 404 and 500 errors
 		if(!response.ok) {
 			console.log("There's been an error. Response status: " + response.status + " " + response.statusText);
-		 	redirect(308, '../email/error');
+		 	redirect(308, '../contact/error');
 		} else {
 			console.log(response.status + " " + response.statusText);
 			console.log(firstname + " " + secondname + " " + emailaddress + " " + subject + " " + message + " " + spamfilter?.toString());
-			redirect(303, '../email/success')
+			redirect(303, '../contact/success')
 		}
 
 	//this catches no internet connection run locally but not when live from the server. 

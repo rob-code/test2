@@ -23,7 +23,7 @@
     <main>
       <div class="container">
 
-       <div class="fw-light title-size" style="padding-top: 1em;">Svelte contact form experiments</div>
+       <div class="fw-light title-size" style="padding-top: 1em;">How can I help?</div>
 
        <form id="contact-form" method="POST" use:enhance={({}) => {
 			    
