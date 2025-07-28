@@ -14,7 +14,6 @@ export const actions = {
 		let response = await fetch("https://script.google.com/macros/s/AKfycbxnJQr-jqbyiUowGvjAiWDHeh35NRj9e0Z5sZdHAVFBeZTS1Ck0JNDB9iwaqS8xDLFK/exec", {
       	mode: 'cors',
       	method: 'POST',
-		signal: AbortSignal.timeout(7000),
       	body: data});
 
 		//this will capture 404 and 500 errors
