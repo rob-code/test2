@@ -11,46 +11,49 @@ export const actions = {
 		const message = data.get('Message');
 		const spamfilter = data.get('Spam Filter');
 
-	try {
 		let response = await fetch("https://script.google.com/macros/s/AKfycbxnJQr-jqbyiUowGvjAiWDHeh35NRj9e0Z5sZdHAVFBeZTS1Ck0JNDB9iwaqS8xDLFK/exec", {
       	mode: 'cors',
       	method: 'POST',
       	body: data});
 
-		if (response.ok) {
+		//this will capture 404 and 500 errors
+		if(!response.ok) {
+			console.log("There's been an error. Response status: " + response.status + " " + response.statusText);
+		 	redirect(308, '../email/error');
+		} else {
 			console.log(response.status + " " + response.statusText);
 			console.log(firstname + " " + secondname + " " + emailaddress + " " + subject + " " + message + " " + spamfilter?.toString());
 			redirect(303, '../email/success')
 		}
-		
-		//this will capture 404 and 500 errors
-		if(!response.ok) {
-			console.log("There's been an error. Response status: " + response.status);
-		 	redirect(308, '../email/error');
-		}
 
-	} catch (e: any) {
+	//this catches no internet connection run locally but not when live from the server. 
+	// Turns out the the try catch in the old website does not catch no internet either!!
+	// try {     
+	// ... fetch etc in here...
 
-			let errorresult = (JSON.stringify(e)).toString();
-			console.log(errorresult);
+	
+	// } catch (e: any) {
 
-			if((JSON.stringify(e)).toString() === '{}' ){
-				console.log('fetch failed');
-				redirect(308, '../email/error');
-			}
+	// 		let errorresult = (JSON.stringify(e)).toString();
+	// 		console.log(errorresult);
+
+	// 		if((JSON.stringify(e)).toString() === '{}' ){
+	// 			console.log('fetch failed');
+	// 			redirect(308, '../email/error');
+	// 		}
 
 
-			if((JSON.stringify(e)).toString() === '{"status":308,"location":"../email/error"}' ){
-				console.log('error');
-				redirect(303, '../email/error');
-			}
+	// 		if((JSON.stringify(e)).toString() === '{"status":308,"location":"../email/error"}' ){
+	// 			console.log('error');
+	// 			redirect(303, '../email/error');
+	// 		}
 			
-			if((JSON.stringify(e)).toString() === '{"status":303,"location":"../email/success"}' ){
-				console.log('success');
-				redirect(303, '../email/success');
-			}
+	// 		if((JSON.stringify(e)).toString() === '{"status":303,"location":"../email/success"}' ){
+	// 			console.log('success');
+	// 			redirect(303, '../email/success');
+	// 		}
 
-			}
+	// 		}
 	}
 } satisfies Actions;
 
