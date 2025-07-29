@@ -20,6 +20,10 @@
   font-size: 3rem;
 }
 
+.title-size-reduced {
+  font-size: 2rem;
+}
+
 a.link-black {
   --bs-link-color-rgb: #000000;
   text-decoration: none;
@@ -210,14 +214,15 @@ a.link-black {
 /* ******************** contact us and thank you pages ******************** */
 
 .email-form {
-  padding-top: 30px;
+  padding-top: 0px;
 }
 
 .email-field-title {
-  padding-top: 0px;
+  padding-top: 8px;
   padding-bottom: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-left: 5px;
   font-size: 16px;
   font-weight: 400;
   height: 100%;
@@ -225,20 +230,35 @@ a.link-black {
 
 .form-field {
   width: 100%;
-  border-color: rgba(0, 0, 0, .3);
+  border-color: rgba(0, 0, 0, .8);
   border-width: .5px;
   border-style: solid;
-  line-height: 35px;
   padding-left: 5px;
-  line-height: 2;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+
+input::placeholder, textarea::placeholder {
+  opacity: 0.5;
+  font-size: .9em;
+  padding-left: 3px;
+} 
+
+textarea::placeholder {
+  padding-top: 6px;
+}
+
+.input-field{
+height: 2.5em;
 }
 
 .email-row {
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom:30px;
 }
 
 .send-button-wrapper {
-  padding-left: 15px;
+  padding-left: 14px;
   padding-top: 20px;
 }
 
@@ -356,24 +376,13 @@ a.link-black {
 /* ******************** responsive changes ******************** */
 
 
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
+@media only screen and (max-width: 768px) {
 
+.send-button-wrapper {
+  padding-left: 11px;
+}
 
 }
 
-@media (min-width: 992px) {
-  .rounded-lg-3 {
-    border-radius: .3rem;
-  }
 
-}
 
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
-
-}

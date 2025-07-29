@@ -24,7 +24,13 @@
 
       <div class="container">
 
-       <div class="fw-light title-size" style="padding-top: 1em;">How can I help?</div>
+   <section class="text-center container">
+        <div class="row image-group-header">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light title-size title-block">Contact</h1>
+          </div>
+        </div>
+    </section>
 
        <form id="contact-form" method="POST" use:enhance={({}) => {
 			    
@@ -44,7 +50,7 @@
               <label class="email-field-title" for="firstname">First Name</label>
             </div>
             <div class="col-md-10">  
-              <input class="form-field" id ="firstname" type="text" placeholder="Firstname" name="First Name" required>
+              <input class="form-field input-field" id ="firstname" type="text" placeholder="Firstname" name="First Name" required>
             </div>
           </div>
 
@@ -53,7 +59,7 @@
               <label class="email-field-title" for="secondname">Last Name</label>
             </div>
             <div class="col-md-10">  
-              <input class="form-field" id="secondname" type="text" placeholder="Lastname" name="Last Name" required>
+              <input class="form-field input-field" id="secondname" type="text" placeholder="Lastname" name="Last Name" required>
             </div>
           </div>
 
@@ -62,7 +68,7 @@
               <label class="email-field-title" for="emailaddress">Email Address</label>
             </div>
             <div class="col-md-10">  
-              <input class="form-field" id="emailaddress" type="email" placeholder="Email Address" name="Email Address" required>
+              <input class="form-field input-field" id="emailaddress" type="email" placeholder="Email Address" name="Email Address" required>
             </div>
           </div>
 
@@ -71,7 +77,7 @@
               <label class="email-field-title" for="subject">Subject</label>
             </div>
             <div class="col-md-10">
-              <input class="form-field" id="subject" type="text" placeholder="Subject" name="Subject" required>
+              <input class="form-field input-field" id="subject" type="text" placeholder="Subject" name="Subject" required>
             </div>
           </div>
 
@@ -90,7 +96,7 @@
               <label class="email-field-title" for="spam-input-field">What is <span id="number-1">{a}</span> + <span id="number-2">{b}</span> ?</label>
             </div>
             <div class="col-md-10">  
-              <input id="spam-input-field" class="form-field" bind:value={spamcheck} type="number" placeholder={placeholder} name="Spam Filter" required >
+              <input id="spam-input-field" class="form-field input-field" bind:value={spamcheck} type="number" placeholder={placeholder} name="Spam Filter" required >
             </div>
           </div>
 
