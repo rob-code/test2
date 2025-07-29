@@ -8,7 +8,7 @@
   
     let a = Math.floor(Math.random() * 9) + 1;
     let b = Math.floor(Math.random() * 9) + 1;
-    let placeholder = "To help prevent spam, please enter the sum of " + a + " + " + b;
+    let placeholder = "To prevent spam please enter the sum of " + a + " + " + b;
     let c = a + b;
     let randomValue = c.toString();
     let spamcheck = $state("");
