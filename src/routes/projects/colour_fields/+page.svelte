@@ -10,10 +10,6 @@
     import colourfield_rust_blue_turquoise from "$lib/images/colourfield-rust-blue-turquoise.webp";
     import colourfield_red_blue from "$lib/images/colourfield-red-blue.webp"; 
 </script>
-
- <main>
-
-    <div class="clear-nav-menu">
       
     <section class="container">
           <h2 class="fw-light text-center project-page-header">Colour Fields</h2>
@@ -90,5 +86,4 @@
         </div>
       </div>
       </div>
-    </div>
-  </main>
+  

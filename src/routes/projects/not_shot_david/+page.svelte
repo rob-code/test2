@@ -9,12 +9,7 @@
     import davidx4 from "$lib/images/davidx4.png";
 </script>
 
-  <main>
-
-    <div class="clear-nav-menu">
-
-
-
+  
     <section class="container">
           <h2 class="fw-light text-center project-page-header">Not Shot David</h2>
           <p class="lead text-body-secondary project-description-centre item-padding-bottom">With a nod to Warhol's iconic Shot Marylins, this pop art reimagining of David speaks of beauty, diversity and tolerance.</p>
@@ -116,6 +111,3 @@
       </div>
   </div>
 
-
-    </div>
-  </main>

@@ -9,9 +9,7 @@
     import flowers_multicoloured_3 from "$lib/images/flowers-multicoloured3.webp";
 </script>
 
-  <main>
 
-    <div class="clear-nav-menu">
 
     <section class="container">
           <h2 class="fw-light text-center project-page-header">Modern Romance</h2>
@@ -82,6 +80,3 @@
         </div>
       </div>
       </div>
-
-    </div>
-  </main>

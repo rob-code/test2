@@ -5,10 +5,6 @@
 </script>
 
 
-  <main>
-
-    <div class="clear-nav-menu">
-
 
 
    <section class="container">
@@ -42,6 +38,3 @@
       </div>
       </div>
 
-
-    </div>
-  </main>

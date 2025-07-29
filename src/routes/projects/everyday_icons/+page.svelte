@@ -27,10 +27,6 @@
     import mugs_2 from "$lib/images/mugs42.png";
 </script>
 
- <main>
-
-    <div class="clear-nav-menu">
-
     <section class="container">
           <h2 class="fw-light text-center project-page-header">Everyday Icons</h2>
           <p class="lead text-body-secondary project-description-centre item-padding-bottom">By bringing things forward and rendering them in unexpected ways, this series of images celebrates, with colour and humour, some of the everyday objects with which we share our lives.</p>
@@ -276,6 +272,3 @@
         </div>
       </div>
     </div>
-
-    </div>
-  </main>

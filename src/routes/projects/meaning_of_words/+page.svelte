@@ -8,10 +8,6 @@
 
 </script>
 
-  <main>
-
-    <div class="clear-nav-menu">
-
     <section class="container">
           <h2 class="fw-light text-center project-page-header">A Meaning of Words</h2>
           <p class="lead text-body-secondary project-description-left">By displacing text to reveal a word or phrase, this project invites exploration of the meaning created by words, and the spaces between them.</p> 
@@ -80,6 +76,3 @@
         </div>
       </div>
       </div>
-
-    </div>
-  </main>

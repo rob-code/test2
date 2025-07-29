@@ -6,10 +6,6 @@
     import footballs_2 from "$lib/images/footballs-2.png";
 </script>
 
- <main>
-
-    <div class="clear-nav-menu">
-
    <section class="container">
         <h2 class="fw-light text-center project-page-header">Everyone Can Play</h2>
         <p class="lead text-body-secondary project-description-left"> In the middle of 2023 the Independent Commission for Equity in Cricket (ICEC) released a report "Holding up a Mirror to Cricket". A subsidiary report "It's Not Banter: Lived experiences of discrimination in cricket" prepared by The Foundation for the ICEC provided additional and powerful testimony of the effect of discrimination on peoples' lives and wellbeing. It's a disturbing read. Discrimination is also present in rugby and football. But of course it is not just sport, taken at its fullest, the ICEC report holds up a mirror to UK society.</p>
@@ -61,6 +57,3 @@
         </div>
       </div>
       </div>
-
-    </div>
-  </main>

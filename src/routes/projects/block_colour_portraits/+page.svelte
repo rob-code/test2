@@ -7,10 +7,6 @@
     import spine_and_pelvis_2 from "$lib/images/back_xrays8.png";
 </script>
 
-<main>
-
-    <div class="clear-nav-menu">
-
     <section class="container">
           <h2 class="fw-light text-center project-page-header">Block Colour Portraits</h2>
           <p class="lead text-body-secondary project-description-left">Total hip arthroplasty - more commonly known as a hip replacement - is one of the most successful surgerical procedures; it really does give a new lease of life. In the UK around 100,000 hip replacements are carried out every year.</p> 
@@ -19,7 +15,6 @@
 
           <p class="lead text-body-secondary project-description-left item-padding-bottom">Another variant containing X rays of the spine and pelvis was suggested by an osteopath who helped my recovery.</p>
     </section>
-
 
  <div class="album py-5 bg-body-tertiary">
       <div class="container">
@@ -81,6 +76,4 @@
         </div>
       </div>
       </div>
-
-    </div>
-  </main>
+      
