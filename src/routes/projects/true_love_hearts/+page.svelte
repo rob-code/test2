@@ -3,9 +3,6 @@
     import lovehearts_12 from "$lib/images/lovehearts12.png";
 </script>
 
-
-
-
    <section class="container">
 
           <h2 class="fw-light text-center project-page-header">True Love Hearts</h2>
@@ -20,7 +17,6 @@
         </div>
       </div>     
     </div>
-
 
       <div class="container">
       <div class="row project-pages-next-page">
