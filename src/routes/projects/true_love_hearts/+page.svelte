@@ -1,6 +1,5 @@
 <script>
     import "$lib/robertbrice.css";
-    import { base } from "$app/paths";
     import lovehearts_12 from "$lib/images/lovehearts12.png";
 </script>
 

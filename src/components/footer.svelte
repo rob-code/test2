@@ -1,7 +1,3 @@
-<script>
-    import { base } from "$app/paths";
-</script>
-
 <div class="container text-center pt-5 pb-1">
     <hr />
 

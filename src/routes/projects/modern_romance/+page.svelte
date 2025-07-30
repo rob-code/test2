@@ -1,6 +1,5 @@
 <script>
     import "$lib/robertbrice.css";
-    import { base } from "$app/paths";
     import flowers_red from "$lib/images/flowers-red.webp";
     import flowers_pink from "$lib/images/flowers-pink.webp";
     import flowers_blue from "$lib/images/flowers-blue.webp";

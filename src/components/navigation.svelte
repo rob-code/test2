@@ -1,7 +1,3 @@
-<script lang="ts">
-  import { base } from "$app/paths";
-</script>
-
 <div class="announcement">
   <div class=" container">
     <a class="nav-link active text-center fw-light" href="/contact">
