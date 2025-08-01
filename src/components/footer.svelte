@@ -10,6 +10,6 @@
 
     <p class="footer-space-above text-center footer-text text-body-secondary">
         All work on this site is copyright and may not be copied or reproduced
-        without permission © 2025 Robert Brice.
+        without permission. © 2025 Robert Brice.
     </p>
 </div>

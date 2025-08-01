@@ -1,5 +1,5 @@
 <script>
-    import "$lib/robertbrice.css";
+    import "$lib/styles.css";
     import hip_1 from "$lib/images/hip-arthroplasty2.png";
     import hip_2 from "$lib/images/hip-arthroplasty7.png";
     import spine_and_pelvis_1 from "$lib/images/back_xrays12.png";

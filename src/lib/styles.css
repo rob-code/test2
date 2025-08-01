@@ -182,7 +182,7 @@ a.link-black {
 /* ******************** footer ***************************************** */
 
 .footer-text{
-  font-size:small;
+  font-size:85%;
 }
 
 
@@ -332,7 +332,7 @@ height: 2.5em;
 }
 
 
-/* ******************** cookie banner ******************** */
+/* ******************** cookie consent ******************** */
 
 .cookie-directive {
   position: fixed;

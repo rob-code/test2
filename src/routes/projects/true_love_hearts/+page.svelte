@@ -1,5 +1,5 @@
 <script>
-    import "$lib/robertbrice.css";
+    import "$lib/styles.css";
     import lovehearts_12 from "$lib/images/lovehearts12.png";
 </script>
 

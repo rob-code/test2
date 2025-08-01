@@ -1,6 +1,6 @@
 
 <script lang="ts">
-    import "$lib/robertbrice.css";
+    import "$lib/styles.css";
 </script>
 
 <svelte:head>

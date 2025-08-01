@@ -1,5 +1,5 @@
 <script>
-    import "$lib/robertbrice.css";
+    import "$lib/styles.css";
     import cricketball from '$lib/images/cricketball-index.png';
     import thongs from '$lib/images/thongs92.png';
     import xrays from '$lib/images/back_xrays12.png';

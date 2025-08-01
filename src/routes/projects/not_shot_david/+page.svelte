@@ -1,5 +1,5 @@
 <script>
-    import "$lib/robertbrice.css";
+    import "$lib/styles.css";
     import david_red from "$lib/images/david-red.png";
     import david_turquoise from "$lib/images/david-turquoise.png";
     import david_orange from "$lib/images/david-orange.png";

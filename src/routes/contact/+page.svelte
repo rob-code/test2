@@ -1,11 +1,11 @@
 <script lang="ts">
-    import "$lib/robertbrice.css";
+    import "$lib/styles.css";
 
     import { enhance } from "$app/forms";
     import type { PageProps } from './$types';
     import { goto } from "$app/navigation";
     let { data, form }: PageProps = $props();
-  
+
     let a = Math.floor(Math.random() * 9) + 1;
     let b = Math.floor(Math.random() * 9) + 1;
     let placeholder = "To prevent spam please enter the sum of " + a + " + " + b;
