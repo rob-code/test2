@@ -1,16 +1,5 @@
 <script lang="ts">
   import "$lib/styles.css";
-
-  import type { PageProps } from "./$types";
-  let { data, form }: PageProps = $props();
-
-  import { fade } from "svelte/transition";
-
-  let mounted = $state(false);
-  onMount(() => {
-    mounted = true;
-  });  
-  
   import CookieConsent from "../components/cookieconsent.svelte";
   import cricketball from "$lib/images/cricketball-index.png";
   import thongs from "$lib/images/thongs92.png";
@@ -21,7 +10,16 @@
   import colourfield from "$lib/images/colourfield-index-image.webp";
   import lovehearts from "$lib/images/lovehearts-index.png";
   import arrow_right from "$lib/assets/arrow-right.svg";
-  import { onDestroy, onMount } from "svelte";
+  import { onMount } from "svelte";
+  import type { PageProps } from "./$types";
+  import { fade } from "svelte/transition";
+
+  let { data, form }: PageProps = $props();
+  
+  let mounted = $state(false);
+  onMount(() => {
+    mounted = true;
+  });
 </script>
 
 <svelte:head>
@@ -30,7 +28,7 @@
 </svelte:head>
 
 {#if !data.isCookieSet && mounted}
-<div transition:fade> <CookieConsent /></div>
+  <div transition:fade><CookieConsent /></div>
 {/if}
 
 <section class="text-center container">

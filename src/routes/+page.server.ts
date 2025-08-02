@@ -17,12 +17,10 @@ export function load({ cookies }) {
 
     if (cookie) {
         console.log(cookiename + " " + "cookie is set")
-        isCookieSet = true;
-        return { isCookieSet };
+        return { isCookieSet : true };
     } else {
         console.log(cookiename + " " + "should be undefined");
-        isCookieSet = false;
-        return { isCookieSet };
+        return { isCookieSet : false };
     }
 }
 
@@ -33,35 +31,21 @@ export const actions = {
     // cookies.set(cookiename, 'accepted', { path: '/', httpOnly: true, secure: true, maxAge: 60 * 60 * 24 * 30 });
 
     consent: async ({ cookies, request }) => {
-
-        cookies.serialize('name', 'accepted', { path: '/', httpOnly: true, secure: true, maxAge: duration});
-        let test = cookies.getAll();
-
-        test.forEach(print);
-        function print(v: any) {
-            console.log(v);
-        }
-
         console.log(cookiename + " " + "consent");
-        cookies.set(cookiename, 'accepted', { path: '/', httpOnly: true, secure: true, maxAge: duration});
-        isCookieSet = true;
-        return { isCookieSet };
+        cookies.set(cookiename, 'accepted', { path: '/', secure: true, maxAge: duration});
+        return { isCookieSet : true};
     },
 
     reject: async ({ cookies, request }) => {
         console.log(cookiename + " " + "reject");
-        cookies.set(cookiename, 'rejected', { path: '/', httpOnly: true, secure: true, maxAge: duration});
-        isCookieSet = true;
-        return { isCookieSet };
-
+        cookies.set(cookiename, 'rejected', { path: '/', secure: true, maxAge: duration});
+        return { isCookieSet : true};
     },
 
     delete: async ({ cookies, request }) => {
         console.log(cookiename + " " + "delete");
         cookies.delete('euconsent', { path: '/' });
     }
-
-
 
 } satisfies Actions;
 
