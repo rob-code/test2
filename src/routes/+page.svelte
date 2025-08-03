@@ -14,7 +14,7 @@
   import type { PageProps } from "./$types";
   import { fade } from "svelte/transition";
 
-  let { data, form }: PageProps = $props();
+  let { data }: PageProps = $props();
   
   let mounted = $state(false);
   onMount(() => {
