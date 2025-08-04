@@ -124,15 +124,17 @@ a.link-black {
   color: #FFF;
 }
 
-.offcanvas {
-  background-color: #FF0067;
-}
-
 .nav-scroller {
   position: relative;
   z-index: 2;
   height: 2.75rem;
   overflow-y: hidden;
+}
+
+.offcanvas {
+  background-color: #FF0067;
+  /* background-color: #212121; */
+  --bs-offcanvas-width: 350px;
 }
 
 .offcanvas-text {
@@ -178,6 +180,8 @@ a.link-black {
   padding-top: 5px;
 
 }
+
+
 
 /* ******************** footer ***************************************** */
 
