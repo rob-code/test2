@@ -134,7 +134,7 @@ a.link-black {
 .offcanvas {
   background-color: #FF0067;
   /* background-color: #212121; */
-  --bs-offcanvas-width: 350px;
+  --bs-offcanvas-width: 300px;
 }
 
 .offcanvas-text {
@@ -392,6 +392,14 @@ height: 2.5em;
 
 /* ******************** responsive changes ******************** */
 
+
+@media only screen and (max-width: 400px) {
+
+.offcanvas {
+  --bs-offcanvas-width: 90%;
+}
+
+}
 
 @media only screen and (max-width: 768px) {
 
