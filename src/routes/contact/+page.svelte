@@ -1,5 +1,7 @@
 <script lang="ts">
     import "$lib/styles.css";
+    import PageTitle from "../../components/pagetitle.svelte";
+
 
     import { enhance } from "$app/forms";
     import type { PageProps } from './$types';
@@ -20,17 +22,9 @@
     <title>Robert Brice - Contact</title>
 </svelte:head>
 
-    <main>
+<div class="container">
 
-      <div class="container">
-
-   <section class="text-center container">
-        <div class="row image-group-header">
-          <div class="col-lg-6 col-md-8 mx-auto">
-            <h1 class="fw-light title-size title-block">Contact</h1>
-          </div>
-        </div>
-    </section>
+      <PageTitle pagetitle='Contact' />
 
        <form id="contact-form" method="POST" use:enhance={({}) => {
 			    
@@ -119,11 +113,11 @@
 
       <p class="add-gap-at-bottom">&nbsp;</p>
 
-    </div>
+</div>
     
 
 
-  </main>
+
 
 
 

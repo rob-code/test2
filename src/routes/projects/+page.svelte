@@ -1,5 +1,6 @@
 <script>
     import "$lib/styles.css";
+    import PageTitle from "../../components/pagetitle.svelte";
     import cricketball from '$lib/images/cricketball-index.png';
     import thongs from '$lib/images/thongs92.png';
     import xrays from '$lib/images/back_xrays12.png';
@@ -16,13 +17,7 @@
     <title>Robert Brice - Projects</title>
 </svelte:head>
 
-   <section class="text-center container">
-        <div class="row image-group-header">
-          <div class="col-lg-6 col-md-8 mx-auto">
-            <h1 class="fw-light title-size title-block">Projects</h1>
-          </div>
-        </div>
-    </section>
+      <PageTitle pagetitle="Projects" />
 
       <div class="album py-5 bg-body-tertiary">
         <div class="container">

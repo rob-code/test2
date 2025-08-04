@@ -33,6 +33,9 @@
           <a class="nav-link active" aria-label="blah blah" href="/">Home</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link active" aria-label="blah blah" href="/shop">Shop</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link active" aria-label="blah blah" href="/projects">Projects</a>
         </li>
         <li class="nav-item">
@@ -81,6 +84,9 @@
       <ul class="navbar-nav mb-2 mb-md-0">
         <li class="nav-item" data-bs-toggle="offcanvas">
           <a class="nav-link active" href="/">Home</a>
+        </li>
+        <li class="nav-item" data-bs-toggle="offcanvas">
+          <a class="nav-link active" href="/shop">Shop</a>
         </li>
         <li class="nav-item" data-bs-toggle="offcanvas">
           <a class="nav-link active" href="/projects">Projects</a>
