@@ -1,3 +1,7 @@
+<script>
+import flipflops from "$lib/images/favicon_180x180_2.webp";
+</script>
+
 <div class="announcement">
   <div class=" container">
     <a class="nav-link active text-center fw-light" href="/contact">
@@ -30,7 +34,7 @@
     <div class="collapse navbar-collapse mr-auto" id="navbarCollapse">
       <ul class="navbar-nav mb-2 mb-md-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-label="blah blah" href="/">Home</a>
+          <a class="nav-link active" href="/"><img src={flipflops} alt="flipflops" width="28"></a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-label="blah blah" href="/shop">Shop</a>
@@ -59,7 +63,6 @@
   </div>
 </nav>
 
-
 <div
   class="offcanvas offcanvas-start offcanvas-text"
   tabindex="-1"
@@ -67,7 +70,9 @@
   aria-labelledby="offcanvasExampleLabel"
 >
   <div class="offcanvas-header">
-    <!-- <h5 class="offcanvas-title" id="offcanvasExampleLabel">Please choose:</h5> -->
+    <span class="nav-item" data-bs-toggle="offcanvas">
+      <a class="nav-link active" href="/"><img src={flipflops} alt="flipflops" width="40"></a>
+    </span>
     <button
       type="button"
       class="btn-close btn-close-white"
@@ -75,6 +80,7 @@
       aria-label="Close"
     ></button>
   </div>
+
   <div class="offcanvas-body">
     <!-- <div>
       Some text as placeholder. In real life you can have the elements you have
@@ -82,9 +88,9 @@
     </div> -->
     <div class="offcanvas-text">
       <ul class="navbar-nav mb-2 mb-md-0">
-        <li class="nav-item" data-bs-toggle="offcanvas">
+        <!-- <li class="nav-item" data-bs-toggle="offcanvas">
           <a class="nav-link active" href="/">Home</a>
-        </li>
+        </li> -->
         <li class="nav-item" data-bs-toggle="offcanvas">
           <a class="nav-link active" href="/shop">Shop</a>
         </li>
@@ -97,24 +103,7 @@
         <li class="nav-item" data-bs-toggle="offcanvas">
           <a class="nav-link active" href="/contact">Contact</a>
         </li>
-
-        <!-- <li class="nav-item">
-        <a class="nav-link active snipcart-checkout" data-bs-dismiss="offcanvas" href="">Cart</a>
-         </li> -->
       </ul>
     </div>
   </div>
 </div>
-
-<!-- <style>
-ul {
-    display: flex;
-    list-style: none;
-    padding-left: 0;
-}
-
-li {
-    margin-right: 20px;
-}
-
-</style> -->

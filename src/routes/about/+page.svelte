@@ -31,12 +31,12 @@
       <p class="lead text-body-secondary">
         As a digital artist I balance technique - the work to find and master
         tools and processes that fit with what I want to achieve - with a few
-        simple priciples; what do I want to say, what is the story I want to
-        tell.</p> 
+        simple principles; what do I want to say, what is the story I want to
+        tell?</p> 
         
         <p class="lead text-body-secondary">
-        Increasingly I see the ideas that come to me as visual poems. After all, isn't an image a a story, a small fragment of
-        meaning portrayed in visual form? While my palette is code and my
+        Increasingly I see the ideas that come to me as visual poems. After all, isn't an image a story, a small fragment of
+        life portrayed in visual form? While my palette is code and my
         pigments are pixels, as always, the greater challenge is the idea and
         its execution in the form of an image which is both eloquent and
         enjoyable.
@@ -45,13 +45,12 @@
       <p class="lead text-body-secondary">
         It is clear that there is a visual language which emerges in digital art
         which is unique and distinctive. My goal is to keep developing my craft through explorations in this space. But to be clear, code is there to
-        serve, not dictate. To be manipulated. I do not make images using AI. If I have any sort of manifesto,
+        serve, not dictate. I do not make images using AI. If I have any sort of manifesto,
         it is that my work will be built with human and not artificial
         intelligence.
       </p>
-      <p class="lead text-body-secondary">
-        My work as a digital artist started in 2022 when I discovered I could
-        pursue my interests in art and technology in one unified practice.
+      <p class="lead text-body-secondary">Alongside my career in renewable energy and physics teaching, I have pursued life long interests in music and art.  
+        My work as a digital artist started in 2022 when I discovered I could work with art and technology in one unified practice.
       </p>
     </div>
   </div>
