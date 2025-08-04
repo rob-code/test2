@@ -13,7 +13,22 @@
 
 <div class="container">
   <div class="row" style="padding-top: 2em;">
-    <div class="col-md-7 order-2">
+
+    <div class="col-md-5">
+      <div class="card">
+        <img
+          src={portrait}
+          alt="Portrait with large robot"
+          class="card-img-top"
+        />
+        <img
+          src={mewithcomputer1983}
+          alt="Portrait with computer in 1983"
+          class="card-img-top"
+        />
+      </div>
+    </div>
+    <div class="col-md-7">
       <p class="lead text-body-secondary">
         The use of computers in static and moving image making is
         incredibly broad and ever changing, new tools appear all the time. Its
@@ -49,19 +64,6 @@
         I could combine my interests in art and technology in one practice.
       </p>
     </div>
-    <div class="col-md-5 order-1">
-      <div class="card">
-        <img
-          src={portrait}
-          alt="Portrait with large robot"
-          class="card-img-top"
-        />
-        <img
-          src={mewithcomputer1983}
-          alt="Portrait with large robot"
-          class="card-img-top"
-        />
-      </div>
-    </div>
+
   </div>
 </div>
