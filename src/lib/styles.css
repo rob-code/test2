@@ -119,6 +119,10 @@ a.link-black {
   height: 45px;
 }
 
+.nav-item {
+  padding-right: .8em; 
+}
+
 .btn-close.offcanvas-text {
   --bs-btn-close-color: #FFF;
   color: #FFF;
