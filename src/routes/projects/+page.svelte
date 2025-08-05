@@ -1,5 +1,4 @@
 <script>
-    import "$lib/styles.css";
     import PageTitle from "../../components/pagetitle.svelte";
     import cricketball from '$lib/images/cricketball-index.png';
     import thongs from '$lib/images/thongs92.png';

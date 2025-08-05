@@ -1,7 +1,3 @@
-<script>
-    import "$lib/styles.css";
-</script>
-
 <main>
 <div class="container">
 

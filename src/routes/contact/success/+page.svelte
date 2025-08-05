@@ -1,8 +1,3 @@
-
-<script lang="ts">
-    import "$lib/styles.css";
-</script>
-
 <svelte:head>
     <title>Robert Brice - Email Sent</title>
 </svelte:head>

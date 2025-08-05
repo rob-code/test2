@@ -1,5 +1,4 @@
 <script lang="ts">
-  import "$lib/styles.css";
   import CookieConsent from "../components/cookieconsent.svelte";
   import cricketball from "$lib/images/cricketball-index.png";
   import thongs from "$lib/images/thongs92.png";

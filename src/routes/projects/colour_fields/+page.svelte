@@ -1,5 +1,4 @@
 <script>
-    import "$lib/styles.css";
     import colourfield_blue_green from "$lib/images/colourfield-blue-green.webp";
     import colourfield_green_rust from "$lib/images/colourfield-green-rust.webp";
     import colourfield_red_purple from "$lib/images/colourfield-red-purple.webp"; 

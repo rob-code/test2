@@ -1,5 +1,4 @@
 <script>
-    import "$lib/styles.css";
     import empire_biscuits from "$lib/images/empire_biscuits54.png";
     import cheeseburgers from "$lib/images/burgers256.png";
     import thongs from "$lib/images/thongs92.png";

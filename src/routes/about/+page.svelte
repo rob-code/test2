@@ -1,5 +1,4 @@
 <script>
-  import "$lib/styles.css";
   import PageTitle from "../../components/pagetitle.svelte";
   import portrait from "$lib/images/RobertBriceAboutPhoto2.jpg";
   import mewithcomputer1983 from "$lib/images/me1983.webp";

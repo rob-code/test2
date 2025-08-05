@@ -1,14 +1,6 @@
-
-<script lang="ts">
-    import "$lib/styles.css";
-</script>
-
 <svelte:head>
     <title>Robert Brice - Email Error</title>
 </svelte:head>
-
-
-
 
 <main>
       <div class="container">

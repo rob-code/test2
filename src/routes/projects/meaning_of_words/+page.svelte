@@ -1,5 +1,4 @@
 <script>
-    import "$lib/styles.css";
     import mow_1 from "$lib/images/mow_1.png";
     import mow_2 from "$lib/images/mow_2.png";
     import mow_3 from "$lib/images/mow_3.png";

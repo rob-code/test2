@@ -1,8 +1,5 @@
 <script lang="ts">
-    import "$lib/styles.css";
     import PageTitle from "../../components/pagetitle.svelte";
-
-
     import { enhance } from "$app/forms";
     import type { PageProps } from './$types';
     import { goto } from "$app/navigation";
