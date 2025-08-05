@@ -245,11 +245,3 @@
   <a href="#top" class="link-black">Back to top</a>
 </p>
 
-
-
-<style>
-
-
-
-  
-</style>
