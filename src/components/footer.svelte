@@ -13,3 +13,10 @@
         without permission. © 2025 Robert Brice.
     </p>
 </div>
+
+
+<style>
+.footer-text{
+  font-size:85%;
+}
+</style>

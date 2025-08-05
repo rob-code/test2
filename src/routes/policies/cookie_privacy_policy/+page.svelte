@@ -1,7 +1,7 @@
 <main>
 <div class="container">
 
-<div class="display-6" style="padding-top: 2em;">Policies For Handling Cookies and Ensuring Your Privacy</div>
+<div class="display-6" style="padding-top: 2em;">Cookie and Privacy Policy</div>
 
 <p class="display-6 legal-title">1. Cookie Policy</p>
 

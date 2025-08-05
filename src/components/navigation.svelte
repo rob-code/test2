@@ -107,3 +107,85 @@ import flipflops from "$lib/images/favicon_180x180_2.webp";
     </div>
   </div>
 </div>
+
+
+
+<style>
+.bg-dark2 {
+  --bs-bg-opacity: 1;
+}
+
+.navbar {
+  --bs-navbar-padding-y: 0;
+  background-color: #FF0266;
+  height: 45px;
+}
+
+.nav-item {
+  padding-right: .8em; 
+}
+
+.offcanvas {
+  background-color: #FF0067;
+  --bs-offcanvas-width: 350px;
+}
+
+.offcanvas-text {
+  color: white;
+}
+
+.navbar-toggler {
+  color: rgba(255, 255, 255, 0);
+}
+
+.navbar-collapse-icon {
+  fill: #FFFFFF;
+  transform: scale(1.9);
+  width: 26px;
+  height: 26px;
+  padding-top: 4px;
+}
+
+.announcement {
+  background-color: #212121;
+  color: white;
+  font-size: .85rem;
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+}
+
+.announcement-icon {
+  fill: #FFFFFF;
+  transform: scale(1);
+  width: 26px;
+  height: 26px;
+  padding-top: 5px;
+
+}
+
+/* 
+.btn-close.offcanvas-text {
+  --bs-btn-close-color: #FFF;
+  color: #FFF;
+} */
+
+/* .nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+} */
+
+/* .nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+} */
+
+
+</style>
