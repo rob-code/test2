@@ -1,6 +1,6 @@
 <script>
   import PageTitle from "../../components/pagetitle.svelte";
-  import portrait from "$lib/images/RobertBriceAboutPhoto2.jpg";
+  import portrait from "$lib/images/mewithrobot.jpg";
   import mewithcomputer1983 from "$lib/images/me1983.webp";
 </script>
 
