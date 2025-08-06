@@ -35,7 +35,7 @@
         
         <p class="lead text-body-secondary">
         Increasingly I see the ideas that come to me as visual poems. After all, isn't an image a story, a small fragment of
-        life portrayed in visual form? But they also cover moods, colours and explorations in science. Sometimes its hard to say what an idea is about. While my palette is code and my
+        life portrayed in visual form? But ideas also appear as moods, colours and explorations. Sometimes its hard to say what they are about. While my palette is code and my
         pigments are pixels, as always, the greater challenge is the idea and
         its execution in the form of an image which is both eloquent and
         enjoyable.
