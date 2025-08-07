@@ -36,7 +36,7 @@
 
       <p class="lead text-body-secondary">
         Ideas come from many places; from observation, a chance encounter, or
-        they grow from an exploration. What will happen if I try this. Increasingly I
+        they grow from exploration. What will happen if I try this. Increasingly I
         see these ideas as sources of visual poems - an image as a small
         fragment of life portrayed in visual form.
       </p>
