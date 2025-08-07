@@ -11,8 +11,8 @@
 <PageTitle pagetitle="Robert Brice" />
 
 <div class="container">
-  <div class="row" style="padding-top: 2em" >
-    <div class="col-md-5" style="padding-bottom: 3em">
+  <div class="row photo-top">
+    <div class="col-md-5 text-top">
       <div class="card">
         <img
           src={portrait}
@@ -35,16 +35,16 @@
       </p>
 
       <p class="lead text-body-secondary">
-        Ideas come from all sorts of places. Sometimes they appear from observation, from a chance encounter, or as a result of an exploration. Sometimes as a result of
-        asking myself the question, what will happen if I try this. Increasingly I see the ideas that come to me as visual poems - an image as a small fragment of
-        life portrayed repesented in visual form.
-        
+        Ideas come from many places; from observation, a chance encounter, or
+        they grow from an exploration. What will happen if I try this. Increasingly I
+        see these ideas as sources of visual poems - an image as a small
+        fragment of life portrayed in visual form.
       </p>
 
       <p class="lead text-body-secondary">
-        While my my process is absed on code, inbuilt randomness, and the
-        prospect of enchantment in unexpected outcomes, the challenge
-        remains the idea and its execution in the form of an image which is both
+        While my my process is abased on code, in-built randomness, and the
+        prospect of enchantment in unexpected outcomes, the challenge remains
+        the idea and its execution in the form of an image which is both
         eloquent and enjoyable.
       </p>
 
@@ -65,3 +65,13 @@
     </div>
   </div>
 </div>
+
+<style>
+  .photo-top {
+    padding-top: 2em;
+  }
+
+  .text-top {
+    padding-bottom: 2em;
+  }
+</style>
