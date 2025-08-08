@@ -14,7 +14,7 @@
   import { fade } from "svelte/transition";
 
   let { data }: PageProps = $props();
-  
+
   let mounted = $state(false);
   onMount(() => {
     mounted = true;
@@ -67,11 +67,11 @@
 
 <section class="container">
   <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
-    <div class="col-lg-6 px-0">
-      <h1 class="display-4 fst-italic">Title of a longer featured blog post</h1>
+    <div class="col-lg-12 px-0">
+      <h1 class="display-4 fst-italic">Headline image ... maybe a carousel</h1>
       <p class="lead my-3">
-        Multiple lines of text that form the lede, informing new readers quickly
-        and efficiently about what’s most interesting in this post’s contents.
+        Multiple lines of text, informing new readers quickly and efficiently
+        about what is most interesting
       </p>
       <p class="lead mb-0">Continue reading...</p>
     </div>
@@ -82,128 +82,64 @@
   <hr />
 </div>
 
-<!--
-<div class="container hr-title">
-    <hr>    
-</div>
+<section class="container">
+  <h2 class="fw-light text-center project-page-header">
+    Our favourite images ... now available as art quality prints
+  </h2>
+  <p class="lead text-body-secondary project-description text-center">
+    Prints are available from each series, here are some of our favourites.
+  </p>
+</section>
 
- <section class="container">
-        <div class="row">
-  <div class="col-lg-4"> <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140" preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> <h2 class="fw-normal">Heading</h2> <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p> <p><a class="btn btn-secondary" href="#">View details »</a></p> </div>
-  <div class="col-lg-4"> <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140" preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> <h2 class="fw-normal">Heading</h2> <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p> <p><a class="btn btn-secondary" href="#">View details »</a></p> </div>
-  <div class="col-lg-4"> <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140" preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> <h2 class="fw-normal">Heading</h2> <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p> <p><a class="btn btn-secondary" href="#">View details »</a></p> </div>
-        </div>
-  </section> -->
-
-<div class="album py-5 bg-body-tertiary">
+<div class="album py-5">
   <div class="container">
     <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 g-3">
       <div class="col">
-        <div class="card">
-          <img src={cricketball} alt="Three Rugby Balls" class="card-img-top" />
-          <div class="card-body">
-            <p class="card-text">
-              Everyone Can Play<img
-                src={arrow_right}
-                alt="arrow right icon"
-                class="arrow-right"
-              />
-              <!-- <a href="project-pages/everyone-can-play.html" aria-label="more information about cricket ball images" class="stretched-link"></a> -->
-            </p>
-          </div>
-        </div>
+        <img src={cricketball} alt="Three Rugby Balls" class="card-img-top" />
+        <div class="print-title">Everyone Can Play</div>
+        <div class="price">£ 65 GBP</div>
       </div>
 
       <div class="col">
-        <div class="card">
-          <img src={thongs} alt="Thongs" class="card-img-top" />
-          <div class="card-body">
-            <p class="card-text">
-              Everyday Icons<img
-                src={arrow_right}
-                alt="arrow right icon"
-                class="arrow-right"
-              />
-              <!--<a href="project-pages/everyday-icons.html" aria-label="more information about everyday icon images" class="stretched-link"></a>-->
-            </p>
-          </div>
-        </div>
+        <img src={thongs} alt="Thongs" class="card-img-top" />
+        <div class="print-title">Flip FLops</div>
+        <div class="price">£ 65 GBP</div>
       </div>
 
       <div class="col">
-        <div class="card">
-          <img
-            src={xrays}
-            alt="Colourful block colour portraits"
-            class="card-img-top"
-          />
-          <div class="card-body">
-            <p class="card-text">
-              Block Colour Portraits<img
-                src={arrow_right}
-                alt="arrow right icon"
-                class="arrow-right"
-              />
-              <!--<a href="project-pages/block-colour-portraits.html" aria-label="more information about block colour portraits" class="stretched-link"></a>-->
-            </p>
-          </div>
-        </div>
+        <img
+          src={xrays}
+          alt="Colourful block colour portraits"
+          class="card-img-top"
+        />
+        <div class="print-title">Everyone Can Play</div>
+        <div class="price">£ 65 GBP</div>
       </div>
 
       <div class="col">
-        <div class="card">
-          <img src={mow} alt="Meaning of Words" class="card-img-top" />
-          <div class="card-body">
-            <p class="card-text">
-              A Meaning Of Words<img
-                src={arrow_right}
-                alt="arrow right icon"
-                class="arrow-right"
-              />
-              <!--<a href="project-pages/a-meaning-of-words.html" aria-label="more information about a meaning of words" class="stretched-link"></a>-->
-            </p>
-          </div>
-        </div>
+        <img src={mow} alt="Meaning of Words" class="card-img-top" />
+        <div class="print-title">Everyone Can Play</div>
+        <div class="price">£ 65 GBP</div>
       </div>
 
       <div class="col">
-        <div class="card">
-          <img
-            src={david}
-            alt="Six David images with colourful backgrounds"
-            class="card-img-top"
-          />
-          <div class="card-body">
-            <p class="card-text">
-              Not Shot David<img
-                src={arrow_right}
-                alt="arrow right icon"
-                class="arrow-right"
-              />
-              <!--<a href="project-pages/not-shot-david.html" aria-label="more information about not shot david" class="stretched-link"></a>-->
-            </p>
-          </div>
-        </div>
+        <img
+          src={david}
+          alt="Six David images with colourful backgrounds"
+          class="card-img-top"
+        />
+        <div class="print-title">Block Colour Portraits</div>
+        <div class="price">£ 65 GBP</div>
       </div>
 
       <div class="col">
-        <div class="card">
-          <img
-            src={modernromance}
-            alt="computer generated yellow roses"
-            class="card-img-top"
-          />
-          <div class="card-body">
-            <p class="card-text">
-              Modern Romance<img
-                src={arrow_right}
-                alt="arrow right icon"
-                class="arrow-right"
-              />
-              <!---<a href="project-pages/modern-romance.html" aria-label="more information about modern romance" class="stretched-link"></a>-->
-            </p>
-          </div>
-        </div>
+        <img
+          src={modernromance}
+          alt="computer generated yellow roses"
+          class="card-img-top"
+        />
+        <div class="print-title">Everyone Can Play</div>
+        <div class="price">£ 65 GBP</div>
       </div>
 
       <!-- <div class="col">
@@ -232,16 +168,46 @@
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <p class="lead text-body-secondary">
-          All images shown are available as giclee prints on conservation grade
-          paper. They can also be commissioned in any configuration of colour
-          and size. Please <a href="/contact">get in touch</a> for details.
+          All images are available as giclee prints on conservation grade paper.
+          They can also be commissioned in any configuration of colour and size.
+          Please <a href="/contact">get in touch</a> for details.
         </p>
       </div>
     </div>
   </div>
 </section>
 
+
+<section class="container">
+  <h2 class="fw-light text-center project-page-header">
+    Animations
+  </h2>
+  <p class="lead text-body-secondary project-description text-center">
+    A selection of animated projects and explorations of different frameworks
+  </p>
+</section>
+
+
+
 <p class="float-left container">
   <a href="#top" class="link-black">Back to top</a>
 </p>
 
+
+
+<style>
+  .print-title{
+    font-size: 1em;
+    text-align: left;
+    padding-top: .8em;
+
+  }
+
+  .price{
+    font-size: 1em;
+    text-align: left;
+  }
+
+
+
+</style>
