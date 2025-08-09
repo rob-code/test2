@@ -13,10 +13,10 @@
 </script>
 
 <svelte:head>
-    <title>Robert Brice - Projects</title>
+    <title>Robert Brice - Collections</title>
 </svelte:head>
 
-      <PageTitle pagetitle="Projects" />
+      <PageTitle pagetitle="Collections" />
 
       <div class="album py-5 bg-body-tertiary">
         <div class="container">
@@ -27,7 +27,7 @@
                 <img src="{cricketball}" alt="Three Rugby Balls" class="card-img-top">
                 <div class="card-body">
                   <p class="card-text">Everyone Can Play<img src="{arrow_right}" alt="arrow right icon" class="arrow-right">
-                   <a href="../projects/everyone_can_play" aria-label="more information about cricket ball images" class="stretched-link"></a></p>
+                   <a href="../collections/everyone_can_play" aria-label="more information about cricket ball images" class="stretched-link"></a></p>
                 </div>
               </div>
             </div>
@@ -37,7 +37,7 @@
                 <img src="{thongs}" alt="Thongs" class="card-img-top">
                 <div class="card-body">
                   <p class="card-text">Everyday Icons<img src="{arrow_right}" alt="arrow right icon" class="arrow-right">
-                    <a href="../projects/everyday_icons" aria-label="more information about everyday icon images" class="stretched-link"></a></p>
+                    <a href="../collections/everyday_icons" aria-label="more information about everyday icon images" class="stretched-link"></a></p>
                 </div>
               </div>
             </div>
@@ -47,7 +47,7 @@
                 <img src="{xrays}" alt="Colourful block colour portraits" class="card-img-top">
                 <div class="card-body">
                   <p class="card-text">Block Colour Portraits<img src="{arrow_right}" alt="arrow right icon" class="arrow-right">
-                    <a href="../projects/block_colour_portraits" aria-label="more information about block colour portraits" class="stretched-link"></a></p>
+                    <a href="../collections/block_colour_portraits" aria-label="more information about block colour portraits" class="stretched-link"></a></p>
                 </div>
               </div>
             </div>
@@ -57,7 +57,7 @@
                 <img src="{mow}" alt="Meaning of Words" class="card-img-top">
                 <div class="card-body">
                   <p class="card-text">A Meaning Of Words<img src="{arrow_right}" alt="arrow right icon" class="arrow-right">
-                    <a href="../projects/meaning_of_words" aria-label="more information about a meaning of words" class="stretched-link"></a></p>
+                    <a href="../collections/meaning_of_words" aria-label="more information about a meaning of words" class="stretched-link"></a></p>
                 </div>
               </div>
             </div>
@@ -67,7 +67,7 @@
             <img src="{david}" alt="Six David images with colourful backgrounds" class="card-img-top">
             <div class="card-body">
               <p class="card-text">Not Shot David<img src="{arrow_right}" alt="arrow right icon" class="arrow-right">
-              <a href="../projects/not_shot_david" aria-label="more information about not shot david" class="stretched-link"></a></p> 
+              <a href="../collections/not_shot_david" aria-label="more information about not shot david" class="stretched-link"></a></p> 
             </div>
           </div>
         </div>
@@ -77,7 +77,7 @@
             <img src="{modernromance}" alt="computer generated yellow roses" class="card-img-top">
             <div class="card-body">
               <p class="card-text">Modern Romance<img src="{arrow_right}" alt="arrow right icon" class="arrow-right">
-                <a href="../projects/modern_romance" aria-label="more information about modern romance" class="stretched-link"></a></p>
+                <a href="../collections/modern_romance" aria-label="more information about modern romance" class="stretched-link"></a></p>
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@
             <img src="{colourfield}" alt="Colourfield in rust green" class="card-img-top">
             <div class="card-body">
                <p class="card-text">Colour Fields<img src="{arrow_right}" alt="arrow right icon" class="arrow-right">
-                <a href="../projects/colour_fields" aria-label="more information about colour fields" class="stretched-link"></a></p>
+                <a href="../collections/colour_fields" aria-label="more information about colour fields" class="stretched-link"></a></p>
             </div>
           </div>
         </div>
@@ -97,7 +97,7 @@
             <img src="{lovehearts}" alt="Lovehearts" class="card-img-top">
               <div class="card-body">
                 <p class="card-text">True Love Hearts<img src="{arrow_right}" alt="arrow right icon" class="arrow-right">
-                <a href="../projects/true_love_hearts" aria-label="more information about love hearts" class="stretched-link"></a></p>
+                <a href="../collections/true_love_hearts" aria-label="more information about love hearts" class="stretched-link"></a></p>
               </div>
             </div>
         </div>

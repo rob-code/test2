@@ -146,10 +146,10 @@ Treasures in the everyday
 
 <section class="container">
   <h2 class="fw-light text-center project-page-header">
-    Our favourite images ... now available as art quality prints
+    Our favourite collections ... now available as art quality prints
   </h2>
   <p class="lead text-body-secondary project-description text-center">
-    Prints are available from each series, here are some of our favourites.
+    Prints are available from each collection, here are some of our favourites.
   </p>
 </section>
 

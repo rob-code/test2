@@ -40,7 +40,7 @@ import flipflops from "$lib/images/favicon_180x180_2.webp";
           <a class="nav-link active" aria-label="blah blah" href="/shop">Shop</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-label="blah blah" href="/projects">Projects</a>
+          <a class="nav-link active" aria-label="blah blah" href="/collections">Collections</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-label="blah blah" href="/about">About</a>
@@ -95,7 +95,7 @@ import flipflops from "$lib/images/favicon_180x180_2.webp";
           <a class="nav-link active" href="/shop">Shop</a>
         </li>
         <li class="nav-item" data-bs-toggle="offcanvas">
-          <a class="nav-link active" href="/projects">Projects</a>
+          <a class="nav-link active" href="/collections">Collections</a>
         </li>
         <li class="nav-item" data-bs-toggle="offcanvas">
           <a class="nav-link active" href="/about">About</a>
