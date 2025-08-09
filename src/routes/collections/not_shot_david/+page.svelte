@@ -5,6 +5,7 @@
     import david_green from "$lib/images/david-green.png";
     import david_blue from "$lib/images/david-blue.png";
     import davidx4 from "$lib/images/davidx4.png";
+    import AdjacentNavigation from "../../../components/navigation_collections_next_pages.svelte";
 </script>
 
   
@@ -95,17 +96,12 @@
 
     <p class="lead text-body-secondary project-description">And so the idea emerged of David rendered as a modern icon through the medium of Warhol's Shot Marylins and presented as gender fluid with a translucent modesty leaf which, rather than concealing, attracts attention. Entitled "Not Shot David", this makes David fully visible with an air of flamboyance and celebration. Icons are held sacred because they represent something we all seek; they symbolise something essential in our humanity which is visible but unattainable. They teach us something - embodying virtues and desires such as beauty, strength, power, riches, fame ... all the baubles we become preoccupied with and which drive our aspiration. By rendering David in a way which is sexually ambiguous, a contemporary layer is added which firmly situates David in the present. These images hold that we should celebrate difference, that our sexuality is natural and inoffensive, and that we should not just tolerate diversity, but that we should expect and embrace it.</p> 
 
-      <div class="row project-pages-next-page">
-        <div class="col">
-          <p class="text-start" style="padding-left:4%" ><a href="/collections/meaning_of_words" class="link-black"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 20 20">
-            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
-          </svg> A Meaning of Words</a></p>
-        </div>
-        <div class="col">
-          <p class="text-end" style="padding-right:4%"><a href="/collections/modern_romance" class="link-black">Modern Romance <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 20 20">
-            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
-          </svg></a></p>  
-        </div>
-      </div>
   </div>
+
+    <AdjacentNavigation 
+          previousPageTitle="A Meaning of Words" 
+          previousPageLink = "/collections/meaning_of_words" 
+          nextPageTitle="Modern Romance" 
+          nextPageLink="/collections/modern_romance" 
+    />
 

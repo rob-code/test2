@@ -2,6 +2,7 @@
     import cricket_1 from"$lib/images/cricket-1.png";
     import rugby_3 from "$lib/images/rugby-3.png";
     import footballs_2 from "$lib/images/footballs-2.png";
+    import AdjacentNavigation from "../../../components/navigation_collections_next_pages.svelte";
 </script>
 
    <section class="container">
@@ -39,17 +40,12 @@
         <p class="lead text-body-secondary project-description">These reports struck a chord and almost immediately the idea for this series of images popped into my head. Using colour as a metaphor for diversity, "Everyone Can Play" is my response to these reports and the enduring issue of discrimination.</p>
     </section>
 
-      <div class="container">
-      <div class="row project-pages-next-page">
-        <div class="col">
-          <p class="text-start" style="padding-left:4%" ><a href="../collections" class="link-black"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 20 20">
-            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
-          </svg>Collections</a></p>
-        </div>
-        <div class="col">
-          <p class="text-end" style="padding-right:4%"><a href="/collections/everyday_icons" class="link-black">Everyday Icons <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 20 20">
-            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
-          </svg></a></p>  
-        </div>
-      </div>
-      </div>
+
+    <AdjacentNavigation 
+          previousPageTitle="Collections" 
+          previousPageLink = "../collections" 
+          nextPageTitle="Everyday Icons" 
+          nextPageLink="/collections/everyday_icons" 
+    />
+
+
