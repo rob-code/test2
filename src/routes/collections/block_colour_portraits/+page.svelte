@@ -10,6 +10,7 @@
   <h2 class="fw-light text-center project-page-header">
     Block Colour Portraits
   </h2>
+
   <p class="lead text-body-secondary project-description-left">
     Total hip arthroplasty - more commonly known as a hip replacement - is one
     of the most successful surgerical procedures; it really does give a new
@@ -96,7 +97,7 @@
   </p>
 </div>
 
-<AdjacentNavigation
+<AdjacentNavigation 
   previousPageTitle="Everyday Icons"
   previousPageLink="/collections/everyday_icons"
   nextPageTitle="A Meaning of Words"

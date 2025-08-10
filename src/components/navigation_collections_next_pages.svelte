@@ -1,6 +1,5 @@
 <script>
-  let { previousPageTitle, previousPageLink, nextPageTitle, nextPageLink } =
-    $props();
+  let { previousPageTitle, previousPageLink, nextPageTitle, nextPageLink } = $props();
 </script>
 
 <div class="container">
