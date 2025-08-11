@@ -199,6 +199,7 @@
     font-size: 16px;
     font-weight: 400;
     height: 100%;
+    color: rgba(33, 37, 41, 0.75);
   }
 
   .form-field {

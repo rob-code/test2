@@ -174,13 +174,13 @@ Treasures in the everyday
           alt="Colourful block colour portraits"
           class="card-img-top"
         />
-        <div class="print-title">Everyone Can Play</div>
+        <div class="print-title">BLock Colour Portraits</div>
         <div class="price">£ 65 GBP</div>
       </div>
 
       <div class="col">
         <img src={mow} alt="Meaning of Words" class="card-img-top" />
-        <div class="print-title">Everyone Can Play</div>
+        <div class="print-title">A Meaning of Words</div>
         <div class="price">£ 65 GBP</div>
       </div>
 
@@ -190,7 +190,7 @@ Treasures in the everyday
           alt="Six David images with colourful backgrounds"
           class="card-img-top"
         />
-        <div class="print-title">Block Colour Portraits</div>
+        <div class="print-title">Not Shot David</div>
         <div class="price">£ 65 GBP</div>
       </div>
 
@@ -200,7 +200,7 @@ Treasures in the everyday
           alt="computer generated yellow roses"
           class="card-img-top"
         />
-        <div class="print-title">Everyone Can Play</div>
+        <div class="print-title">Modern Romance</div>
         <div class="price">£ 65 GBP</div>
       </div>
 
@@ -259,17 +259,23 @@ Treasures in the everyday
 
 <style>
   .print-title{
-    font-size: 1em;
+    font-size: .9em;
     text-align: left;
     padding-top: .8em;
+    color: rgba(33, 37, 41, 0.75);
+ 
 
   }
 
   .price{
-    font-size: 1em;
+    font-size: .85em;
     text-align: left;
+    color: rgba(33, 37, 41, 0.75);
+ 
   }
 
-
+  .link-black{
+    color: rgba(33, 37, 41, 0.75);
+  }
 
 </style>
