@@ -1,5 +1,8 @@
 <script lang="ts">
   import CookieConsent from "../components/cookieconsent.svelte";
+  import GridRowWrapper from "../components/gridrowwrapper.svelte";
+
+
   import cricketball from "$lib/images/cricketball-index.png";
   import thongs from "$lib/images/thongs92.png";
   import xrays from "$lib/images/back_xrays12.png";
@@ -20,12 +23,17 @@
   onMount(() => {
     mounted = true;
   });
+
 </script>
 
 <svelte:head>
   <!-- all the other meta tags go in there for the page -->
   <title>Robert Brice - Art made with Code</title>
 </svelte:head>
+
+
+
+
 
 {#if !data.isCookieSet && mounted}
   <div transition:fade><CookieConsent /></div>
@@ -71,74 +79,80 @@
     <div class="col-lg-12 px-0">
       <h1 class="display-4 fst-italic">Headline image ... maybe a carousel</h1>
       <p class="lead my-3">
-
-        Inspired by the things we love
-Bike pic 
-
-Australian beach life
-
-Treasures in the everyday
-        Multiple lines of text, informing new readers quickly and efficiently
-        about what is most interesting
+        Inspired by the things we love Bike pic Australian beach life Treasures
+        in the everyday Multiple lines of text, informing new readers quickly
+        and efficiently about what is most interesting
       </p>
       <p class="lead mb-0">Continue reading...</p>
     </div>
   </div>
 </section>
 
-
-
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={beach_bike} class="d-block w-100" alt="...">
+      <img src={beach_bike} class="d-block w-100" alt="..." />
       <div class="carousel-caption d-none d-md-block">
         <h5>Inspired by the things we love ...</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src={beach_bike} class="d-block w-100" alt="...">
+      <img src={beach_bike} class="d-block w-100" alt="..." />
       <div class="carousel-caption d-none d-md-block">
         <h5>Australian beach life</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src={beach_bike} class="d-block w-100" alt="...">
+      <img src={beach_bike} class="d-block w-100" alt="..." />
       <div class="carousel-caption d-none d-md-block">
         <h5>Treasures in the everyday</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExampleIndicators"
+    data-bs-slide="prev"
+  >
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleIndicators"
+    data-bs-slide="next"
+  >
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <div class="container hr-title">
   <hr />
@@ -153,77 +167,7 @@ Treasures in the everyday
   </p>
 </section>
 
-<div class="album py-5">
-  <div class="container">
-    <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 g-3">
-      <div class="col">
-        <img src={cricketball} alt="Three Rugby Balls" class="card-img-top" />
-        <div class="print-title">Everyone Can Play</div>
-        <div class="price">£ 65 GBP</div>
-      </div>
-
-      <div class="col">
-        <img src={thongs} alt="Thongs" class="card-img-top" />
-        <div class="print-title">Flip FLops</div>
-        <div class="price">£ 65 GBP</div>
-      </div>
-
-      <div class="col">
-        <img
-          src={xrays}
-          alt="Colourful block colour portraits"
-          class="card-img-top"
-        />
-        <div class="print-title">BLock Colour Portraits</div>
-        <div class="price">£ 65 GBP</div>
-      </div>
-
-      <div class="col">
-        <img src={mow} alt="Meaning of Words" class="card-img-top" />
-        <div class="print-title">A Meaning of Words</div>
-        <div class="price">£ 65 GBP</div>
-      </div>
-
-      <div class="col">
-        <img
-          src={david}
-          alt="Six David images with colourful backgrounds"
-          class="card-img-top"
-        />
-        <div class="print-title">Not Shot David</div>
-        <div class="price">£ 65 GBP</div>
-      </div>
-
-      <div class="col">
-        <img
-          src={modernromance}
-          alt="computer generated yellow roses"
-          class="card-img-top"
-        />
-        <div class="print-title">Modern Romance</div>
-        <div class="price">£ 65 GBP</div>
-      </div>
-
-      <!-- <div class="col">
-          <div class="card"> 
-            <img src="{colourfield}" alt="Colourfield in rust green" class="card-img-top">
-            <div class="card-body">
-               <p class="card-text">Colour Fields<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/colour-fields.html" aria-label="more information about colour fields" class="stretched-link"></a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card"> 
-            <img src="{lovehearts}" alt="Lovehearts" class="card-img-top">
-              <div class="card-body">
-                <p class="card-text">True Love Hearts<img src="{arrow_right}" alt="arrow right icon" class="arrow-right"><a href="project-pages/true-love-hearts.html" aria-label="more information about love hearts" class="stretched-link"></a></p>
-              </div>
-            </div>
-        </div> -->
-    </div>
-  </div>
-</div>
+<GridRowWrapper />
 
 <section class="container">
   <div class="py-5 text-center container">
@@ -239,43 +183,111 @@ Treasures in the everyday
   </div>
 </section>
 
-
 <section class="container">
   <h2 class="fw-light text-center project-page-header">
-    Animations
+    View the image collections
   </h2>
+  <p class="lead text-body-secondary project-description text-center">
+    All 2D images
+  </p>
+</section>
+
+<div class="album py-5">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 g-3">
+      <div class="col">
+        <img src={cricketball} alt="Three Rugby Balls" class="card-img-top" />
+        <div class="print-title">Everyone Can Play</div>
+      </div>
+
+      <div class="col">
+        <img src={thongs} alt="Thongs" class="card-img-top" />
+        <div class="print-title">Everyday Icons</div>
+      </div>
+
+      <div class="col">
+        <img
+          src={xrays}
+          alt="Colourful block colour portraits"
+          class="card-img-top"
+        />
+        <div class="print-title">Block Colour Portraits</div>
+      </div>
+
+      <div class="col">
+        <img src={mow} alt="Meaning of Words" class="card-img-top" />
+        <div class="print-title">A Meaning of Words</div>
+      </div>
+
+      <div class="col">
+        <img
+          src={david}
+          alt="Six David images with colourful backgrounds"
+          class="card-img-top"
+        />
+        <div class="print-title">Not Shot David</div>
+      </div>
+
+      <div class="col">
+        <img
+          src={modernromance}
+          alt="computer generated yellow roses"
+          class="card-img-top"
+        />
+        <div class="print-title">Modern Romance</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="container">
+  <h2 class="fw-light text-center project-page-header">Animations</h2>
   <p class="lead text-body-secondary project-description text-center">
     A selection of animated projects and explorations of different frameworks
   </p>
 </section>
 
-
-
 <p class="float-left container">
   <a href="#top" class="link-black">Back to top</a>
 </p>
 
-
-
 <style>
-  .print-title{
-    font-size: .9em;
+  .py-5 {
+    --row-cols-1: none;
+  }
+
+  /* .row-cols-1 {}
+  
+  .row-cols-sm-3{}
+  
+  .row-cols-md-3{} */
+
+  .print-title {
+    font-size: 0.9em;
     text-align: left;
-    padding-top: .8em;
+    padding-top: 0.8em;
     color: rgba(33, 37, 41, 0.75);
- 
-
   }
 
-  .price{
-    font-size: .85em;
+  /* .price {
+    font-size: 0.85em;
     text-align: left;
     color: rgba(33, 37, 41, 0.75);
- 
-  }
+  } */
 
-  .link-black{
+  .link-black {
     color: rgba(33, 37, 41, 0.75);
   }
 
+  /* @media (min-width: 768) {
+    .horizontal-scrollable > .row > .col {
+      display: inline-block;
+    }
+
+    .horizontal-scrollable {
+      overflow-x: auto;
+      white-space: nowrap;
+            display: inline-block;
+    }
+  } */
 </style>

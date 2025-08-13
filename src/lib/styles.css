@@ -77,6 +77,20 @@ a.link-black {
   --bs-bg-opacity: 0;
 }*/
 
+/****************** grid row wrapper component ************** */
+
+  .print-title {
+    font-size: 0.9em;
+    text-align: left;
+    padding-top: 0.8em;
+    color: rgba(33, 37, 41, 0.75);
+  }
+
+  .price {
+    font-size: 0.85em;
+    text-align: left;
+    color: rgba(33, 37, 41, 0.75);
+  } 
 
 /* ******************** project pages ******************** */
 
