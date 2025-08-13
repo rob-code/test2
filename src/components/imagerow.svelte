@@ -55,20 +55,24 @@
 <style>
 
 .scroll-container {
-  overflow: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
   white-space: nowrap;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 20px;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+
 
 }
 
 .scroll-item {
-  padding: 5px;
-  display: inline-block;
-    align-items: center;
+    padding: 10px;
+    display: inline-block;
+    width: 70%;
 }
 
-.scroll-item img {
-    /* height: 350px; */
-    width: 98%;
-} 
+ .scroll-item img {
+    width: 100%;
+    }  
 </style>
