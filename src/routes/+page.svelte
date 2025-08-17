@@ -164,13 +164,17 @@
   </p>
 </section>
 
+<!-- There are two options: Putting the images where they will be available in production (the /static folder is a good place for that in sveltekit), and link them with an absolute link, 
+ or import the image using vite, and give the imported variable to the component, to be used in the src attribute -->
+
+
 <GridRowWrapper images={[
     { url: "/images/cricketball-index.png", alt: "cricketball" },
-    { url: "./src/lib/images/thongs92.png", alt: "thongs" },
-    { url: "./src/lib/images/back_xrays12.png", alt: "xrays" },
-    { url: "./src/lib/images/mow_4.png", alt: "meaning of words" },
-    { url: "./src/lib/images/david-index-image.webp", alt: "not shot david" },
-    {url: "./src/lib/images/flowers-index-multicoloured.webp", alt: "modern romance"}]} />
+    { url: "/images/thongs92.png", alt: "thongs" },
+    { url: "/images/back_xrays12.png", alt: "xrays" },
+    { url: "/images/mow_4.png", alt: "meaning of words" },
+    { url: "/images/david-index-image.webp", alt: "not shot david" },
+    { url: "/images/flowers-index-multicoloured.webp", alt: "modern romance"}]} />
 
 <section class="container">
   <div class="py-5 text-center container">
