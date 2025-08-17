@@ -2,7 +2,6 @@
   import CookieConsent from "../components/cookieconsent.svelte";
   import GridRowWrapper from "../components/gridrowwrapper.svelte";
 
-
   import cricketball from "$lib/images/cricketball-index.png";
   import thongs from "$lib/images/thongs92.png";
   import xrays from "$lib/images/back_xrays12.png";
@@ -13,7 +12,8 @@
   import lovehearts from "$lib/images/lovehearts-index.png";
   import arrow_right from "$lib/assets/arrow-right.svg";
   import beach_bike from "$lib/images/beachbike.jpg";
-  import { onMount } from "svelte";
+  import { onMount, onDestroy } from "svelte";
+
   import type { PageProps } from "./$types";
   import { fade } from "svelte/transition";
 
@@ -24,16 +24,13 @@
     mounted = true;
   });
 
+
 </script>
 
 <svelte:head>
   <!-- all the other meta tags go in there for the page -->
   <title>Robert Brice - Art made with Code</title>
 </svelte:head>
-
-
-
-
 
 {#if !data.isCookieSet && mounted}
   <div transition:fade><CookieConsent /></div>
@@ -167,7 +164,13 @@
   </p>
 </section>
 
-<GridRowWrapper />
+<GridRowWrapper images={[
+    { url: "./src/lib/images/cricketball-index.png", alt: "cricketball" },
+    { url: "./src/lib/images/thongs92.png", alt: "thongs" },
+    { url: "./src/lib/images/back_xrays12.png", alt: "xrays" },
+    { url: "./src/lib/images/mow_4.png", alt: "meaning of words" },
+    { url: "./src/lib/images/david-index-image.webp", alt: "not shot david" },
+    {url: "./src/lib/images/flowers-index-multicoloured.webp", alt: "modern romance"}]} />
 
 <section class="container">
   <div class="py-5 text-center container">
