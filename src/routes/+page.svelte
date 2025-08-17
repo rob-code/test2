@@ -165,7 +165,7 @@
 </section>
 
 <GridRowWrapper images={[
-    { url: "./src/lib/images/cricketball-index.png", alt: "cricketball" },
+    { url: "/images/cricketball-index.png", alt: "cricketball" },
     { url: "./src/lib/images/thongs92.png", alt: "thongs" },
     { url: "./src/lib/images/back_xrays12.png", alt: "xrays" },
     { url: "./src/lib/images/mow_4.png", alt: "meaning of words" },
