@@ -19,7 +19,7 @@
 
   let { data }: PageProps = $props();
 
-  const images = [{img:cricketball, alt:'cricketball'}, {img:thongs, alt:"thongs"}, {img:xrays, alt:"xrays"}, {img:mow, alt:"mow"}, {img:david, alt:"david"}, {img:modernromance, alt:"modernromance"}];
+  // const images = [{img:cricketball, alt:'cricketball'}, {img:thongs, alt:"thongs"}, {img:xrays, alt:"xrays"}, {img:mow, alt:"meaning of words"}, {img:david, alt:"david"}, {img:modernromance, alt:"modernromance"}];
 
   let mounted = $state(false);
   onMount(() => {
@@ -180,7 +180,10 @@
     { url: "/images/david-index-image.webp", alt: "not shot david" },
     { url: "/images/flowers-index-multicoloured.webp", alt: "modern romance"}]} /> -->
 
-<GridRowWrapper {images}/>
+<GridRowWrapper images = {[{img:cricketball, alt:'cricketball'}, {img:thongs, alt:"thongs"}, {img:xrays, alt:"xrays"}, {img:mow, alt:"meaning of words"}, {img:david, alt:"david"}, {img:modernromance, alt:"modernromance"}]}
+/>
+
+
 
 
 <section class="container">
