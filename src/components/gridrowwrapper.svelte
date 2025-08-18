@@ -3,7 +3,7 @@
     import ImageRow from "./imagerow.svelte";
     
     let iw = $state(0);
-    let { images } = $props();
+    let {images} = $props();
 </script>
 
 <svelte:window bind:innerWidth={iw} />

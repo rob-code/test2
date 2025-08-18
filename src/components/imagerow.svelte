@@ -5,8 +5,8 @@
 <div class="scroll-container">
   {#each images as image}
     <div class="scroll-item">
-      <img src={image.url} alt={image.alt} />
-      <div class="print-title">Everyone Can Play</div>
+      <img src={image.img} alt={image.alt} />
+      <div class="print-title">{image.alt}</div>
       <div class="price">£ 65 GBP</div>
     </div>
   {/each}

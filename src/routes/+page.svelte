@@ -19,12 +19,14 @@
 
   let { data }: PageProps = $props();
 
+  const images = [{img:cricketball, alt:'cricketball'}, {img:thongs, alt:"thongs"}, {img:xrays, alt:"xrays"}, {img:mow, alt:"mow"}, {img:david, alt:"david"}, {img:modernromance, alt:"modernromance"}];
+
   let mounted = $state(false);
   onMount(() => {
     mounted = true;
   });
 
-
+  
 </script>
 
 <svelte:head>
@@ -35,6 +37,8 @@
 {#if !data.isCookieSet && mounted}
   <div transition:fade><CookieConsent /></div>
 {/if}
+
+
 
 <section class="text-center container">
   <div class="row title-block">
@@ -168,13 +172,16 @@
  or import the image using vite, and give the imported variable to the component, to be used in the src attribute -->
 
 
-<GridRowWrapper images={[
+<!-- <GridRowWrapper images={[
     { url: "/images/cricketball-index.png", alt: "cricketball" },
     { url: "/images/thongs92.png", alt: "thongs" },
     { url: "/images/back_xrays12.png", alt: "xrays" },
     { url: "/images/mow_4.png", alt: "meaning of words" },
     { url: "/images/david-index-image.webp", alt: "not shot david" },
-    { url: "/images/flowers-index-multicoloured.webp", alt: "modern romance"}]} />
+    { url: "/images/flowers-index-multicoloured.webp", alt: "modern romance"}]} /> -->
+
+<GridRowWrapper {images}/>
+
 
 <section class="container">
   <div class="py-5 text-center container">
