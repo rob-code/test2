@@ -164,12 +164,12 @@
 
 <GridRowWrapper
   images={[
-    { img: cricketball, alt: "cricketball" },
-    { img: thongs, alt: "thongs" },
-    { img: xrays, alt: "xrays" },
-    { img: mow, alt: "meaning of words" },
-    { img: david, alt: "david" },
-    { img: modernromance, alt: "modernromance" },
+    { img: cricketball, alt: "cricketball", title:"Everyone Can Play " },
+    { img: thongs, alt: "thongs", title:"Everyday Icons - Flip Flops" },
+    { img: xrays, alt: "xrays", title:"Block Colour Portraits" },
+    { img: mow, alt: "meaning of words", title:"Meaning of Words" },
+    { img: david, alt: "david", title:"Not Shot David" },
+    { img: modernromance, alt: "modernromance", title:"Modern Romance" },
   ]}
 />
 

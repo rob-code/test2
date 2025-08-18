@@ -6,7 +6,7 @@
   {#each images as image}
     <div class="scroll-item">
       <img src={image.img} alt={image.alt} />
-      <div class="print-title">{image.alt}</div>
+      <div class="print-title">{image.title}</div>
       <div class="price">£ 65 GBP</div>
     </div>
   {/each}
