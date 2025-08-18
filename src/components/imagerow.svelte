@@ -1,5 +1,5 @@
 <script>
-  let { images } = $props();
+  let {images} = $props();
 </script>
 
 <div class="scroll-container">
