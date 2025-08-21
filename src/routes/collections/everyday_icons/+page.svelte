@@ -26,6 +26,11 @@
   import AdjacentNavigation from "../../../components/navigation_collections_next_pages.svelte";
 </script>
 
+<svelte:head>
+  <!-- all the other meta tags go in there for the page -->
+  <title>Robert Brice Collections: Everyday Icons</title>
+</svelte:head>
+
 <section class="container">
   <h2 class="fw-light text-center project-page-header">Everyday Icons</h2>
   <p class="lead text-body-secondary project-description-centre item-padding-bottom">

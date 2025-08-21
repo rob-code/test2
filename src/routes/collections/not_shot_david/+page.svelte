@@ -7,7 +7,10 @@
     import davidx4 from "$lib/images/davidx4.png";
     import AdjacentNavigation from "../../../components/navigation_collections_next_pages.svelte";
 </script>
-
+<svelte:head>
+  <!-- all the other meta tags go in there for the page -->
+  <title>Robert Brice Collections: Not Shot David</title>
+</svelte:head>
   
     <section class="container">
           <h2 class="fw-light text-center project-page-header">Not Shot David</h2>

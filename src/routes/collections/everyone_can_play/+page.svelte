@@ -5,6 +5,13 @@
     import AdjacentNavigation from "../../../components/navigation_collections_next_pages.svelte";
 </script>
 
+<svelte:head>
+  <!-- all the other meta tags go in there for the page -->
+  <title>Robert Brice Collections: Everyone Can Play</title>
+</svelte:head>
+
+
+
    <section class="container">
         <h2 class="fw-light text-center project-page-header">Everyone Can Play</h2>
         <p class="lead text-body-secondary project-description-centre item-padding-bottom">Sport in all its forms is better with wide participation. Positive attitudes to improvement and excellence, irrespective of background, make healthier and happier people who want to be active and involved. In other words, everyone can play.</p>

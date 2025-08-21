@@ -8,6 +8,12 @@
   import AdjacentNavigation from "../../../components/navigation_collections_next_pages.svelte";
 </script>
 
+<svelte:head>
+  <!-- all the other meta tags go in there for the page -->
+  <title>Robert Brice Collections: Modern Romance</title>
+</svelte:head>
+
+
 <section class="container">
   <h2 class="fw-light text-center project-page-header">Modern Romance</h2>
   <p

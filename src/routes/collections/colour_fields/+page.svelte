@@ -10,6 +10,12 @@
     import AdjacentNavigation from "../../../components/navigation_collections_next_pages.svelte";
 </script>
       
+<svelte:head>
+  <!-- all the other meta tags go in there for the page -->
+  <title>Robert Brice Collections: Colour Fields</title>
+</svelte:head>
+
+
     <section class="container">
           <h2 class="fw-light text-center project-page-header">Colour Fields</h2>
           <p class="lead text-body-secondary project-description-centre item-padding-bottom">Calming, fabric-like, abstract, organic. These colour fields were the result of spline experiments which pushed the computer to the limits of its calculation capacity.</p>

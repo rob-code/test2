@@ -13,7 +13,8 @@
 </script>
 
 <svelte:head>
-    <title>Robert Brice - Collections</title>
+  <!-- all the other meta tags go in there for the page -->
+  <title>Robert Brice Collections</title>
 </svelte:head>
 
       <PageTitle pagetitle="Collections" />
