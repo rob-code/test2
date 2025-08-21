@@ -1,56 +1,75 @@
-<script lang=ts>
+<script lang="ts">
     import PageTitle from "../../../components/pagetitle.svelte";
     import products from "$lib/data/products.json";
-    import {base} from '$app/paths';
+    import { base } from "$app/paths";
 
-    let {data} = $props();
-    console.log("taken from props: " + data.id);    
+    let { data } = $props();
+    console.log("taken from props: " + data.id);
 
-   
-   let product = $state({"id": 0, "img":"", "alt":"", "name":"", "dataitemid":"", "price":"", "description":"" });
+    let product = $state({
+        id: 0,
+        img: "",
+        alt: "",
+        name: "",
+        dataitemid: "",
+        price: "",
+        description: "",
+    });
 
-
-    $effect (() => {
-   
-    for (var i = 0; i < products.length; i++) {
-        if (products[i].id == Number(data.id)) {
-            product = products[i];
-            console.log(data.id + " " + products[i].id + " " + products[i].img );
+    $effect(() => {
+        for (var i = 0; i < products.length; i++) {
+            if (products[i].id == Number(data.id)) {
+                product = products[i];
+            }
         }
-    }
-    }
-)
-    console.log("taken from the products json array " + product?.id);
-
+    });
 </script>
 
 <svelte:head>
-  <!-- all the other meta tags go in there for the page -->
-  <title>Robert Brice - Add to Cart</title>
+    <!-- all the other meta tags go in there for the page -->
+    <title>Robert Brice - Add to Cart</title>
 </svelte:head>
-
-
-<p>{product?.img} {product?.id}</p>
 
 <div class="container py-5">
     <div class="row">
         <!-- Product Images -->
         <div class="col-md-6 mb-4">
             <div class="card">
-                <img src="{base}/{product?.img}" class="card-img-top" alt="Product">
+                <img
+                    src="{base}/{product?.img}"
+                    class="card-img-top"
+                    alt="Product"
+                />
                 <div class="card-body">
                     <div class="row g-2">
                         <div class="col-3">
-                            <img src="{base}/{product?.img}" class="img-thumbnail" alt="Thumbnail 1">
+                            <img
+                                src="{base}/{product?.img}"
+                                class="img-thumbnail"
+                                alt="Thumbnail 1"
+                            />
                         </div>
                         <div class="col-3">
-                            <img src="{base}/{product?.img}" class="img-thumbnail" alt="Thumbnail 2">
+                            <img
+                                src="{base}/{product?.img}"
+                                class="img-thumbnail"
+                                alt="Thumbnail 2"
+                            />
                         </div>
                         <div class="col-3">
-                            <img src="{base}/{product?.img}" class="img-thumbnail" alt="Thumbnail 3">
+                            <img
+                                src="{base}/{product?.img}"
+                                class="img-thumbnail"
+                                alt="Thumbnail 3"
+                            />
                         </div>
                         <div class="col-3">
-                            <img src="{base}/{product?.img}" class="img-thumbnail" alt="Thumbnail 4">                        </div>
+                            <img
+                                src="{base}/{product?.img}"
+                                class="img-thumbnail"
+                                alt="Thumbnail 4"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -64,7 +83,7 @@
                 <!-- <span class="text-muted text-decoration-line-through">$399.99</span>
                 <span class="badge bg-danger ms-2">25% OFF</span> -->
             </div>
-<!-- 
+            <!-- 
             <div class="mb-3">
                 <div class="d-flex align-items-center">
                     <div class="text-warning me-2">
@@ -109,7 +128,9 @@
 
             <!-- Actions -->
             <div class="d-grid gap-2">
-                <button class="btn btn-primary" type="button">Add to Cart</button>
+                <button class="btn btn-primary" type="button"
+                    >Add to Cart</button
+                >
             </div>
 
             <!-- Additional Info -->
@@ -130,4 +151,3 @@
         </div>
     </div>
 </div>
-
