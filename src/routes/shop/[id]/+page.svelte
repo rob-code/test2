@@ -36,7 +36,7 @@
         <div class="col-md-6 mb-4">
             <div class="card">
                 <img
-                    src="{base}/{product?.img}"
+                    src="{product?.img}"
                     class="card-img-top"
                     alt="Product"
                 />
@@ -44,28 +44,28 @@
                     <div class="row g-2">
                         <div class="col-3">
                             <img
-                                src="{base}/{product?.img}"
+                                src="{product?.img}"
                                 class="img-thumbnail"
                                 alt="Thumbnail 1"
                             />
                         </div>
                         <div class="col-3">
                             <img
-                                src="{base}/{product?.img}"
+                                src="{product?.img}"
                                 class="img-thumbnail"
                                 alt="Thumbnail 2"
                             />
                         </div>
                         <div class="col-3">
                             <img
-                                src="{base}/{product?.img}"
+                                src="{product?.img}"
                                 class="img-thumbnail"
                                 alt="Thumbnail 3"
                             />
                         </div>
                         <div class="col-3">
                             <img
-                                src="{base}/{product?.img}"
+                                src="{product?.img}"
                                 class="img-thumbnail"
                                 alt="Thumbnail 4"
                             />
