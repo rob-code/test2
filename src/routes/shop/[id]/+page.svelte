@@ -1,13 +1,26 @@
-<script>
+<script lang=ts>
     import PageTitle from "../../../components/pagetitle.svelte";
-
-    //import products from '$lib/data/products.json';
+    import products from "$lib/data/products.json";
+    import {base} from '$app/paths';
 
     let {data} = $props();
+    console.log("taken from props: " + data.id);    
 
-    let id = data.id;
-    console.log("the id of the product is " + id);
+   
+   let product = $state({"id": 0, "img":"", "alt":"", "name":"", "dataitemid":"", "price":"", "description":"" });
 
+
+    $effect (() => {
+   
+    for (var i = 0; i < products.length; i++) {
+        if (products[i].id == Number(data.id)) {
+            product = products[i];
+            console.log(data.id + " " + products[i].id + " " + products[i].img );
+        }
+    }
+    }
+)
+    console.log("taken from the products json array " + product?.id);
 
 </script>
 
@@ -16,10 +29,105 @@
   <title>Robert Brice - Add to Cart</title>
 </svelte:head>
 
-<PageTitle pagetitle="product name in here - Add to Cart"/>
 
-<p>{data.id}</p>
+<p>{product?.img} {product?.id}</p>
 
+<div class="container py-5">
+    <div class="row">
+        <!-- Product Images -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <img src="{base}/{product?.img}" class="card-img-top" alt="Product">
+                <div class="card-body">
+                    <div class="row g-2">
+                        <div class="col-3">
+                            <img src="{base}/{product?.img}" class="img-thumbnail" alt="Thumbnail 1">
+                        </div>
+                        <div class="col-3">
+                            <img src="{base}/{product?.img}" class="img-thumbnail" alt="Thumbnail 2">
+                        </div>
+                        <div class="col-3">
+                            <img src="{base}/{product?.img}" class="img-thumbnail" alt="Thumbnail 3">
+                        </div>
+                        <div class="col-3">
+                            <img src="{base}/{product?.img}" class="img-thumbnail" alt="Thumbnail 4">                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <!-- Product Details -->
+        <div class="col-md-6">
+            <h1 class="h2 mb-3">{product?.name}</h1>
+            <div class="mb-3">
+                <span class="h4 me-2">£ {product?.price}</span>
+                <!-- <span class="text-muted text-decoration-line-through">$399.99</span>
+                <span class="badge bg-danger ms-2">25% OFF</span> -->
+            </div>
+<!-- 
+            <div class="mb-3">
+                <div class="d-flex align-items-center">
+                    <div class="text-warning me-2">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span class="text-muted">(128 reviews)</span>
+                </div>
+            </div> -->
 
+            <p class="mb-4">{product?.description}</p>
+
+            <!-- Color Selection -->
+            <!-- <div class="mb-4">
+                <h6 class="mb-2">Color</h6>
+                <div class="btn-group" role="group">
+                    <input type="radio" class="btn-check" name="color" id="silver" checked>
+                    <label class="btn btn-outline-secondary" for="silver">Silver</label>
+                    <input type="radio" class="btn-check" name="color" id="gold">
+                    <label class="btn btn-outline-secondary" for="gold">Gold</label>
+                    <input type="radio" class="btn-check" name="color" id="black">
+                    <label class="btn btn-outline-secondary" for="black">Black</label>
+                </div>
+            </div> -->
+
+            <!-- Quantity -->
+            <!-- <div class="mb-4">
+                <div class="d-flex align-items-center">
+                <label class="me-2">Quantity:</label>
+                    <select class="form-select w-auto">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                </div>
+            </div> -->
+
+            <!-- Actions -->
+            <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="button">Add to Cart</button>
+            </div>
+
+            <!-- Additional Info -->
+            <div class="mt-4">
+                <div class="d-flex align-items-center mb-2">
+                    <i class="fas fa-truck text-primary me-2"></i>
+                    <span>Free shipping on orders over $50</span>
+                </div>
+                <div class="d-flex align-items-center mb-2">
+                    <i class="fas fa-undo text-primary me-2"></i>
+                    <span>30-day return policy</span>
+                </div>
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-shield-alt text-primary me-2"></i>
+                    <span>2-year warranty</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 

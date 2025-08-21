@@ -1,8 +1,8 @@
 [
-    {"id": 1, "img": "$lib/images/cricketball-index.png", "alt": "cricketball", "name": "cricketball", "dataitemid": "cricketball" , "price": "45.00", "description": "a picture"},
-    {"id": 2, "img": "$lib/images/thongs92.png", "alt": "thongs", "name": "thongs", "dataitemid":"thongs" , "price": "45.00", "description": "a picture"},
-    {"id": 3, "img": "$lib/images/back_xrays12.png", "alt": "xrays", "name": "xrays", "dataitemid": "xrays", "price": "45.00", "description": "a picture"},
-    {"id": 4, "img": "$lib/images/mow_4.png", "alt": "mow", "name": "meaning of words", "dataitemid": "meaning of words", "price":"45.00" , "description": "a picture"},
-    {"id": 5, "img": "$lib/images/david-index-image.webp", "alt": "david", "name": "david", "dataitemid": "david", "price":"45.00" , "description": "a picture"},
-    {"id": 6, "img": "$lib/images/flowers-index-multicoloured.webp", "alt": "modernromance", "name": "modern romance", "dataitemid": "modern romance", "price":"45.00" , "description": "a picture"}
+    {"id": 1, "img": "src/lib/images/cricketball-index.png", "alt": "cricketball", "name": "cricketball", "dataitemid": "cricketball" , "price": "45.00", "description": "a picture"},
+    {"id": 2, "img": "src/lib/images/thongs92.png", "alt": "thongs", "name": "thongs", "dataitemid":"thongs" , "price": "45.00", "description": "a picture"},
+    {"id": 3, "img": "src/lib/images/back_xrays12.png", "alt": "xrays", "name": "xrays", "dataitemid": "xrays", "price": "45.00", "description": "a picture"},
+    {"id": 4, "img": "src/lib/images/mow_4.png", "alt": "mow", "name": "meaning of words", "dataitemid": "meaning of words", "price":"45.00" , "description": "a picture"},
+    {"id": 5, "img": "src/lib/images/david-index-image.webp", "alt": "david", "name": "david", "dataitemid": "david", "price":"45.00" , "description": "a picture"},
+    {"id": 6, "img": "src/lib/images/flowers-index-multicoloured.webp", "alt": "modernromance", "name": "modern romance", "dataitemid": "modern romance", "price":"45.00" , "description": "a picture"}
 ]

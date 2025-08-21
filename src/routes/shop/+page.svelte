@@ -10,8 +10,7 @@
 
 
 
-     import products from "$lib/data/products.json";
-
+    import products from "$lib/data/products.json";
     console.log(products);
 
 
@@ -25,11 +24,14 @@
 
 <PageTitle pagetitle="Shop Fine Art Prints" />
 
-<SaleGrid prints={[
+<!-- <SaleGrid prints={[
     {id: 1, img: cricketball, alt: 'cricketball', name: "cricketball", dataitemid:"cricketball" , price: "45.00", description: "a picture" },
     {id: 2, img: thongs, alt: 'thongs', name: "thongs", dataitemid:"thongs" , price: "45.00", description: "a picture" },
     {id: 3, img: xrays, alt: 'xrays', name: "xrays", dataitemid: "xrays", price: "45.00", description: "a picture" },
     {id: 4, img: mow, alt: 'mow', name: "meaning of words", dataitemid: "meaning of words", price:"45.00" , description: "a picture" },
     {id: 5, img: david, alt: 'david', name: "david", dataitemid: "david", price:"45.00" , description: "a picture" },
     {id: 6, img: modernromance, alt: 'modernromance', name: "modern romance", dataitemid: "modern romance", price:"45.00" , description: "a picture" },
-]} />
+]} /> -->
+
+
+<SaleGrid prints={products} />

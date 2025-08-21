@@ -1,8 +1,5 @@
 <script>
     let { prints } = $props();
-
-    import { goto } from "$app/navigation";
-
 </script>
 
 <div class="album py-5">
