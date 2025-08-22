@@ -12,7 +12,7 @@
         "name": "cricketball",
         "dataitemid": "cricketball",
         "price": "45.00",
-        "description": "a picture"
+        "description": "a picture of a cricketball"
     },
     {
         "id": 2,
@@ -27,7 +27,7 @@
         "name": "thongs",
         "dataitemid": "thongs",
         "price": "45.00",
-        "description": "a picture"
+        "description": "a picture of flip flops"
     },
     {
         "id": 3,
@@ -42,7 +42,7 @@
         "name": "xrays",
         "dataitemid": "xrays",
         "price": "45.00",
-        "description": "a picture"
+        "description": "a picture of x rays"
     },
     {
         "id": 4,
@@ -57,7 +57,7 @@
         "name": "meaning of words",
         "dataitemid": "meaning of words",
         "price": "45.00",
-        "description": "a picture"
+        "description": "a picture of a project that explores the meaning of words"
     },
     {
         "id": 5,
@@ -72,7 +72,7 @@
         "name": "david",
         "dataitemid": "david",
         "price": "45.00",
-        "description": "a picture"
+        "description": "a picture of not shot David"
     },
     {
         "id": 6,
@@ -87,6 +87,6 @@
         "name": "modern romance",
         "dataitemid": "modern romance",
         "price": "45.00",
-        "description": "a picture"
+        "description": "a picture of computer generated flowers - a modern romance"
     }
 ]

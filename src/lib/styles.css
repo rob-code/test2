@@ -154,6 +154,16 @@ a.link-black {
   font-weight: light;
 }
 
+.snipcart-button-primary{
+  background-color: black;
+}
+
+.snipcart-button-primary:hover{
+  background-color: #424649;
+}
+
+
+
 /* ******************** cookie policy ******************** */
 
 .legal-title {
