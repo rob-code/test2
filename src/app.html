@@ -43,6 +43,17 @@
 
 
 		});
+
+        window.addEventListener('Shoprocket.ready', () => {
+            // Listen for a page view
+            console.log('shoprocket is ready')
+
+        Shoprocket.events.listen('cart.opened', (event) => {
+            console.log(event);
+        });
+
+            });
+
 	</script>
 
 </body>
