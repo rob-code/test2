@@ -8,9 +8,9 @@
         </a>
     </span>
 
-
+<!-- 
 {@html '<div class="sr-element" data-embed="basket"><script type="application/json">{"publishable_key": "sr_live_pk_0ac696797e14d49ca01f523ffb8d962e670f","options": {"basket_style": "bubble","basket_position": "middle-right"},"includes": {"show_pop_up_adding_item_to_cart": "1","show_image_thumbnails": "1","show_select_quantity": "1","show_overlay_when_open": "1","show_cart_count": "1","show_cart_total": "0"},"styles": {"basket_background": "#ffffff","basket_color": "#000000","basket_text_color": "#000000","basket_counter_background": "#000000","basket_counter_color": "#ffffff","cart_background": "#ffffff","cart_text_color": "#666666","cart_button_background": "#233642","cart_button_color": "#ffffff","cart_links_text_color": "#808b97","cart_border_color": "#ececec"}}</script></div><script async src="https://cdn.shoprocket.io/loader.js"></script>'}
-
+ -->
 
 
     <p class="footer-space-above text-center footer-text text-body-secondary">
