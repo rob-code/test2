@@ -3,10 +3,8 @@
   import SaleGrid from "../../components/salegrid.svelte";
   import products from "$lib/data/products.json";
   import ShopRocket from "../../components/shoprocketdemo.svelte";
-
-
-  
 </script>
+
 
 <svelte:head>
   <!-- all the other meta tags go in there for the page -->
@@ -17,4 +15,4 @@
 
 <ShopRocket title={'Shop'}/>
 
-<SaleGrid prints={products} />
+<!-- <SaleGrid prints={products} /> -->
