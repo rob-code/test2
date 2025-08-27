@@ -3,3 +3,5 @@ export const load =  async ({ params }) => {
        id: params.id 
     }
 }
+
+export const prerender = false;
