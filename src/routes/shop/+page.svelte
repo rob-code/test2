@@ -1,7 +1,7 @@
 <script>
   import PageTitle from "../../components/pagetitle.svelte";
-  import SaleGrid from "../../components/salegrid.svelte";
-  import products from "$lib/data/products.json";
+  // import SaleGrid from "../../components/salegrid.svelte";
+  // import products from "$lib/data/products.json";
   import ShopRocket from "../../components/shoprocketdemo.svelte";
 </script>
 
@@ -15,4 +15,3 @@
 
 <ShopRocket title={'Shop'}/>
 
-<!-- <SaleGrid prints={products} /> -->
