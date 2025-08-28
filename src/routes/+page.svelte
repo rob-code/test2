@@ -75,14 +75,44 @@
 <p class="lead my-3">Treasures in the every day</p>
 </div>
    
-<div class="container hr-title">
-  <hr />
-</div>
-
 <section class="container">
-  <h2 class="fw-light text-center project-page-header">
+  <h2 class="pb-5 fw-light text-center project-page-header">
     Selected from your favourite collections ... now available as art quality prints
   </h2>
+</section>
+
+<GridRowWrapper
+  images={[
+    { img: cricketball, alt: "cricketball", title:"Everyone Can Play ", price:"£ 34" },
+    { img: thongs, alt: "thongs", title:"Everyday Icons - Flip Flops", price:"£ 56" },
+    { img: xrays, alt: "xrays", title:"Block Colour Portraits", price:"£ 70" },
+    { img: mow, alt: "meaning of words", title:"Meaning of Words", price:"£ 56" },
+    { img: david, alt: "david", title:"Not Shot David", price:"£ 60" },
+    { img: modernromance, alt: "modernromance", title:"Modern Romance", price:"£ 70" },
+  ]}
+/>
+
+<section class="container">
+  <div class="pt-5 text-center container">
+    <div class="row py-lg-3">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <p class="lead text-body-secondary">
+          All images are available as giclee prints on conservation grade paper.
+          They can also be commissioned in any configuration of colour and size.
+          Please <a href="/contact">get in touch</a> for details.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container">
+  <h2 class="pb-5 fw-light text-center project-page-header">
+    View the complete image collections
+  </h2>
+  <p class="lead text-body-secondary project-description text-center">
+    All 2D images
+  </p>
 </section>
 
 <GridRowWrapper
@@ -97,77 +127,6 @@
 />
 
 <section class="container">
-  <div class="py-5 text-center container">
-    <div class="row py-lg-5">
-      <div class="col-lg-6 col-md-8 mx-auto">
-        <p class="lead text-body-secondary">
-          All images are available as giclee prints on conservation grade paper.
-          They can also be commissioned in any configuration of colour and size.
-          Please <a href="/contact">get in touch</a> for details.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="container">
-  <h2 class="fw-light text-center project-page-header">
-    View the image collections
-  </h2>
-  <p class="lead text-body-secondary project-description text-center">
-    All 2D images
-  </p>
-</section>
-
-<div class="album py-5">
-  <div class="container">
-    <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 g-3">
-      <div class="col">
-        <img src={cricketball} alt="Three Rugby Balls" class="card-img-top" />
-        <div class="print-title">Everyone Can Play</div>
-      </div>
-
-      <div class="col">
-        <img src={thongs} alt="Thongs" class="card-img-top" />
-        <div class="print-title">Everyday Icons</div>
-      </div>
-
-      <div class="col">
-        <img
-          src={xrays}
-          alt="Colourful block colour portraits"
-          class="card-img-top"
-        />
-        <div class="print-title">Block Colour Portraits</div>
-      </div>
-
-      <div class="col">
-        <img src={mow} alt="Meaning of Words" class="card-img-top" />
-        <div class="print-title">A Meaning of Words</div>
-      </div>
-
-      <div class="col">
-        <img
-          src={david}
-          alt="Six David images with colourful backgrounds"
-          class="card-img-top"
-        />
-        <div class="print-title">Not Shot David</div>
-      </div>
-
-      <div class="col">
-        <img
-          src={modernromance}
-          alt="computer generated yellow roses"
-          class="card-img-top"
-        />
-        <div class="print-title">Modern Romance</div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<section class="container">
   <h2 class="fw-light text-center project-page-header">Animations</h2>
   <p class="lead text-body-secondary project-description text-center">
     A selection of animated projects and explorations of different frameworks
@@ -179,47 +138,9 @@
 </p>
 
 <style>
-  .py-5 {
-    --row-cols-1: none;
-  }
-
-  @media (min-width: 992px){
-  .py-lg-5 {
-    padding-top: none;
-  }
-}
-  /* .row-cols-1 {}
-  
-  .row-cols-sm-3{}
-  
-  .row-cols-md-3{} */
-
-  .print-title {
-    font-size: 0.9em;
-    text-align: left;
-    padding-top: 0.8em;
-    color: rgba(33, 37, 41, 0.75);
-  }
-
-  /* .price {
-    font-size: 0.85em;
-    text-align: left;
-    color: rgba(33, 37, 41, 0.75);
-  } */
 
   .link-black {
     color: rgba(33, 37, 41, 0.75);
   }
 
-  /* @media (min-width: 768) {
-    .horizontal-scrollable > .row > .col {
-      display: inline-block;
-    }
-
-    .horizontal-scrollable {
-      overflow-x: auto;
-      white-space: nowrap;
-            display: inline-block;
-    }
-  } */
 </style>

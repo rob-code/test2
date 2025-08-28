@@ -7,6 +7,7 @@
 </script>
 
 <svelte:window bind:innerWidth={iw} />
+
 {#if iw < 768}
     <ImageRow {images} />
 {:else}
