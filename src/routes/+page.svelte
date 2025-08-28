@@ -69,107 +69,30 @@
   <hr />
 </div>
 
-<section class="container">
-  <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
-    <div class="col-lg-12 px-0">
-      <h1 class="display-4 fst-italic">Headline image ... maybe a carousel</h1>
-      <p class="lead my-3">
-        Inspired by the things we love Bike pic Australian beach life Treasures
-        in the everyday Multiple lines of text, informing new readers quickly
-        and efficiently about what is most interesting
-      </p>
-      <p class="lead mb-0">Continue reading...</p>
-    </div>
-  </div>
-</section>
-
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-  <div class="carousel-indicators">
-    <button
-      type="button"
-      data-bs-target="#carouselExampleIndicators"
-      data-bs-slide-to="0"
-      class="active"
-      aria-current="true"
-      aria-label="Slide 1"
-    ></button>
-    <button
-      type="button"
-      data-bs-target="#carouselExampleIndicators"
-      data-bs-slide-to="1"
-      aria-label="Slide 2"
-    ></button>
-    <button
-      type="button"
-      data-bs-target="#carouselExampleIndicators"
-      data-bs-slide-to="2"
-      aria-label="Slide 3"
-    ></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src={beach_bike} class="d-block w-100" alt="..." />
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Inspired by the things we love ...</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src={beach_bike} class="d-block w-100" alt="..." />
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Australian beach life</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src={beach_bike} class="d-block w-100" alt="..." />
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Treasures in the everyday</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-  </div>
-  <button
-    class="carousel-control-prev"
-    type="button"
-    data-bs-target="#carouselExampleIndicators"
-    data-bs-slide="prev"
-  >
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button
-    class="carousel-control-next"
-    type="button"
-    data-bs-target="#carouselExampleIndicators"
-    data-bs-slide="next"
-  >
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+<div class = container>
+<p class="lead my-3">Inspired by the things we love </p>
+<p class="lead my-3">Australian beach life</p> 
+<p class="lead my-3">Treasures in the every day</p>
 </div>
-
+   
 <div class="container hr-title">
   <hr />
 </div>
 
 <section class="container">
   <h2 class="fw-light text-center project-page-header">
-    Our favourite collections ... now available as art quality prints
+    Selected from your favourite collections ... now available as art quality prints
   </h2>
-  <p class="lead text-body-secondary project-description text-center">
-    Prints are available from each collection, here are some of our favourites.
-  </p>
 </section>
 
 <GridRowWrapper
   images={[
-    { img: cricketball, alt: "cricketball", title:"Everyone Can Play " },
-    { img: thongs, alt: "thongs", title:"Everyday Icons - Flip Flops" },
-    { img: xrays, alt: "xrays", title:"Block Colour Portraits" },
-    { img: mow, alt: "meaning of words", title:"Meaning of Words" },
-    { img: david, alt: "david", title:"Not Shot David" },
-    { img: modernromance, alt: "modernromance", title:"Modern Romance" },
+    { img: cricketball, alt: "cricketball", title:"Everyone Can Play ", price:"" },
+    { img: thongs, alt: "thongs", title:"Everyday Icons - Flip Flops", price:"" },
+    { img: xrays, alt: "xrays", title:"Block Colour Portraits", price:"" },
+    { img: mow, alt: "meaning of words", title:"Meaning of Words", price:"" },
+    { img: david, alt: "david", title:"Not Shot David", price:"" },
+    { img: modernromance, alt: "modernromance", title:"Modern Romance", price:"" },
   ]}
 />
 
@@ -260,6 +183,11 @@
     --row-cols-1: none;
   }
 
+  @media (min-width: 992px){
+  .py-lg-5 {
+    padding-top: none;
+  }
+}
   /* .row-cols-1 {}
   
   .row-cols-sm-3{}
