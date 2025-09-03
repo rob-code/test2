@@ -8,7 +8,7 @@
   import mow from "$lib/images/mow_4.png";
   import david from "$lib/images/david-index-image.webp";
   import modernromance from "$lib/images/flowers-index-multicoloured.webp";
-  import { onMount, onDestroy } from "svelte";
+  import { onMount } from "svelte";
 
   import type { PageProps } from "./$types";
   import { fade } from "svelte/transition";
