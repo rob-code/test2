@@ -69,15 +69,9 @@
   <hr />
 </div>
 
-<div class = container>
-<p class="lead my-3">Inspired by the things we love </p>
-<p class="lead my-3">Australian beach life</p> 
-<p class="lead my-3">Treasures in the every day</p>
-</div>
-   
 <section class="container">
   <h2 class="pb-5 fw-light text-center project-page-header">
-    Selected from your favourite collections ... now available as art quality prints
+    Favourite collections now available as art quality prints
   </h2>
 </section>
 
@@ -108,7 +102,7 @@
 
 <section class="container">
   <h2 class="pb-5 fw-light text-center project-page-header">
-    View the complete image collections
+    Explore all image collections
   </h2>
   <p class="lead text-body-secondary project-description text-center">
     All 2D images

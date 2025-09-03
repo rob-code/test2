@@ -11,18 +11,18 @@
   import doughnuts from "$lib/images/doughnuts141.webp";
   import longboards_red_blue_orange from "$lib/images/longboards34.webp";
   import longboards_blue_orange_green from "$lib/images/longboards24.webp";
-  import cateyes from "$lib/images/sg_cateyes_7.png";
-  import rectangular from "$lib/images/sg_rectangle_6.png";
-  import rounds from "$lib/images/sg_round_1.png";
-  import topguns from "$lib/images/sg_aviator_1.png";
-  import jackie_os from "$lib/images/sg_jackie_1.png";
-  import bigones from "$lib/images/sg_oversize_2.png";
-  import hearts from "$lib/images/sg_hearts.png";
-  import wraparounds from "$lib/images/sg_wraparound_2.png";
-  import style_collection_1 from "$lib/images/sg_style_collection_1.png";
-  import style_collection_2 from "$lib/images/sg_style_collection_2.png";
-  import mugs_1 from "$lib/images/mugs32.png";
-  import mugs_2 from "$lib/images/mugs42.png";
+  import cateyes from "$lib/images/cateyes_4.webp";
+  import rectangular from "$lib/images/rectangles_15.webp";
+  import rounds from "$lib/images/rounds_3.webp";
+  import topguns from "$lib/images/aviators_13.webp";
+  import jackie_os from "$lib/images/jackieos_14.webp";
+  import bigones from "$lib/images/oversize_3.webp";
+  import hearts from "$lib/images/hearts_5.webp";
+  import wraparounds from "$lib/images/wraparounds_7.webp";
+  import style_collection_1 from "$lib/images/style_collection_6.webp";
+  import style_collection_2 from "$lib/images/style_collection_10.webp";
+  import mugs_1 from "$lib/images/mugs20.webp";
+  import mugs_2 from "$lib/images/mugs34.webp";
   import AdjacentNavigation from "../../../components/navigation_collections_next_pages.svelte";
 </script>
 
@@ -34,9 +34,7 @@
 <section class="container">
   <h2 class="fw-light text-center project-page-header">Everyday Icons</h2>
   <p class="lead text-body-secondary project-description-centre item-padding-bottom">
-    By bringing things forward and rendering them in unexpected ways, this
-    series of images celebrates, with colour and humour, some of the everyday
-    objects with which we share our lives.
+    By rendering the things we love in unexpected ways, this series celebrates, with colour and humour, some of the everyday treasures with which we share our lives.
   </p>
 </section>
 
