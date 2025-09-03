@@ -1,16 +1,16 @@
 <script>
   import empire_biscuits from "$lib/images/empire_biscuits_43.webp";
-  import cheeseburgers from "$lib/images/burgers256.png";
-  import thongs from "$lib/images/thongs92.png";
-  import bobble_hats from "$lib/images/bobble_hats26.png";
+  import cheeseburgers from "$lib/images/burgers102.webp";
+  import thongs from "$lib/images/thongs8.webp";
+  import bobble_hats from "$lib/images/bobble_hats8.webp";
   import swim_shorts_1 from "$lib/images/swim_shorts18.png";
   import swim_shorts_2 from "$lib/images/swim_shorts21.png";
-  import skulls from "$lib/images/skulls47.png";
-  import socks from "$lib/images/socks276.png";
-  import sporrans from "$lib/images/sporrans17.png";
-  import doughnuts from "$lib/images/doughnuts41.png";
-  import longboards_red_blue_orange from "$lib/images/surfboards477.png";
-  import longboards_blue_orange_green from "$lib/images/surfboards475.png";
+  import skulls from "$lib/images/skulls60.webp";
+  import socks from "$lib/images/socks239.webp";
+  import sporrans from "$lib/images/sporrans15.webp";
+  import doughnuts from "$lib/images/doughnuts141.webp";
+  import longboards_red_blue_orange from "$lib/images/longboards34.webp";
+  import longboards_blue_orange_green from "$lib/images/longboards24.webp";
   import cateyes from "$lib/images/sg_cateyes_7.png";
   import rectangular from "$lib/images/sg_rectangle_6.png";
   import rounds from "$lib/images/sg_round_1.png";

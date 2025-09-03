@@ -1,7 +1,7 @@
 <script>
     import PageTitle from "../../components/pagetitle.svelte";
     import cricketball from '$lib/images/cricketball-index.png';
-    import thongs from '$lib/images/thongs92.png';
+    import thongs from '$lib/images/thongs8.webp';
     import xrays from '$lib/images/back_xrays12.png';
     import mow from '$lib/images/mow_4.png';
     import david from '$lib/images/david-index-image.webp';
