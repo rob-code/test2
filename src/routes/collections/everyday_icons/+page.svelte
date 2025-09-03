@@ -1,5 +1,5 @@
 <script>
-  import empire_biscuits from "$lib/images/empire_biscuits54.png";
+  import empire_biscuits from "$lib/images/empire_biscuits_43.webp";
   import cheeseburgers from "$lib/images/burgers256.png";
   import thongs from "$lib/images/thongs92.png";
   import bobble_hats from "$lib/images/bobble_hats26.png";
