@@ -66,7 +66,7 @@
 </div>
 
 <section class="container">
-  <h2 class="pb-5 fw-light text-center project-page-header">
+  <h2 class="fw-light text-center project-page-header">
     Favourite collections now available as art quality prints
   </h2>
 </section>
@@ -97,7 +97,7 @@
 </section>
 
 <section class="container">
-  <h2 class="pb-5 fw-light text-center project-page-header">
+  <h2 class="fw-light text-center project-page-header">
     Explore all image collections
   </h2>
   <p class="lead text-body-secondary project-description text-center">
@@ -116,12 +116,12 @@
   ]}
 />
 
-<section class="container">
+<!-- <section class="container">
   <h2 class="fw-light text-center project-page-header">Animations</h2>
   <p class="lead text-body-secondary project-description text-center">
     A selection of animated projects and explorations of different frameworks
   </p>
-</section>
+</section> -->
 
 <p class="float-left container">
   <a href="#top" class="link-black">Back to top</a>
