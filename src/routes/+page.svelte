@@ -8,10 +8,6 @@
   import mow from "$lib/images/mow_4.png";
   import david from "$lib/images/david-index-image.webp";
   import modernromance from "$lib/images/flowers-index-multicoloured.webp";
-  import colourfield from "$lib/images/colourfield-index-image.webp";
-  import lovehearts from "$lib/images/lovehearts-index.png";
-  import arrow_right from "$lib/assets/arrow-right.svg";
-  import beach_bike from "$lib/images/beachbike.jpg";
   import { onMount, onDestroy } from "svelte";
 
   import type { PageProps } from "./$types";
