@@ -8,14 +8,14 @@
         </a>
     </span>
 
- 
-{@html `<div class="sr-element" data-embed="basket">
+<!-- {@html `<div class="sr-element" data-embed="basket">
 <script type="application/json">
 {
 "publishable_key": "sr_live_pk_0ac696797e14d49ca01f523ffb8d962e670f",
 "options": {
 "basket_style": "bubble",
-"basket_position": "middle-right"
+"basket_position": "middle-right",
+"trigger-y-offset": "100px"
 },
 "includes": {
 "show_pop_up_adding_item_to_cart": "1",
@@ -26,8 +26,8 @@
 "show_cart_total": "0"
 },
 "styles": {
-"basket_background": "#ffffff",
-"basket_color": "#000000",
+"basket_background": "#ff0266",
+"basket_color": "#ffffff",
 "basket_text_color": "#000000",
 "basket_counter_background": "#000000",
 "basket_counter_color": "#ffffff",
@@ -41,7 +41,9 @@
 }
 </script>
 </div>
-<script async src="https://cdn.shoprocket.io/loader.js"></script>`}
+<script async src="https://cdn.shoprocket.io/loader.js"></script>`} -->
+
+
 
 
     <p class="footer-space-above text-center footer-text text-body-secondary">
@@ -55,4 +57,5 @@
 .footer-text{
   font-size:85%;
 }
+
 </style>
