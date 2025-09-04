@@ -8,7 +8,9 @@
   import mow from "$lib/images/mow_4.png";
   import david from "$lib/images/david-index-image.webp";
   import modernromance from "$lib/images/flowers-index-multicoloured.webp";
-  import storebanner from "$lib/images/store_index.jpg";
+  import storebanner1 from "$lib/images/store_index.jpg";
+  import storebanner2 from "$lib/images/boho_rugby_and_footballs.jpg";
+
   import { onMount } from "svelte";
 
   import type { PageProps } from "./$types";
@@ -74,9 +76,13 @@
 
  <!-- <div class="bg-body-tertiary"> -->
       <div class="col mx-auto item-padding-top container">
-        <div class="card">
+        <div class="row row-cols-2">
         <a href="../shop">
-          <img src="{storebanner}" alt="sunny room with four images on blue wall and two chairs" class="card-img-top">
+          <img src="{storebanner1}" alt="sunny room with four images on blue wall and two chairs" class="card-img-top">
+        </a>
+
+        <a href="../shop">
+          <img src="{storebanner2}" alt="furon with two images on white wall with plant" class="card-img-top">
         </a>
         </div>
       </div>     
