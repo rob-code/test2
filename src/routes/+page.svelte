@@ -8,6 +8,7 @@
   import mow from "$lib/images/mow_4.png";
   import david from "$lib/images/david-index-image.webp";
   import modernromance from "$lib/images/flowers-index-multicoloured.webp";
+  import storebanner from "$lib/images/store_index.jpg";
   import { onMount } from "svelte";
 
   import type { PageProps } from "./$types";
@@ -71,16 +72,15 @@
   </h2>
 </section>
 
-<GridRowWrapper
-  images={[
-    { img: cricketball, alt: "cricketball", title:"Everyone Can Play ", price:"£ 34" },
-    { img: thongs, alt: "thongs", title:"Everyday Icons - Flip Flops", price:"£ 56" },
-    { img: xrays, alt: "xrays", title:"Block Colour Portraits", price:"£ 70" },
-    { img: mow, alt: "meaning of words", title:"Meaning of Words", price:"£ 56" },
-    { img: david, alt: "david", title:"Not Shot David", price:"£ 60" },
-    { img: modernromance, alt: "modernromance", title:"Modern Romance", price:"£ 70" },
-  ]}
-/>
+ <!-- <div class="bg-body-tertiary"> -->
+      <div class="col mx-auto item-padding-top container">
+        <div class="card">
+        <a href="../shop">
+          <img src="{storebanner}" alt="sunny room with four images on blue wall and two chairs" class="card-img-top">
+        </a>
+        </div>
+      </div>     
+    <!-- </div> -->
 
 <section class="container">
   <div class="pt-5 text-center container">
