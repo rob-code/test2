@@ -5,7 +5,9 @@
 <div class="scroll-container">
   {#each images as image}
     <div class="scroll-item">
+    <a href={image.link}>
       <img src={image.img} alt={image.alt} />
+    </a>
       <div class="print-title">{image.title}</div>
       <div class="price">{image.price}</div>
     </div>
