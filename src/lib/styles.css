@@ -99,6 +99,11 @@ a.link-black {
   padding-bottom: 2rem;
 }
 
+.btn-light {
+  font-size: 2rem;
+  font-weight: 300; 
+}
+
 .item-padding-top {
   padding-top: 3rem;
 }

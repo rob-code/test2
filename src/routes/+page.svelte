@@ -66,8 +66,8 @@
 </div>
 
 <section class="container">
-  <h2 class="fw-light text-center project-page-header">
-    Favourite collections now available as art quality prints
+  <h2 class="fw-light text-center project-page-header header-link-button">
+  <a class="btn btn-light" href="../shop" role="button">Favourite collections now available as art quality prints</a>
   </h2>
 </section>
 
@@ -97,22 +97,22 @@
 </section>
 
 <section class="container">
-  <h2 class="fw-light text-center project-page-header">
-    Explore all image collections
+  <h2 class="fw-light text-center project-page-header header-link-button">
+   <a class="btn btn-light" href="../collections" role="button">Explore all collections</a>
   </h2>
-  <p class="lead text-body-secondary project-description text-center">
+  <!-- <p class="lead text-body-secondary project-description text-center">
     All 2D images
-  </p>
+  </p> -->
 </section>
 
 <GridRowWrapper
   images={[
-    { img: cricketball, alt: "cricketball", title:"Everyone Can Play ", price:"" },
-    { img: thongs, alt: "thongs", title:"Everyday Icons - Flip Flops", price:"" },
-    { img: xrays, alt: "xrays", title:"Block Colour Portraits", price:"" },
-    { img: mow, alt: "meaning of words", title:"Meaning of Words", price:"" },
-    { img: david, alt: "david", title:"Not Shot David", price:"" },
-    { img: modernromance, alt: "modernromance", title:"Modern Romance", price:"" },
+    { img: cricketball, alt: "cricketball", title:"Everyone Can Play ", price:"", link:"../collections/everyone_can_play"},
+    { img: thongs, alt: "thongs", title:"Everyday Icons - Flip Flops", price:"", link:"../collections/everyday_icons"},
+    { img: xrays, alt: "xrays", title:"Block Colour Portraits", price:"", link:"../collections/block_colour_portraits"},
+    { img: mow, alt: "meaning of words", title:"Meaning of Words", price:"", link:"../collections/meaning_of_words"},
+    { img: david, alt: "david", title:"Not Shot David", price:"", link:"../collections/not_shot_david"},
+    { img: modernromance, alt: "modernromance", title:"Modern Romance", price:"", link:"../collections/modern_romance" },
   ]}
 />
 
@@ -123,14 +123,14 @@
   </p>
 </section> -->
 
-<p class="float-left container">
+<!-- <p class="float-left container">
   <a href="#top" class="link-black">Back to top</a>
-</p>
+</p> -->
 
 <style>
 
-  .link-black {
+  /* .link-black {
     color: rgba(33, 37, 41, 0.75);
-  }
+  } */
 
 </style>
