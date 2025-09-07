@@ -3,16 +3,36 @@
     import { afterNavigate } from "$app/navigation";
     let { title } = $props();
 
+
+
+
     onMount(() => {
         afterNavigate(() => {
             // if the embed exposes a safe re-init, call it; otherwise this is a no-op
             // (doesn't change the standard snippet — just lets it see new DOM)
             // @ts-ignore
             window.Shoprocket?.init?.();
-
+      
         });
+
+//         window.addEventListener('Shoprocket.ready', () => {
+//             console.log("shoprocket is ready right here");
+
+//         Shoprocket.cart.get().then(data => {
+//             console.log("Data: ", data);  // Successfully retrieved cart items
+//             }).catch(error => {
+//             console.log("Error: ", error);  // Error handling
+// });
+
+
+
+//         });
     });
+
+
 </script>
+
+
 
 <div class="container">
 {@html `<div class="sr-element sr-products" data-embed="multiple_products">
