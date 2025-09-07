@@ -1,6 +1,7 @@
 <script lang="ts">
   import CookieConsent from "../components/cookieconsent.svelte";
   import GridRowWrapper from "../components/gridrowwrapper.svelte";
+  import Carousel from "../components/carousel.svelte";
 
   import cricketball from "$lib/images/cricketball-index.png";
   import thongs from "$lib/images/thongs8.webp";
@@ -10,6 +11,8 @@
   import modernromance from "$lib/images/flowers-index-multicoloured.webp";
   import storebanner1 from "$lib/images/store_index.jpg";
   import storebanner2 from "$lib/images/boho_rugby_and_footballs.jpg";
+  import storebanner3 from "$lib/images/rugby_football_1.jpg";
+  import storebanner4 from "$lib/images/rugby_football.jpg";  
 
   import { onMount } from "svelte";
 
@@ -74,19 +77,25 @@
   </h2>
 </section>
 
- <!-- <div class="bg-body-tertiary"> -->
+<Carousel product = {[
+  {img: storebanner1, alt: "blah"},
+  {img: storebanner2 ,alt: "blah"},
+  {img: storebanner3 ,alt: "blah"},
+]}/>
+
+ <!-- <div class="bg-body-tertiary">
       <div class="col mx-auto item-padding-top container">
         <div class="row row-cols-2">
         <a href="../shop">
-          <img src="{storebanner1}" alt="sunny room with four images on blue wall and two chairs" class="card-img-top">
+          <img src={storebanner1} alt="sunny room with four images on blue wall and two chairs" class="card-img-top">
         </a>
 
         <a href="../shop">
-          <img src="{storebanner2}" alt="furon with two images on white wall with plant" class="card-img-top">
+          <img src={storebanner2} alt="furon with two images on white wall with plant" class="card-img-top">
         </a>
         </div>
       </div>     
-    <!-- </div> -->
+    </div> -->
 
 <section class="container">
   <div class="pt-5 text-center container">

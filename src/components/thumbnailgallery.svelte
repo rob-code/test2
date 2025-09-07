@@ -1,7 +1,8 @@
 <script>
-  import { base } from "$app/paths";
   let { product } = $props();
 </script>
+
+<div class="container">
 
 <div class="col-md-6 mb-4">
   <div class="card">
@@ -9,30 +10,30 @@
       <div class="carousel-inner">
         <div class="carousel-item active card-img-top">
           <img
-            src="{base}/{product?.img1}"
+            src={product[0]?.img}
             class="d-block w-100"
-            alt={product?.alt1}
+            alt={product[0]?.alt}
           />
         </div>
         <div class="carousel-item">
           <img
-            src="{base}/{product?.img2}"
+            src={product[1]?.img}
             class="d-block w-100"
-            alt={product?.alt2}
+            alt={product[1]?.alt}
           />
         </div>
         <div class="carousel-item">
           <img
-            src="{base}/{product?.img3}"
+            src={product[2]?.img}
             class="d-block w-100"
-            alt={product?.alt3}
+            alt={product[2]?.alt}
           />
         </div>
         <div class="carousel-item">
           <img
-            src="{base}/{product?.img4}"
+            src={product[3]?.img}
             class="d-block w-100"
-            alt={product?.alt4}
+            alt={product[3]?.alt}
           />
         </div>
       </div>
@@ -50,9 +51,9 @@
                 aria-label="Slide 1"
               >
                 <img
-                  src="{base}/{product?.img1}"
+                  src={product[0]?.img}
                   class="d-block w-100"
-                  alt={product?.alt1}
+                  alt={product[0]?.alt}
                 />
               </button>
             </div>
@@ -66,9 +67,9 @@
                 aria-label="Slide 2"
               >
                 <img
-                  src="{base}/{product?.img2}"
+                  src={product[1]?.img}
                   class="d-block w-100"
-                  alt={product?.alt2}
+                  alt={product[1]?.alt}
                 /></button
               >
             </div>
@@ -81,9 +82,9 @@
                 aria-label="Slide 3"
               >
                 <img
-                  src="{base}/{product?.img3}"
+                  src={product[2]?.img}
                   class="d-block w-100"
-                  alt={product?.alt3}
+                  alt={product[2]?.alt}
                 /></button
               >
             </div>
@@ -96,9 +97,9 @@
                 aria-label="Slide 4"
               >
                 <img
-                  src="{base}/{product?.img4}"
+                  src={product[3]?.img}
                   class="d-block w-100"
-                  alt={product?.alt4}
+                  alt={product[3]?.alt}
                 /></button
               >
             </div>
@@ -107,6 +108,7 @@
       </div>
     </div>
   </div>
+</div>
 </div>
 
 <style>
