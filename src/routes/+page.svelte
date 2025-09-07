@@ -123,7 +123,7 @@
 <GridRowWrapper
   images={[
     { img: cricketball, alt: "cricketball", title:"Everyone Can Play ", price:"", link:"../collections/everyone_can_play"},
-    { img: thongs, alt: "thongs", title:"Everyday Icons - Flip Flops", price:"", link:"../collections/everyday_icons"},
+    { img: thongs, alt: "thongs", title:"Everyday Icons", price:"", link:"../collections/everyday_icons"},
     { img: xrays, alt: "xrays", title:"Block Colour Portraits", price:"", link:"../collections/block_colour_portraits"},
     { img: mow, alt: "meaning of words", title:"Meaning of Words", price:"", link:"../collections/meaning_of_words"},
     { img: david, alt: "david", title:"Not Shot David", price:"", link:"../collections/not_shot_david"},
