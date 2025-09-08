@@ -9,10 +9,13 @@
   import mow from "$lib/images/mow_4.png";
   import david from "$lib/images/david-index-image.webp";
   import modernromance from "$lib/images/flowers-index-multicoloured.webp";
-  import storebanner1 from "$lib/images/store_index.jpg";
-  import storebanner2 from "$lib/images/boho_rugby_and_footballs.jpg";
-  import storebanner3 from "$lib/images/rugby_football_1.jpg";
-  import storebanner4 from "$lib/images/rugby_football.jpg";  
+  import mockflipflops from "$lib/images/mock-flipflops.jpg";
+  import mockburgers from "$lib/images/mock-burgers.jpg";
+  import mocklongboards from "$lib/images/mock-longboards.jpg";
+  import mocksswimshorts from "$lib/images/mock-swimshorts.jpg";
+  import mockcricket from "$lib/images/mock-cricket.jpg";
+  import mockfootball from "$lib/images/mock-football.jpg";
+  import mockbobblehats from "$lib/images/mock-bobblehats-gold.jpg";
 
   import { onMount } from "svelte";
 
@@ -77,25 +80,15 @@
   </h2>
 </section>
 
-<Carousel product = {[
-  {img: storebanner1, alt: "blah"},
-  {img: storebanner2 ,alt: "blah"},
-  {img: storebanner3 ,alt: "blah"},
-]}/>
-
- <!-- <div class="bg-body-tertiary">
-      <div class="col mx-auto item-padding-top container">
-        <div class="row row-cols-2">
-        <a href="../shop">
-          <img src={storebanner1} alt="sunny room with four images on blue wall and two chairs" class="card-img-top">
-        </a>
-
-        <a href="../shop">
-          <img src={storebanner2} alt="furon with two images on white wall with plant" class="card-img-top">
-        </a>
-        </div>
-      </div>     
-    </div> -->
+<GridRowWrapper
+  images={[
+    { img: mockflipflops, alt: "flip flops", title:"Flip Flops", price:"", link:"/shop#!/palm-plant-in-white-pot"},
+    { img: mockburgers, alt: "burgers", title:"Burgers", price:"", link:"/shop#!/palm-plant-in-white-pot"},
+    { img: mocklongboards, alt: "long surf board", title:"Longboards", price:"", link:"/shop#!/palm-plant-in-white-pot"},
+    { img: mockcricket, alt: "three cricket balls", title:"Cricket Balls", price:"", link:"/shop#!/palm-plant-in-white-pot"},
+    { img: mocksswimshorts, alt: "tropical swim shorts", title:"Swimshorts", price:"", link:"/shop#!/palm-plant-in-white-pot"},
+    { img: mockbobblehats, alt: "colourful bobble hats", title:"Bobble Hats", price:"", link:"/shop#!/palm-plant-in-white-pot"},
+  ]}/>
 
 <section class="container">
   <div class="pt-5 text-center container">
