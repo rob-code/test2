@@ -3,8 +3,6 @@
   let n = (images.length/2).toString(10);
   const c1 = 'row row-cols-1 row-cols-md-';
   let c2 = c1.concat(n);
-  console.log(c2);
-
 </script>
 
 <div class="container">

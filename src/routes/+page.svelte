@@ -16,6 +16,9 @@
   import mockcricket from "$lib/images/mock-cricket.jpg";
   import mockempirebiscuits from "$lib/images/mock-empirebiscuits.jpg";
   import mockbobblehats from "$lib/images/mock-bobblehats.jpg";
+  import mockstripedmugs from "$lib/images/mock-stripedmugs.jpg";
+  import mocksunglasses from "$lib/images/mock-sunglasses.jpg";
+  
 
   import { onMount } from "svelte";
 
@@ -88,6 +91,9 @@
     { img: mockempirebiscuits, alt: "empire biscuits", title:"Empire Biscuits", price:"", link:"/shop#!/palm-plant-in-white-pot"},
     { img: mocksswimshorts, alt: "tropical swim shorts", title:"Swimshorts", price:"", link:"/shop#!/palm-plant-in-white-pot"},
     { img: mockbobblehats, alt: "colourful bobble hats", title:"Bobble Hats", price:"", link:"/shop#!/palm-plant-in-white-pot"},
+    { img: mocksunglasses, alt: "various styles of sunglasses", title:"Sunglasses", price:"", link:"/shop#!/palm-plant-in-white-pot"},
+    { img: mockstripedmugs, alt: "colourful striped mugs", title:"Striped Mugs", price:"", link:"/shop#!/palm-plant-in-white-pot"},
+
   ]}/>
 
 <section class="container">
