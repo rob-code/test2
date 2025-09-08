@@ -14,8 +14,8 @@
   import mocklongboards from "$lib/images/mock-longboards.jpg";
   import mocksswimshorts from "$lib/images/mock-swimshorts.jpg";
   import mockcricket from "$lib/images/mock-cricket.jpg";
-  import mockfootball from "$lib/images/mock-football.jpg";
-  import mockbobblehats from "$lib/images/mock-bobblehats-gold.jpg";
+  import mockempirebiscuits from "$lib/images/mock-empirebiscuits.jpg";
+  import mockbobblehats from "$lib/images/mock-bobblehats.jpg";
 
   import { onMount } from "svelte";
 
@@ -85,7 +85,7 @@
     { img: mockflipflops, alt: "flip flops", title:"Flip Flops", price:"", link:"/shop#!/palm-plant-in-white-pot"},
     { img: mockburgers, alt: "burgers", title:"Burgers", price:"", link:"/shop#!/palm-plant-in-white-pot"},
     { img: mocklongboards, alt: "long surf board", title:"Longboards", price:"", link:"/shop#!/palm-plant-in-white-pot"},
-    { img: mockcricket, alt: "three cricket balls", title:"Cricket Balls", price:"", link:"/shop#!/palm-plant-in-white-pot"},
+    { img: mockempirebiscuits, alt: "empire biscuits", title:"Empire Biscuits", price:"", link:"/shop#!/palm-plant-in-white-pot"},
     { img: mocksswimshorts, alt: "tropical swim shorts", title:"Swimshorts", price:"", link:"/shop#!/palm-plant-in-white-pot"},
     { img: mockbobblehats, alt: "colourful bobble hats", title:"Bobble Hats", price:"", link:"/shop#!/palm-plant-in-white-pot"},
   ]}/>
