@@ -13,7 +13,6 @@
   import mockburgers from "$lib/images/mock-burgers.jpg";
   import mocklongboards from "$lib/images/mock-longboards.jpg";
   import mocksswimshorts from "$lib/images/mock-swimshorts.jpg";
-  import mockcricket from "$lib/images/mock-cricket.jpg";
   import mockempirebiscuits from "$lib/images/mock-empirebiscuits.jpg";
   import mockbobblehats from "$lib/images/mock-bobblehats.jpg";
   import mockstripedmugs from "$lib/images/mock-stripedmugs.jpg";
