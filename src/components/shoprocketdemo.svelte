@@ -2,10 +2,7 @@
     import { onMount } from "svelte";
     import { afterNavigate } from "$app/navigation";
     let { title } = $props();
-
-
-
-
+    
     onMount(() => {
         afterNavigate(() => {
             // if the embed exposes a safe re-init, call it; otherwise this is a no-op

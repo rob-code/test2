@@ -8,7 +8,7 @@
         </a>
     </span>
 
-<!-- {@html `<div class="sr-element" data-embed="basket">
+{@html `<div class="sr-element" data-embed="basket">
 <script type="application/json">
 {
 "publishable_key": "sr_live_pk_0ac696797e14d49ca01f523ffb8d962e670f",
@@ -41,7 +41,7 @@
 }
 </script>
 </div>
-<script async src="https://cdn.shoprocket.io/loader.js"></script>`} -->
+<script async src="https://cdn.shoprocket.io/loader.js"></script>`}
 
 
 
