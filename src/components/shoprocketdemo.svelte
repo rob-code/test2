@@ -14,8 +14,6 @@
 
 </script>
 
-
-
 <div class="container">
 {@html `<div class="sr-element sr-products" data-embed="multiple_products">
 <script type="application/json">
