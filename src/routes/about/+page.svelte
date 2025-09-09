@@ -35,21 +35,20 @@
 
       <p class="lead text-body-secondary">
         Ideas come from many places; from observation, a chance encounter, or
-        they grow from exploration. What will happen if I try this. Increasingly I
-        see these ideas as sources of visual poems - an image as a small
+        they grow unexpectedly from exploration. Increasingly I
+        see my images as visual poems, a small
         fragment of life portrayed in visual form.
       </p>
 
       <p class="lead text-body-secondary">
-        While my my process is abased on code, in-built randomness, and the
+        There is a unique and distinctive visual language that emerges in digital art. While my process is based on code, in-built randomness, and the
         prospect of enchantment in unexpected outcomes, the challenge remains
         the idea and its execution in the form of an image which is both
         eloquent and enjoyable.
       </p>
 
       <p class="lead text-body-secondary">
-        It is clear that there is a visual language which emerges in digital art
-        which is unique and distinctive. My goal is to keep developing my craft
+        My goal is to keep developing my craft
         through explorations in this space. But to be clear, code is there to
         serve, not dictate. I do not make images using AI. If I have any sort of
         manifesto, it is that my work will be built with human and not
