@@ -9,23 +9,8 @@
             // (doesn't change the standard snippet — just lets it see new DOM)
             // @ts-ignore
             window.Shoprocket?.init?.();
-      
         });
-
-//         window.addEventListener('Shoprocket.ready', () => {
-//             console.log("shoprocket is ready right here");
-
-//         Shoprocket.cart.get().then(data => {
-//             console.log("Data: ", data);  // Successfully retrieved cart items
-//             }).catch(error => {
-//             console.log("Error: ", error);  // Error handling
-// });
-
-
-
-//         });
     });
-
 
 </script>
 
