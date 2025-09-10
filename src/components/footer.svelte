@@ -7,7 +7,7 @@
             </svg>
         </a>
     </span>
-
+<!-- 
 {@html `<div class="sr-element" data-embed="basket">
 <script type="application/json">
 {
@@ -42,7 +42,7 @@
 </script>
 </div>
 <script async src="https://cdn.shoprocket.io/loader.js"></script>`}
-
+ -->
 
 
 
