@@ -84,14 +84,14 @@
 
 <GridRowWrapper
   images={[
-    { img: mockflipflops, alt: "flip flops", title:"Flip Flops", price:"", link:"/shop#!/palm-plant-in-white-pot"},
-    { img: mockburgers, alt: "burgers", title:"Burgers", price:"", link:"/shop#!/palm-plant-in-white-pot"},
-    { img: mocklongboards, alt: "long surf board", title:"Longboards", price:"", link:"/shop#!/palm-plant-in-white-pot"},
-    { img: mockempirebiscuits, alt: "empire biscuits", title:"Empire Biscuits", price:"", link:"/shop#!/palm-plant-in-white-pot"},
-    { img: mocksswimshorts, alt: "tropical swim shorts", title:"Swimshorts", price:"", link:"/shop#!/palm-plant-in-white-pot"},
-    { img: mockbobblehats, alt: "colourful bobble hats", title:"Bobble Hats", price:"", link:"/shop#!/palm-plant-in-white-pot"},
-    { img: mocksunglasses, alt: "various styles of sunglasses", title:"Sunglasses", price:"", link:"/shop#!/palm-plant-in-white-pot"},
-    { img: mockstripedmugs, alt: "colourful striped mugs", title:"Striped Mugs", price:"", link:"/shop#!/palm-plant-in-white-pot"},
+    { img: mockflipflops, alt: "flip flops", title:"Flip Flops", price:"", link:"/shop#!/flip-flops"},
+    { img: mockburgers, alt: "burgers", title:"Burgers", price:"", link:"/shop#!/burgers"},
+    { img: mocklongboards, alt: "long surf board", title:"Longboards", price:"", link:"/shop#!/long-boards"},
+    { img: mockempirebiscuits, alt: "empire biscuits", title:"Empire Biscuits", price:"", link:"/shop#!/empire-biscuits"},
+    { img: mocksswimshorts, alt: "tropical swim shorts", title:"Swimshorts", price:"", link:"/shop#!/swim-shorts"},
+    { img: mockbobblehats, alt: "colourful bobble hats", title:"Bobble Hats", price:"", link:"/shop#!/bobble-hats"},
+    { img: mocksunglasses, alt: "various styles of sunglasses", title:"Sunglasses", price:"", link:"/shop#!/sunglasses"},
+    { img: mockstripedmugs, alt: "colourful striped mugs", title:"Striped Mugs", price:"", link:"/shop#!/striped-mugs"},
 
   ]}/>
 
