@@ -1,6 +1,6 @@
 <script lang=ts> 
   import PageTitle from "../../components/pagetitle.svelte";
-  import ShopRocket from "../../components/shoprocketdemo.svelte";
+  import ShopRocket from "../../components/shoprocket_store.svelte";
 
 	// import type { PageProps } from './$types';
 	// let { data }: PageProps = $props();
