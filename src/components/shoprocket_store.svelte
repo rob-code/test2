@@ -42,12 +42,12 @@
     },
     "includes": {
         "show_search_box": "1",
-        "show_sort_by": "1",
-        "show_per_page": "1",
-        "show_category_dropdown": "1",
-        "show_currency_dropdown": "1",
-        "show_language_dropdown": "1",
-        "show_product_filters": "1",
+        "show_sort_by": "0",
+        "show_per_page": "0",
+        "show_category_dropdown": "0",
+        "show_currency_dropdown": "0",
+        "show_language_dropdown": "0",
+        "show_product_filters": "0",
         "show_product_name": "1",
         "show_product_price": "1",
         "show_product_image": "1",
@@ -65,12 +65,12 @@
         "show_button_icons": "1",
         "mobile": {
             "show_search_box": "1",
-            "show_sort_by": "1",
-            "show_per_page": "1",
-            "show_category_dropdown": "1",
-            "show_currency_dropdown": "1",
-            "show_language_dropdown": "1",
-            "show_product_filters": "1"
+            "show_sort_by": "0",
+            "show_per_page": "0",
+            "show_category_dropdown": "0",
+            "show_currency_dropdown": "0",
+            "show_language_dropdown": "0",
+            "show_product_filters": "0"
         }
     },
     "product_popup": {
@@ -88,15 +88,15 @@
         "show_social_sharing_icons": "1",
         "show_related_products": "1",
         "thumbnail_layout": "horizontal_below",
-        "image_dimension_value": "crop",
+        "image_dimension_value": "fit",
         "image_aspect_ratio": "portrait",
         "variation_styling": "dropdown",
         "show_min_max_order_quantity": "1",
-        "show_sale": "1",
+        "show_sale": "0",
         "show_free_shipping": "1",
-        "show_new_product": "1",
-        "show_digital_download": "1",
-        "show_pwyw": "1",
+        "show_new_product": "0",
+        "show_digital_download": "0",
+        "show_pwyw": "0",
         "show_product_tabs": "1",
         "image_zoom": "1",
         "lightbox_gallery": "1",
@@ -138,11 +138,10 @@
         "filters_border_width": "2",
         "filters_border_radius": "30",
         "filters_padding": "0",
-        "image_radius": "0"
+        "image_radius": "0",
+        "product_price_font_size": "15",
+        "product_summary_font_size": "15",
+        "product_name_font_size": "15"
     }
 }</script></div><script async src="https://cdn.shoprocket.io/loader.js"></script>`}
 </div>
-
-
-
-
