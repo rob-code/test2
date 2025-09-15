@@ -93,7 +93,7 @@
         "variation_styling": "dropdown",
         "show_min_max_order_quantity": "1",
         "show_sale": "0",
-        "show_free_shipping": "1",
+        "show_free_shipping": "0",
         "show_new_product": "0",
         "show_digital_download": "0",
         "show_pwyw": "0",
@@ -101,7 +101,7 @@
         "image_zoom": "1",
         "lightbox_gallery": "1",
         "show_stock": "0",
-        "show_button_price": "1"
+        "show_button_price": "0"
     },
     "styles": {
         "align_content": "center",
