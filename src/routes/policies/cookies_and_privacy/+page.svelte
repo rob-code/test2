@@ -1,6 +1,6 @@
 <svelte:head>
   <!-- all the other meta tags go in there for the page -->
-  <title>Privacy Policy</title>
+  <title>Cookie and Privacy Policy</title>
 </svelte:head>
 
 <main>
