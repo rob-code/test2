@@ -55,22 +55,35 @@ a.link-black {
   color: #FF0266
 }
 
+/* ******************** footer ******************** */
 
 .footer-space-above {
   padding-top: 5rem;
+}
 
+.text-body-secondary {
+  color:#ffffff;
 }
 
 .footer-icon-spacing {
   padding-right: 15px;
-  padding-left: 15px;
+  padding-left: 0px;
 }
 
 .footer-icon {
-  fill: #696B6D;
+  fill: #ffffff;
   height: 20px;
   width: 20px;
 }
+
+.footer-background {
+  background-color:#424649;
+}
+
+.footer-background a, .footer-background div {
+  color:#ffffff;
+}
+
 
 
 
