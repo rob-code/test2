@@ -72,6 +72,8 @@ a.link-black {
   width: 20px;
 }
 
+
+
 /*.bg-body-tertiary {
   background-color: #FFFFFF;
   --bs-bg-opacity: 0;
@@ -196,6 +198,11 @@ a.link-black {
   font-size: 18px;
   font-weight: bolder;
 }
+
+.legal-header-title {
+  padding-top: 2em;
+}
+
 
 /* ******************** responsive changes ******************** */
 
