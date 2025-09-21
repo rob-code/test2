@@ -21,7 +21,7 @@
           <a href="/policies/terms_of_service">Terms of Service</a>
         </div>
         <div class="footer-link">
-          <a href="/policies/shipping_and_refunds">Shipping and Refunds</a>
+          <a href="/policies/shipping_and_returns">Shipping and Returns</a>
         </div>
         <div class="footer-link">
           <a href="/policies/cookies_and_privacy">Cookies and Privacy</a>
