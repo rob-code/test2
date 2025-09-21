@@ -8,6 +8,8 @@
 
 <div class="display-6 page-title">Cookie and Privacy Policy</div>
 
+<div class="display-6 section-title">1. COOKIES</div>
+
 <p class="display-6 policy-title">WHAT ARE COOKIES?</p>
 
 <p class="policy-text">Cookies are small pieces of data, stored in text files, that are stored on your computer or other device when websites are loaded in a browser. They are widely used to “remember” you and your preferences, either for a single visit (through a “session cookie”) or for multiple repeat visits (using a “persistent cookie”). Cookies may be set by the site that you are visiting (known as “first party cookies”), or by third parties, such as those who serve content or provide advertising or analytics services on the website (“third party cookies”).</p>
@@ -25,6 +27,8 @@
 <p class="policy-text">Visitors may wish to restrict the use of cookies or completely prevent them from being set. Most browsers provide for ways to control cookie behavior such as the length of time they are stored – either through built-in functionality or by utilizing third party plugins. You can, for example, opt out of Google Analytics by installing Google’s opt-out browser add-on.</p>
 
 <p class="policy-text">For useful information about cookies, see <a href="https://www.aboutcookies.org" target="_blank">AboutCookies.org</a>.</p>
+
+<div class="display-6 section-title">2. PRIVACY</div>
 
 <p class="display-6 policy-title">THE DATA WE COLLECT</p>
 

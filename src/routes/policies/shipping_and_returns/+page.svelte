@@ -8,7 +8,7 @@
 
 <div class="display-6 page-title">Shipping and Returns</div>
    
-<div class="display-6 legal-title">Shipping</div>
+<div class="display-6 section-title">Shipping</div>
 
 <div class="display-6 policy-title">Processing times</div>
 
@@ -36,7 +36,7 @@
 <p class="policy-text">If you wish to return an order please contact us first as you will need to provide specific customs information for easy return to the UK.</p>
 
 
-<div class="display-6 legal-title">Refunds and Returns</div>
+<div class="display-6 section-title">Refunds and Returns</div>
 
 <div class="display-6 policy-title">Damaged or defective items</div>
 
@@ -68,7 +68,7 @@
 
 <div class="display-6 policy-title">Return Shipping</div>
 
-<p class="policy-text">Shipping costs are not covered by the Single Fin Collective, unless in the case of a defective print. We recommend using a tracked or signed for shipping service or purchasing shipping insurance in case your return is lost or damaged in the post. We cannot guarantee that we will receive your returned item. If the postal service you choose loses or damages the item, as the sender it is your responsibility to claim back any monetary loss.</p>
+<p class="policy-text">Shipping costs are not covered by Robert Brice Art, unless in the case of a defective print. We recommend using a tracked or signed for shipping service or purchasing shipping insurance in case your return is lost or damaged in the post. We cannot guarantee that we will receive your returned item. If the postal service you choose loses or damages the item, as the sender it is your responsibility to claim back any monetary loss.</p>
 
 <div class="display-6 policy-title">Sale items</div>
 
