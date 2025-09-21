@@ -1,3 +1,5 @@
+
+<div class="footer-space-above"></div>
 <div class="footer-background">
   <div class="container">
     <div class="row align-items-start">

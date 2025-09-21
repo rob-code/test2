@@ -56,7 +56,6 @@ a.link-black {
   padding-bottom: 3rem;
 }
 
-
 .bracket-colour {
   color: #FF0266
 }
@@ -64,7 +63,7 @@ a.link-black {
 /* ******************** footer ******************** */
 
 .footer-space-above {
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 .footer-heading {
@@ -179,7 +178,6 @@ a.link-black {
   padding-bottom: 0px;
 }
 
-
 /* ******************** snipcart ***************************************** */
 
 /* 
@@ -219,25 +217,37 @@ a.link-black {
  */
 
 
-/* ******************** cookie policy ******************** */
+/* ******************** policies ******************** */
 
-.legal-title {
-  padding-top: 32px;
-  padding-bottom: 0px;
-  font-size: 24px;
-  line-height: 120%;
+.page-title{
+  padding-top: 1.5em;
+  padding-bottom: 0em;
+}
+
+.policy-title {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  margin-bottom:0px;
+  font-size: 95%;
+  line-height: 105%;
+  color:#000000;
+  font-weight: 600;
 }
 
 .legal-subtitle {
   padding-top: 10px;
   padding-bottom: 0px;
+ 
   font-size: 18px;
   font-weight: bolder;
 }
 
-.legal-header-title {
-  padding-top: 2em;
+.policy-text {
+  color:#000000;
+  margin-bottom: 5px;
+  font-size:85%;
 }
+
 
 
 /* ******************** responsive changes ******************** */
