@@ -4,20 +4,20 @@
     
   <div class="row align-items-start">
     <div class="col-md-4">
-      <div>Support</div>
-    <div><a href="/policies/terms_of_service">Image sizes</a></div>
-    <div><a href="/policies/shipping_and_refunds">FAQs</a></div>
-    <div><a href="/policies/cookies_and_privacy">Contact</a></div>
+      <div class="footer-heading">Information</div>
+    <div class="footer-link"><a href="/policies/terms_of_service">Image sizes</a></div>
+    <div class="footer-link"><a href="/policies/shipping_and_refunds">FAQs</a></div>
+    <div class="footer-link"><a href="/policies/cookies_and_privacy">Contact</a></div>
       
     </div>
     <div class="col-md-4">
-    <div>Policies</div>
-    <div><a href="/policies/terms_of_service">Terms of Service</a></div>
-    <div><a href="/policies/shipping_and_refunds">Shipping and Refunds</a></div>
-    <div><a href="/policies/cookies_and_privacy">Cookies and Privacy</a></div>
+    <div class="footer-heading">Policies</div>
+    <div class="footer-link"><a href="/policies/terms_of_service">Terms of Service</a></div>
+    <div class="footer-link"><a href="/policies/shipping_and_refunds">Shipping and Refunds</a></div>
+    <div class="footer-link"><a href="/policies/cookies_and_privacy">Cookies and Privacy</a></div>
     </div>
     <div class="col-md-4">
-      <div>Social</div>
+      <div class="footer-heading">Social</div>
 
     <span class="footer-icon-spacing">
         <a href="https://www.instagram.com/robertbrice_art" aria-label="blah blah" target="_blank">
@@ -29,10 +29,8 @@
     </div>
   </div>
 
-    <p class="footer-space-above text-center text-body-secondary footer-text">
-        All work on this site is copyright and may not be copied or reproduced
-        without permission. © 2025 Robert Brice.
-    </p>
+    <p class="footer-space-above text-center footer-text">All work on this site is copyright and may not be copied or reproduced
+        without permission. © 2025 Robert Brice.</p>
 </div>
 </div>
 
@@ -69,10 +67,3 @@
 }</script></div><script async src="https://cdn.shoprocket.io/loader.js"></script>`}
 
 
-
-<style>
-.footer-text{
-  font-size:85%;
-}
-
-</style>
