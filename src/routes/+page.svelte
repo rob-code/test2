@@ -17,7 +17,6 @@
   import mockbobblehats from "$lib/images/mock-bobblehats.jpg";
   import mockstripedmugs from "$lib/images/mock-stripedmugs.jpg";
   import mocksunglasses from "$lib/images/mock-sunglasses.jpg";
-  
 
   import { onMount } from "svelte";
 
@@ -51,7 +50,7 @@
       </h1>
       <p class="lead text-body-secondary">I make images using code.</p>
 
-      <span class="footer-icon-spacing"
+      <span class="header-icon-spacing"
         ><a
           href="https://www.instagram.com/robertbrice_art"
           aria-label="instagram"
@@ -59,7 +58,7 @@
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="footer-icon"
+            class="header-icon"
             viewBox="0 0 16 16"
           >
             <path
@@ -78,22 +77,72 @@
 
 <section class="container">
   <h2 class="fw-light text-center project-page-header header-link-button">
-  <a class="btn btn-light" href="../shop" role="button">Favourite collections now available as art quality prints</a>
+    <a class="btn btn-light" href="../shop" role="button"
+      >Favourite collections now available as art quality prints</a
+    >
   </h2>
 </section>
 
 <GridRowWrapper
   images={[
-    { img: mockflipflops, alt: "flip flops", title:"Flip Flops", price:"", link:"/shop#!/flip-flops"},
-    { img: mockburgers, alt: "burgers", title:"Burgers", price:"", link:"/shop#!/burgers"},
-    { img: mocklongboards, alt: "long surf board", title:"Longboards", price:"", link:"/shop#!/long-boards"},
-    { img: mockempirebiscuits, alt: "empire biscuits", title:"Empire Biscuits", price:"", link:"/shop#!/empire-biscuits"},
-    { img: mocksswimshorts, alt: "tropical swim shorts", title:"Swimshorts", price:"", link:"/shop#!/swim-shorts"},
-    { img: mockbobblehats, alt: "colourful bobble hats", title:"Bobble Hats", price:"", link:"/shop#!/bobble-hats"},
-    { img: mocksunglasses, alt: "various styles of sunglasses", title:"Sunglasses", price:"", link:"/shop#!/sunglasses"},
-    { img: mockstripedmugs, alt: "colourful striped mugs", title:"Striped Mugs", price:"", link:"/shop#!/striped-mugs"},
-
-  ]}/>
+    {
+      img: mockflipflops,
+      alt: "flip flops",
+      title: "Flip Flops",
+      price: "",
+      link: "/shop#!/flip-flops",
+    },
+    {
+      img: mockburgers,
+      alt: "burgers",
+      title: "Burgers",
+      price: "",
+      link: "/shop#!/burgers",
+    },
+    {
+      img: mocklongboards,
+      alt: "long surf board",
+      title: "Longboards",
+      price: "",
+      link: "/shop#!/long-boards",
+    },
+    {
+      img: mockempirebiscuits,
+      alt: "empire biscuits",
+      title: "Empire Biscuits",
+      price: "",
+      link: "/shop#!/empire-biscuits",
+    },
+    {
+      img: mocksswimshorts,
+      alt: "tropical swim shorts",
+      title: "Swimshorts",
+      price: "",
+      link: "/shop#!/swim-shorts",
+    },
+    {
+      img: mockbobblehats,
+      alt: "colourful bobble hats",
+      title: "Bobble Hats",
+      price: "",
+      link: "/shop#!/bobble-hats",
+    },
+    {
+      img: mocksunglasses,
+      alt: "various styles of sunglasses",
+      title: "Sunglasses",
+      price: "",
+      link: "/shop#!/sunglasses",
+    },
+    {
+      img: mockstripedmugs,
+      alt: "colourful striped mugs",
+      title: "Striped Mugs",
+      price: "",
+      link: "/shop#!/striped-mugs",
+    },
+  ]}
+/>
 
 <section class="container">
   <div class="pt-5 text-center container">
@@ -111,7 +160,9 @@
 
 <section class="container">
   <h2 class="fw-light text-center project-page-header header-link-button">
-   <a class="btn btn-light" href="../collections" role="button">Explore all collections</a>
+    <a class="btn btn-light" href="../collections" role="button"
+      >Explore all collections</a
+    >
   </h2>
   <!-- <p class="lead text-body-secondary project-description text-center">
     All 2D images
@@ -120,12 +171,48 @@
 
 <GridRowWrapper
   images={[
-    { img: cricketball, alt: "cricketball", title:"Everyone Can Play ", price:"", link:"../collections/everyone_can_play"},
-    { img: thongs, alt: "thongs", title:"Everyday Icons", price:"", link:"../collections/everyday_icons"},
-    { img: xrays, alt: "xrays", title:"Block Colour Portraits", price:"", link:"../collections/block_colour_portraits"},
-    { img: mow, alt: "meaning of words", title:"Meaning of Words", price:"", link:"../collections/meaning_of_words"},
-    { img: david, alt: "david", title:"Not Shot David", price:"", link:"../collections/not_shot_david"},
-    { img: modernromance, alt: "modernromance", title:"Modern Romance", price:"", link:"../collections/modern_romance" },
+    {
+      img: cricketball,
+      alt: "cricketball",
+      title: "Everyone Can Play ",
+      price: "",
+      link: "../collections/everyone_can_play",
+    },
+    {
+      img: thongs,
+      alt: "thongs",
+      title: "Everyday Icons",
+      price: "",
+      link: "../collections/everyday_icons",
+    },
+    {
+      img: xrays,
+      alt: "xrays",
+      title: "Block Colour Portraits",
+      price: "",
+      link: "../collections/block_colour_portraits",
+    },
+    {
+      img: mow,
+      alt: "meaning of words",
+      title: "Meaning of Words",
+      price: "",
+      link: "../collections/meaning_of_words",
+    },
+    {
+      img: david,
+      alt: "david",
+      title: "Not Shot David",
+      price: "",
+      link: "../collections/not_shot_david",
+    },
+    {
+      img: modernromance,
+      alt: "modernromance",
+      title: "Modern Romance",
+      price: "",
+      link: "../collections/modern_romance",
+    },
   ]}
 />
 
@@ -139,11 +226,3 @@
 <!-- <p class="float-left container">
   <a href="#top" class="link-black">Back to top</a>
 </p> -->
-
-<style>
-
-  /* .link-black {
-    color: rgba(33, 37, 41, 0.75);
-  } */
-
-</style>

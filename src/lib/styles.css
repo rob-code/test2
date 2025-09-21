@@ -2,10 +2,16 @@
 
 p {
   color: rgba(33, 37, 41, 0.75);
- }
+}
 
 .colors {
   color: red;
+}
+
+.header-icon {
+  fill: #424649;
+  height: 20px;
+  width: 20px;
 }
 
 .clear-nav-menu {
@@ -61,41 +67,40 @@ a.link-black {
   padding-top: 2rem;
 }
 
-.footer-heading{
+.footer-heading {
   padding-top: 20px;
   padding-bottom: 10px;
-  padding-left:10px;
+  padding-left: 10px;
   font-size: 95%;
-  font-weight:600;
-  color:#ffffff; 
+  font-weight: 600;
+  color: #ffffff;
 }
 
-.footer-link{
-padding-bottom: 5px;
-padding-left:15px;
-font-size: 90%;
+.footer-link {
+  padding-bottom: 5px;
+  padding-left: 15px;
+  font-size: 90%;
 }
 
 .footer-text {
-  color:#ffffff;
+  color: lightgray;
   padding-bottom: 15px;
-  font-size:85%;
+  font-size: 85%;
 
 }
 
 .footer-icon-spacing {
-  padding-right: 15px;
   padding-left: 15px;
 }
 
 .footer-icon {
   fill: lightgray;
-  height: 20px;
-  width: 20px;
+  height: 18px;
+  width: 18px;
 }
 
 .footer-icon:hover {
-    fill: #ffffff;
+  fill: #ffffff;
 }
 
 .footer-background {
@@ -104,37 +109,31 @@ font-size: 90%;
   flex-direction: 100%;
 }
 
-.footer-background a:visited, .footer-background a:link, .footer-background a:active {
-  color:lightgray;
+.footer-background a:visited,
+.footer-background a:link,
+.footer-background a:active {
+  color: lightgray;
   text-decoration: none;
 }
 
 .footer-background a:hover {
-  color:#ffffff;
+  color: #ffffff;
 }
-
-
-
-
-/*.bg-body-tertiary {
-  background-color: #FFFFFF;
-  --bs-bg-opacity: 0;
-}*/
 
 /****************** grid row wrapper component ************** */
 
-  .print-title {
-    font-size: 0.9em;
-    text-align: left;
-    padding-top: 0.8em;
-    color: rgba(33, 37, 41, 0.75);
-  }
+.print-title {
+  font-size: 0.9em;
+  text-align: left;
+  padding-top: 0.8em;
+  color: rgba(33, 37, 41, 0.75);
+}
 
-  .price {
-    font-size: 0.85em;
-    text-align: left;
-    color: rgba(33, 37, 41, 0.75);
-  } 
+.price {
+  font-size: 0.85em;
+  text-align: left;
+  color: rgba(33, 37, 41, 0.75);
+}
 
 /* ******************** project pages ******************** */
 
@@ -145,7 +144,7 @@ font-size: 90%;
 
 .btn-light {
   font-size: 2rem;
-  font-weight: 300; 
+  font-weight: 300;
 }
 
 .item-padding-top {
@@ -181,14 +180,9 @@ font-size: 90%;
 }
 
 
-
-
-
-
-
 /* ******************** snipcart ***************************************** */
 
-
+/* 
 .snipcart-modal__container {
   margin-top: 0px;
   z-index: 1100;
@@ -215,14 +209,14 @@ font-size: 90%;
   font-weight: light;
 }
 
-.snipcart-button-primary{
+.snipcart-button-primary {
   background-color: black;
 }
 
-.snipcart-button-primary:hover{
+.snipcart-button-primary:hover {
   background-color: #424649;
 }
-
+ */
 
 
 /* ******************** cookie policy ******************** */
@@ -256,8 +250,3 @@ font-size: 90%;
 }
 
 } */
-
-
-
-
-
