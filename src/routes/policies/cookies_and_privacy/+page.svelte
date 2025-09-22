@@ -8,7 +8,7 @@
 
 <div class="display-6 page-title">Cookie and Privacy Policy</div>
 
-<div class="display-6 section-title">1. COOKIES</div>
+<div class="display-6 section-title">COOKIES</div>
 
 <p class="display-6 policy-title">WHAT ARE COOKIES?</p>
 
@@ -18,7 +18,7 @@
 
 <p class="policy-text">Analytics. Google Analytics leave cookies on your browser to gather information that helps us understand how visitors interact with our website including what pages are visited most. This allows us to create a better experience for our visitors. Our users may also implement Google Analytics on their own websites.</p>
 
-<p class="policy-text">Third Party Embedded Content. We make use of third party applications and services to enhance the experience of website visitors. These include social media platforms such as Facebook, Twitter and Google+ through the use of link buttons, and embedded content from Youtube and Vimeo. As a result, cookies may be set by these third parties and used by them to track your online activity. We have no direct control over the information that is collected by these cookies and do not have access to that data.</p>
+<p class="policy-text">Third Party Embedded Content. We make use of third party applications and services to enhance the experience of website visitors. This includes social media platforms such as Instagram through the use of link buttons, and embedded content from Youtube and Vimeo. The shopping cart is provided by Shoprocket Ltd, and the checkout is provided by Stripe and Paypal. As a result, cookies may be set by these third parties and used by them to track your online activity. We have no direct control over the information that is collected by these cookies and do not have access to that data.</p>
 
 <p class="policy-text">EU Cookie Law Banner. We leave a cookie which remembers the state of visitor acceptance to the EU Cookie Law banner.</p>
 
@@ -28,13 +28,13 @@
 
 <p class="policy-text">For useful information about cookies, see <a href="https://www.aboutcookies.org" target="_blank">AboutCookies.org</a>.</p>
 
-<div class="display-6 section-title">2. PRIVACY</div>
+<div class="display-6 section-title">PRIVACY</div>
 
 <p class="display-6 policy-title">THE DATA WE COLLECT</p>
 
-<p class="policy-text">We do not collect data or access your profile, contacts or any other personal information about you from Facebook, Twitter or from any other social media platform, from your computer or from your mobile phone.</p>
+<p class="policy-text">We do not collect data or access your profile, contacts or any other personal information about you from any social media platform, from your computer or from your mobile phone.</p>
 
-<p class="policy-text">The only data we collect from you is gathered when you email us using our website contact form or directly from your email client. This information is stored by us securely. Such data will only be used to correspond with you, inform you in some way about our service, or carry out our own internal analysis of customer interest in our tutoring service.</p>
+<p class="policy-text">The only data we collect from you is gathered when you email us using our website contact form or directly from your email client, or when you make a purchase from this site. All purchase order information, excluding card details, is stored securely by Shoprocket. Card details for any transation are handled by Stripe and Paypal, and as such we have no access to this information. Address, email and phone number data will only be used to correspond with you, inform you in some way about our service, or to carry out our own internal analysis of customer interest.</p>
 
 <p class="display-6 policy-title">SECURITY AND DISCLOSURE</p>
 

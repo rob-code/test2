@@ -144,7 +144,7 @@
   <p class="policy-text">
     Certain products or services may be available exclusively online through the
     website. These products or services may have limited quantities and are
-    subject to return or exchange only according to our Return Policy.
+    subject to return or exchange only according to our Returns Policy.
   </p>
 
   <p class="policy-text">
