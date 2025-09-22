@@ -21,10 +21,10 @@
           <a href="/policies/terms_of_service">Terms of Service</a>
         </div>
         <div class="footer-link">
-          <a href="/policies/shipping_and_returns">Shipping and Returns</a>
+          <a href="/policies/cookies_and_privacy">Cookies and Privacy</a>
         </div>
         <div class="footer-link">
-          <a href="/policies/cookies_and_privacy">Cookies and Privacy</a>
+          <a href="/policies/shipping_and_returns">Shipping, Returns, Refunds</a>
         </div>
       </div>
       <div class="col-md-4">

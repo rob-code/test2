@@ -222,6 +222,15 @@ a.link-black {
 .page-title{
   padding-top: 1.5em;
   padding-bottom: 0em;
+  font-size: 180%;
+  font-weight: 400;
+}
+
+.section-title {
+  padding-top: 35px;
+  padding-bottom: 0px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .policy-title {
@@ -232,13 +241,6 @@ a.link-black {
   line-height: 105%;
   color:#000000;
   font-weight: 600;
-}
-
-.section-title {
-  padding-top: 10px;
-  padding-bottom: 0px;
-  font-size: 18px;
-  font-weight: bolder;
 }
 
 .policy-text {

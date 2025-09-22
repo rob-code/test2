@@ -1,16 +1,16 @@
 <svelte:head>
   <!-- all the other meta tags go in there for the page -->
-  <title>Shipping and Refunds</title>
+  <title>Shipping, Returns and Refunds</title>
 </svelte:head>
 
 <main>
 <div class="container">
 
-<div class="display-6 page-title">Shipping and Returns</div>
+<div class="display-6 page-title">Shipping, Returns and Refunds</div>
    
-<div class="display-6 section-title">Shipping</div>
+<div class="display-6 section-title">SHIPPING</div>
 
-<div class="display-6 policy-title">Processing times</div>
+<div class="display-6 policy-title">Processing Times</div>
 
 <p class="policy-text">Orders are sent within 5 working days after being placed. If due to unforseen events or print delays our processing times are longer, this will be communicated on the website.</p>
 
@@ -36,7 +36,7 @@
 <p class="policy-text">If you wish to return an order please contact us first as you will need to provide specific customs information for easy return to the UK.</p>
 
 
-<div class="display-6 section-title">Refunds and Returns</div>
+<div class="display-6 section-title">RETURNS AND REFUNDS</div>
 
 <div class="display-6 policy-title">Damaged or defective items</div>
 
