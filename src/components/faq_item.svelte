@@ -37,6 +37,7 @@
   .faq-question {
     font-size: 1.25rem;
     font-weight: 400;
+    margin-right: 20px;
   }
 
   .faq-answer {

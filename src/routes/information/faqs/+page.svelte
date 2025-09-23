@@ -15,8 +15,8 @@
 
 
 <FaqItem content={{
-  question: "Are the images made with AI?",
-  answer: "No. I have written the computer code that has generated this image. It is not drawn or photographed. AI has not been used in any part of the process. The combinations of colour, shape and so on are generated randomly so I often have to produce many print options before I find one that feels like it sings. The print you see here is one of my favourites from that process. Every print is signed.",
+  question: "Are my images made with AI?",
+  answer: "No. The images are generated from computer code that I have written. That's the fun and the challenge of doing this work. They are not hand drawn or photographed. AI has not been used in any part of the process. The combinations of colour, shape and so on are generated randomly so I often have to produce many print options before I find one that feels like it sings. The prints you see here are some of my favourites from that process. Every print sold is signed.",
   id: "madewithai"
 }}/>
 
