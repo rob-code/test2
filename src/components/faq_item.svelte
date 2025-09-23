@@ -31,7 +31,7 @@
   .faq-item {
     padding-top: 20px;
     padding-bottom: 10px;
-    padding-left: 10px;
+    padding-left: 5px;
   }
 
   .faq-question {
@@ -51,8 +51,6 @@
     width: 26px;
     float: right;
     padding-top: 5px;
-    margin-right: 40px;
-    
-
+    margin-right: 10px;
   }
 </style>
