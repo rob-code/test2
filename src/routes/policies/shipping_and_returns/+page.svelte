@@ -40,9 +40,9 @@
 
 <div class="display-6 policy-title">Damaged or defective items</div>
 
-<p class="policy-text">We only exchange items if they are defective or damaged upon arrival, and where items have not been handled other than for opening and inspection. This is especially important for giclee art prints which can be easily damaged if mishandled.</p>
+<p class="policy-text">We only exchange items if they are defective or damaged upon arrival, and where items have not been handled other than for opening and inspection. This is especially important for giclée art prints which can be easily damaged if mishandled.</p>
 
-<p class="policy-text">Please contact us within 14 days of delivery to let us know if your item has arrived damaged. If you have framed a giclee art print and subsequently report damage, we will be unable to consider the item for return or refund.</p>
+<p class="policy-text">Please contact us within 14 days of delivery to let us know if your item has arrived damaged. If you have framed a giclée art print and subsequently report damage, we will be unable to consider the item for return or refund.</p>
 
 <p class="policy-text">If reporting damage, you will need to provide clear photographic evidence of the damage, as well as photographic evidence of the condition of the packaging on arrival. Items must be sent back within 30 days of delivery. Depending on where you live, the time it may take for your exchanged product to reach you may vary.</p>
 
@@ -52,7 +52,7 @@
 
 <p class="policy-text">To be eligible for a return, your item must be unused and in the same condition that you received it. Our prints must be handled carefully to ensure they do not have any dents, creases or scuff marks left by heavy handling or from poor packaging when they are posted back. Items must be sent back within 30 days of delivery.</p>
 
-<p class="policy-text">If an item is returned with obvious signs of use or damage caused by you, the customer, we have the right to refuse a refund, or offer only a partial refund. For giclee art prints, we recommend that the prints are returned carefully rolled with the tissue paper they arrived in, and are rolled around a suitable tube or other item, rather than free-rolled by hand. This helps to avoid creases and dents to the paper during rolling. We also strongly recommend that you avoid touching the printed area of the prints as the surface of giclee art prints is extremely delicate.</p>
+<p class="policy-text">If an item is returned with obvious signs of use or damage caused by you, the customer, we have the right to refuse a refund, or offer only a partial refund. For giclée art prints, we recommend that the prints are returned carefully rolled with the tissue paper they arrived in, and are rolled around a suitable tube or other item, rather than free-rolled by hand. This helps to avoid creases and dents to the paper during rolling. We also strongly recommend that you avoid touching the printed area of the prints as the surface of giclée art prints is extremely delicate.</p>
 
 <div class="display-6 policy-title">Refunds</div>
 

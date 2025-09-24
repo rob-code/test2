@@ -149,7 +149,7 @@
     <div class="row py-lg-3">
       <div class="col-lg-6 col-md-8 mx-auto">
         <p class="lead text-body-secondary">
-          All images are available as giclee prints on conservation grade paper.
+          All images are available as giclée prints on conservation grade paper.
           They can also be commissioned in any configuration of colour and size.
           Please <a href="/contact">get in touch</a> for details.
         </p>
