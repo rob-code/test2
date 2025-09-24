@@ -7,8 +7,8 @@
 <div class="display-6 page-title">FAQs</div>
 
 <FaqItem content={{
-  question: "What are Giclee prints?",
-  answer: "Giclee prints will last up to 75 years and are the best the art world can offer. They are produced using 12 pigment inks which are microscopically sprayed onto the paper to reproduce around 98% of the colour spectrum. They will resist fading even when exposed to sunlight. The paper is archival quality ph neutral 280gsm Natural White Smooth Cotton. Note that the colour of the print may vary slightly from that shown on your monitor. The prints feel wonderful and look great.",
+  question: "What are Giclée prints?",
+  answer: "Giclée  prints are the best the art world can offer and will last up to 75 years. Giclée's (pronouced jhee-clay) are produced using 12 pigment inks which are microscopically sprayed onto the paper to reproduce around 98% of the colour spectrum. They will resist fading even when exposed to sunlight. The paper is archival quality ph neutral 280gsm Natural White Smooth Cotton. Note that the colour of the print may vary slightly from that shown on your monitor. The prints feel wonderful and look great.",
   id: "whataregiclee"
 }}/>
 
