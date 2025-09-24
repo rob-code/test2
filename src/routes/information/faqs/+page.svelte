@@ -1,14 +1,14 @@
 <script>
   import Hero from "./../../../components/hero.svelte";
   import FaqItem from "./../../../components/faq_item.svelte";
-  import aviators from "$lib/images/aviators_13.webp";
+  import glasses from "$lib/images/style_collection_10.webp";
 
 </script>
 
 <Hero content = {{
-  image: aviators, 
+  image: glasses, 
   text: "FAQ's",
-  alt: "some alt text"
+  alt: "Frequently asked questions"
 }} />
 
 <div class="container">
