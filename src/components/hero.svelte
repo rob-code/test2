@@ -21,7 +21,7 @@
         max-height: 300px;
         overflow: hidden;
         object-fit: cover;
-        opacity: 0.4;
+        opacity: 0.2;
     }
 
     .display-text {
