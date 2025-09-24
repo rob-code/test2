@@ -57,6 +57,6 @@
     width: 26px;
     float: right;
     padding-top: 5px;
-    margin-right: 10px;
+    margin-right: 5px;
   }
 </style>
