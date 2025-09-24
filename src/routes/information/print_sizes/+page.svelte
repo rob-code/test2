@@ -13,11 +13,11 @@
 />
 
 <div class="container">
-    <div class="display-6 section-title">Print Sizes</div>
+    <div class="display-6 information-title">Print Sizes</div>
 
-    <p class="policy-text">At present we offer prints in 2 sizes, small and medium. The dimensions shown in the table for a small and medium print refer to actual size of the printed surface. </p>
+    <p class="information-text">At present we offer prints in 2 sizes, small and medium. The dimensions shown in the table for a small and medium print refer to actual size of the printed surface. </p>
 
-    <p class="policy-text">Each print is supplied with an additional 2cm white, blank border on the
+    <p class="information-text">Each print is supplied with an additional 2cm white, blank border on the
     left, right and top edges of the print, and a 4 cm blank border along the bottom. This extra unprinted border gives space for the artist's signature and allows you to frame the print any way you wish.</p>
 
     <table class="table">
@@ -52,10 +52,7 @@
         </tbody>
     </table>
 
-
-
-
-    <p class="policy-text">
+    <p class="information-text">
         Larger prints are coming soon. But in the meantime custom sizes are also
         available. Please get in touch using the contact page if you wish to
         discuss custom sizes and print configurations.
@@ -67,9 +64,9 @@
         alt="print size guide"
     />
 
-    <div class="display-6 section-title">Framing Your Print</div>
+    <div class="display-6 information-title">Framing Your Print</div>
 
-    <p class="policy-text">
+    <p class="information-text">
         Giclée prints are delicate and valuable. They'll last more than a
         lifetime of you take care of your print and have it professionally
         framed. A good framer will advise on how thick you might want your
@@ -77,7 +74,7 @@
         the UK) and how thick this should be to complement the print and frame.
     </p>
 
-    <p class="policy-text">
+    <p class="information-text">
         Think about the size of the space you wish to fill. If it's a large
         space and you've bought a smaller print you can fill more space with a
         wide mount and a chunky frame. If it's a small space, no mount and a
@@ -86,7 +83,7 @@
         which needs more support.
     </p>
 
-    <p class="policy-text">
+    <p class="information-text">
         It's also worth noting all our prints include a small white border with
         the design inset inside this, so you can choose not to include a mount
         as the print will look good in a frame without one - this can also make
@@ -94,14 +91,14 @@
         though.
     </p>
 
-    <p class="policy-text">
+    <p class="information-text">
         If you have bought a frame and the print needs trimming down slightly to
         fit in, make sure you measure very carefully, draw on guides of where to
         cut with a pencil and take it slow. You can't add paper back on if you
         cut too much off!
     </p>
 
-    <p class="policy-text">
+    <p class="information-text">
         Our prints are delicate so do make sure you handle them carefully.
         Giclée prints are printed with a very fine spray of ink over the paper
         surface, so throughout the framing process do not touch the surface of
@@ -118,5 +115,36 @@
 
     .size-image {
         width: 80%;
+        padding-top: 35px;
+        padding-bottom: 40px;
+        border-radius:10%;
+
     }
+
+    .information-title {
+        color:#000000;
+        padding-bottom: 15px;
+        font-size:120%;
+        font-weight: 500;
+    }
+
+    .information-text{
+        color:#000000;
+        font-size:110%;
+        padding-bottom: 5px;
+    }
+
+    .table {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    th, tr { 
+        color:#000000;
+        font-size:95%;
+        font-weight: 500;
+    }
+
+
+
 </style>

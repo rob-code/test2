@@ -6,7 +6,7 @@
       <div class="col-md-4">
         <div class="footer-heading">Information</div>
         <div class="footer-link">
-          <a href="/information/print_sizes">Print sizes</a>
+          <a href="/information/print_sizes">Print sizes and Framing</a>
         </div>
         <div class="footer-link">
           <a href="/information/faqs">FAQs</a>
