@@ -4,8 +4,12 @@
 
 <div class="jumbotron">
     <img class="hero-image" src={content.image} alt={content.alt} />
-    <h1 class="display-5 display-text">{content.text}</h1>
+    <h1 class="text-center display-text">{content.text}</h1>
+
 </div>
+
+
+
 
 <style>
     .jumbotron {
@@ -13,7 +17,6 @@
         text-align: left;
         background-size: cover;
         background-repeat: no-repeat;
-        max-width: 100%;
     }
 
     .hero-image {
@@ -25,10 +28,8 @@
     }
 
     .display-text {
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, -300%);
-        color: black;
-        font-size: 3.5rem;
+        transform: translate(0%, -150px);
+        font-size: 180%;
+        font-weight: 400;
     }
 </style>

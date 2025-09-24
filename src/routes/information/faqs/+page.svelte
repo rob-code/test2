@@ -13,7 +13,7 @@
 
 <div class="container">
 
-<div class="display-6 page-title"></div>
+<!-- <div class="display-6 page-title">FAQ's</div> -->
 
 <FaqItem content={{
   question: "What are Giclée prints?",
