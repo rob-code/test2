@@ -21,18 +21,13 @@
         max-height: 300px;
         overflow: hidden;
         object-fit: cover;
-        opacity: 0.5;
+        opacity: 0.4;
     }
 
     .display-text {
-        padding-left: 50px;
-        padding-right: 50px;
-        /* padding-top: 10px;
-        padding-bottom: 10px; */
         position: absolute;
         left: 50%;
         transform: translate(-50%, -300%);
-        /* background-color: #20202080; */
         color: black;
         font-size: 3.5rem;
     }
