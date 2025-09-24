@@ -1,10 +1,19 @@
 <script>
+  import Hero from "./../../../components/hero.svelte";
   import FaqItem from "./../../../components/faq_item.svelte";
+  import aviators from "$lib/images/aviators_13.webp";
+
 </script>
+
+<Hero content = {{
+  image: aviators, 
+  text: "FAQ's",
+  alt: "some alt text"
+}} />
 
 <div class="container">
 
-<div class="display-6 page-title">FAQs</div>
+<div class="display-6 page-title"></div>
 
 <FaqItem content={{
   question: "What are Giclée prints?",
