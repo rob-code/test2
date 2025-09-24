@@ -153,7 +153,7 @@
 
   .offcanvas {
     background-color: #ff0067;
-    --bs-offcanvas-width: 350px;
+    --bs-offcanvas-width: 75%;
   }
 
   .offcanvas-text {
