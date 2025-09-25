@@ -124,13 +124,14 @@
     .information-title {
         color:#000000;
         padding-bottom: 15px;
-        font-size:120%;
-        font-weight: 500;
+        font-size:1.25rem;
+        font-weight: 400;
     }
 
     .information-text{
         color:#000000;
-        font-size:110%;
+        font-size:1.1rem;
+         font-weight: 300;
         padding-bottom: 5px;
     }
 
