@@ -52,6 +52,8 @@
         </span>
       </div>
     </div>
+    
+    <hr class="line"/>
 
     <div class="bottom-text-with-icon">
       <img src={faviconWhite} class="favicon mx-auto" alt="favicon" />
@@ -146,7 +148,7 @@
   }
 
   .bottom-text-with-icon {
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 30px;
   }
 
@@ -163,5 +165,10 @@
     font-size: 85%;
     margin-left: 5%;
     margin-right: 5%;
+  }
+
+  .line{
+    color: lightgray;
+    margin-top: 50px;
   }
 </style>
