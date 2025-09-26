@@ -3,7 +3,7 @@
   let col_class = "col-md-4";
 </script>
 
-<div class="footer-background">
+<div class="footer-background space-above">
   <div class="container">
     <div class="row align-items-start">
       <div class={col_class}>
@@ -100,6 +100,10 @@
 }</script></div><script async src="https://cdn.shoprocket.io/loader.js"></script>`}
 
 <style>
+
+  .space-above{
+    margin-top: 50px;
+  }
   .footer-heading {
     padding-top: 20px;
     padding-bottom: 10px;
