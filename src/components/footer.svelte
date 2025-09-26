@@ -1,9 +1,22 @@
+<script>
+  import faviconWhite from "$lib/images/favicon - white.png";
+</script>
 
 <div class="footer-space-above"></div>
 <div class="footer-background">
   <div class="container">
     <div class="row align-items-start">
-      <div class="col-md-4">
+      <div class="col-md-3">
+        <div class="footer-heading">Robert Brice</div>
+        <div class="icon-text">
+          Robert Brice is an artist who makes images and animations using
+          software.
+        </div>
+        <div class="favicon">
+          <img src={faviconWhite} class="favicon" alt="favicon" />
+        </div>
+      </div>
+      <div class="col-md-3">
         <div class="footer-heading">Information</div>
         <div class="footer-link">
           <a href="/information/print_sizes">Print sizes and Framing</a>
@@ -15,7 +28,7 @@
           <a href="/contact">Contact</a>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="footer-heading">Policies</div>
         <div class="footer-link">
           <a href="/policies/terms_of_service">Terms of Service</a>
@@ -24,10 +37,11 @@
           <a href="/policies/cookies_and_privacy">Cookies and Privacy</a>
         </div>
         <div class="footer-link">
-          <a href="/policies/shipping_and_returns">Shipping, Returns, Refunds</a>
+          <a href="/policies/shipping_and_returns">Shipping, Returns, Refunds</a
+          >
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="footer-heading">Social</div>
 
         <span class="footer-icon-spacing">
@@ -86,3 +100,18 @@
         "cart_y_offset": "55"
     }
 }</script></div><script async src="https://cdn.shoprocket.io/loader.js"></script>`}
+
+<style>
+  .favicon {
+    height: 40px;
+    width: 40px;
+    margin-left: 7px;
+    margin-top: 3px;
+  }
+
+  .icon-text {
+    color: lightgray;
+    padding-left: 15px;
+    font-size: 95%;
+  }
+</style>
