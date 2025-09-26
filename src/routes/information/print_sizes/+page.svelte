@@ -110,7 +110,7 @@
 
 <style>
     .space {
-        padding-bottom: 200px;
+        padding-bottom: 50px;
     }
 
     .size-image {
