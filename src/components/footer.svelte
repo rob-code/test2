@@ -149,7 +149,7 @@
 
   .bottom-text-with-icon {
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
   }
 
   .favicon {
