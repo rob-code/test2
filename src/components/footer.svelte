@@ -1,22 +1,12 @@
 <script>
-  import faviconWhite from "$lib/images/favicon - white.png";
+  import faviconWhite from "$lib/images/favicon - orange.png";
+  let col_class = "col-md-4";
 </script>
 
-<div class="footer-space-above"></div>
 <div class="footer-background">
   <div class="container">
     <div class="row align-items-start">
-      <div class="col-md-3">
-        <div class="footer-heading">Robert Brice</div>
-        <div class="icon-text">
-          Robert Brice is an artist who makes images and animations using
-          software.
-        </div>
-        <div class="favicon">
-          <img src={faviconWhite} class="favicon" alt="favicon" />
-        </div>
-      </div>
-      <div class="col-md-3">
+      <div class={col_class}>
         <div class="footer-heading">Information</div>
         <div class="footer-link">
           <a href="/information/print_sizes">Print sizes and Framing</a>
@@ -28,7 +18,7 @@
           <a href="/contact">Contact</a>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class={col_class}>
         <div class="footer-heading">Policies</div>
         <div class="footer-link">
           <a href="/policies/terms_of_service">Terms of Service</a>
@@ -41,7 +31,7 @@
           >
         </div>
       </div>
-      <div class="col-md-3">
+      <div class={col_class}>
         <div class="footer-heading">Social</div>
 
         <span class="footer-icon-spacing">
@@ -63,10 +53,20 @@
       </div>
     </div>
 
-    <p class="footer-space-above text-center footer-text">
-      All work on this site is copyright and may not be copied or reproduced
-      without permission. © 2025 Robert Brice.
-    </p>
+    <div class="bottom-text-with-icon">
+            <img src={faviconWhite} class="favicon mx-auto" alt="favicon" />
+
+      <p class="text-center bottom-text">
+        Robert Brice is an artist who makes images and animations using
+        software.
+      </p>
+
+      <p class="text-center bottom-text">
+        All work on this site is copyright and may not be copied or reproduced
+        without permission. © 2025 Robert Brice.
+      </p>
+
+    </div>
   </div>
 </div>
 
@@ -102,16 +102,69 @@
 }</script></div><script async src="https://cdn.shoprocket.io/loader.js"></script>`}
 
 <style>
+  .footer-heading {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 95%;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .footer-link {
+    padding-bottom: 5px;
+    padding-left: 15px;
+    font-size: 90%;
+  }
+
+  .footer-icon-spacing {
+    padding-left: 15px;
+  }
+
+  .footer-icon {
+    fill: lightgray;
+    height: 18px;
+    width: 18px;
+  }
+
+  .footer-icon:hover {
+    fill: #ffffff;
+  }
+
+  .footer-background {
+    background-color: #212121;
+    display: flex;
+    flex-direction: 100%;
+    padding-top: 0.25rem;
+  }
+
+  .footer-background a:visited,
+  .footer-background a:link,
+  .footer-background a:active {
+    color: lightgray;
+    text-decoration: none;
+  }
+
+  .footer-background a:hover {
+    color: #ffffff;
+  }
+
+  .bottom-text-with-icon {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
   .favicon {
     height: 40px;
     width: 40px;
-    margin-left: 7px;
-    margin-top: 3px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
   }
 
-  .icon-text {
+  .bottom-text {
     color: lightgray;
-    padding-left: 15px;
-    font-size: 95%;
+    font-size: 85%;
+    margin-bottom: 0px
   }
 </style>
