@@ -54,18 +54,14 @@
     </div>
 
     <div class="bottom-text-with-icon">
-            <img src={faviconWhite} class="favicon mx-auto" alt="favicon" />
+      <img src={faviconWhite} class="favicon mx-auto" alt="favicon" />
 
       <p class="text-center bottom-text">
         Robert Brice is an artist who makes images and animations using
-        software.
+        software. All work on this site is copyright and may not be copied or
+        reproduced without permission.
       </p>
-
-      <p class="text-center bottom-text">
-        All work on this site is copyright and may not be copied or reproduced
-        without permission. © 2025 Robert Brice.
-      </p>
-
+      <p class="text-center bottom-text">© 2025 Robert Brice.</p>
     </div>
   </div>
 </div>
@@ -165,6 +161,7 @@
   .bottom-text {
     color: lightgray;
     font-size: 85%;
-    margin-bottom: 0px
+    margin-left: 5%;
+    margin-right: 5%;
   }
 </style>
