@@ -1,7 +1,11 @@
 <script>
   import faviconWhite from "$lib/images/favicon - orange.png";
   let col_class = "col-md-4";
+
+  let iw = $state(0);
 </script>
+
+<svelte:window bind:innerWidth={iw} />
 
 <div class="footer-background space-above">
   <div class="container">
@@ -58,11 +62,16 @@
     <div class="bottom-text-with-icon">
       <img src={faviconWhite} class="favicon mx-auto" alt="favicon" />
 
-      <p class="text-center bottom-text">
-        Robert Brice is an artist who makes images and animations using
+
+{#if iw < 768}
+      <p class="text-center bottom-text">Robert Brice is an artist who makes images and animations using
         software. All work on this site is copyright and may not be copied or
-        reproduced without permission.
-      </p>
+        reproduced without permission.</p>
+{:else}
+      <p class="text-center bottom-text" style="margin-left: 20%; margin-right: 20%">Robert Brice is an artist who makes images and animations using
+        software. All work on this site is copyright and may not be copied or
+        reproduced without permission.</p>
+{/if}
       <p class="text-center bottom-text">© 2025 Robert Brice.</p>
     </div>
   </div>
@@ -100,7 +109,6 @@
 }</script></div><script async src="https://cdn.shoprocket.io/loader.js"></script>`}
 
 <style>
-
   .space-above{
     margin-top: 50px;
   }
