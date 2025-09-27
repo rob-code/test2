@@ -62,7 +62,6 @@
     <div class="bottom-text-with-icon">
       <img src={faviconWhite} class="favicon mx-auto" alt="favicon" />
 
-
 {#if iw < 768}
       <p class="text-center bottom-text">Robert Brice is an artist who makes images and animations using
         software. All work on this site is copyright and may not be copied or
@@ -72,6 +71,7 @@
         software. All work on this site is copyright and may not be copied or
         reproduced without permission.</p>
 {/if}
+
       <p class="text-center bottom-text">© 2025 Robert Brice.</p>
     </div>
   </div>
