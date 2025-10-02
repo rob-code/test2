@@ -24,8 +24,8 @@
     <p class="information-text">
         The dimensions shown in the table below for Small Print and Medium Print
         refer to actual size of the printed surface. Each print is supplied with
-        an additional 2cm white, blank border on the left, right and top edges
-        of the print, and a 4 cm blank border along the bottom to give space for
+        an additional 20mm white, blank border on the left, right and top edges
+        of the print, and a 40mm blank border along the bottom to give space for
         the artist's signature. These blank borders give you the freedom to
         frame the print any way you wish.
     </p>
