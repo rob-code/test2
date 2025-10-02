@@ -2,6 +2,7 @@
     import Hero from "./../../../components/hero.svelte";
     import flipflops from "$lib/images/thongs8.webp";
     import printsizes from "$lib/images/print_size_guide.webp";
+    import frameexample from "$lib/images/frame_example.webp";
 </script>
 
 <Hero
@@ -15,10 +16,19 @@
 <div class="container">
     <div class="display-6 information-title">Print Sizes</div>
 
-    <p class="information-text">At present we offer prints in 2 sizes, small and medium. The dimensions shown in the table for a small and medium print refer to actual size of the printed surface. </p>
+    <p class="information-text">
+        At present we offer prints in 2 sizes, small and medium. Larger prints
+        are coming soon.
+    </p>
 
-    <p class="information-text">Each print is supplied with an additional 2cm white, blank border on the
-    left, right and top edges of the print, and a 4 cm blank border along the bottom. This extra unprinted border gives space for the artist's signature and allows you to frame the print any way you wish.</p>
+    <p class="information-text">
+        The dimensions shown in the table below for Small Print and Medium Print
+        refer to actual size of the printed surface. Each print is supplied with
+        an additional 2cm white, blank border on the left, right and top edges
+        of the print, and a 4 cm blank border along the bottom to give space for
+        the artist's signature. These blank borders give you the freedom to
+        frame the print any way you wish.
+    </p>
 
     <table class="table">
         <thead>
@@ -52,12 +62,6 @@
         </tbody>
     </table>
 
-    <p class="information-text">
-        Larger prints are coming soon. But in the meantime custom sizes are also
-        available. Please get in touch using the contact page if you wish to
-        discuss custom sizes and print configurations.
-    </p>
-
     <img
         class="size-image rounded mx-auto d-block"
         src={printsizes}
@@ -67,42 +71,39 @@
     <div class="display-6 information-title">Framing Your Print</div>
 
     <p class="information-text">
-        Giclée prints are delicate and valuable. They'll last more than a
-        lifetime of you take care of your print and have it professionally
-        framed. A good framer will advise on how thick you might want your
-        frame, whether you need a mount (or matt for our customers outside of
-        the UK) and how thick this should be to complement the print and frame.
+        Please handle the print with care and avoid touching its delicate
+        surface which is very easy to mark or scratch.
     </p>
 
     <p class="information-text">
-        Think about the size of the space you wish to fill. If it's a large
-        space and you've bought a smaller print you can fill more space with a
-        wide mount and a chunky frame. If it's a small space, no mount and a
-        thin frame may suit you better. Bear in mind the weight of the glass
-        too, your framer may insist on a chunkier frame if it's a large print
-        which needs more support.
+        Althrough delicate, a Giclée print will last for many years if you
+        display it in a good quality frame. To get the most from your print,
+        please consider the size, thickness, colour and design of your frame,
+        and whether you need a mount (or mat) between the print and the frame.
     </p>
 
     <p class="information-text">
-        It's also worth noting all our prints include a small white border with
-        the design inset inside this, so you can choose not to include a mount
-        as the print will look good in a frame without one - this can also make
-        framing a bit cheaper. We personally think a mount adds a bit more style
-        though.
+        The size of your frame may depend on where your picture will hang. If
+        your wall space is large you can make your print more dramatic with a
+        large mount and frame. If space is small, it may work better to have no
+        mount and just a frame. Either way please consider these factors with
+        your framer.
     </p>
 
     <p class="information-text">
-        If you have bought a frame and the print needs trimming down slightly to
-        fit in, make sure you measure very carefully, draw on guides of where to
-        cut with a pencil and take it slow. You can't add paper back on if you
-        cut too much off!
+        As shown below, we have had success framing medium sized prints (in this case striped socks and cheeseburgers from the everyday icons collection) with a 5 - 7cm cream/off white mount in a simple 2cm bleached white timber frame.
     </p>
+    <img
+        class="size-image rounded mx-auto d-block"
+        src={frameexample}
+        alt="print size guide"
+    />
 
     <p class="information-text">
-        Our prints are delicate so do make sure you handle them carefully.
-        Giclée prints are printed with a very fine spray of ink over the paper
-        surface, so throughout the framing process do not touch the surface of
-        the print at all. You could easily scratch or scuff the design.
+        If you already have a frame and this is larger than the print, then we
+        would recommend having a professional framer cut a mount for you to fit
+        your frame and print. This does not cost much and can make a very low
+        cost frame (say from IKEA) look fantastic.
     </p>
 
     <div class="space"></div>
@@ -117,21 +118,20 @@
         width: 80%;
         padding-top: 35px;
         padding-bottom: 40px;
-        border-radius:10%;
-
+        border-radius: 10%;
     }
 
     .information-title {
-        color:#000000;
+        color: #000000;
         padding-bottom: 15px;
-        font-size:1.25rem;
+        font-size: 1.25rem;
         font-weight: 400;
     }
 
-    .information-text{
-        color:#000000;
-        font-size:1.1rem;
-         font-weight: 300;
+    .information-text {
+        color: #000000;
+        font-size: 1.1rem;
+        font-weight: 300;
         padding-bottom: 5px;
     }
 
@@ -140,12 +140,10 @@
         margin-bottom: 40px;
     }
 
-    th, tr { 
-        color:#000000;
-        font-size:95%;
+    th,
+    tr {
+        color: #000000;
+        font-size: 95%;
         font-weight: 500;
     }
-
-
-
 </style>

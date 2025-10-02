@@ -34,8 +34,8 @@
 }}/>
 
 <FaqItem content={{
-  question: "Can I order a custom size?",
-  answer: "Yes. I am happy to offer custom sizes. Please get in touch with your requirements and I will provide a quote for the size you need. Please note that delivery times for custom sizes will be longer than those for standard sizes as I will need to liaise with the printer.",
+  question: "Can I order a custom size or design?",
+  answer: "Yes, I am happy to offer custom sizes and designs. The designs offered for sale have been developed to work well with current print sizes. A larger print may require some design changes so it remains well balanced at larger scales. The colour combinations of each digital master are generated randomly from a restricted colour palette. Layout, colour and size can all be tailored to suit custom requirements. Please get in touch if you would like to discuss this option.",
   id: "customsize"
 }}/>
 

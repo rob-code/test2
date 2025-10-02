@@ -7,7 +7,16 @@
 <div class="faq-item">
   <div class="row">
     <div class="col-10">
-      <div class="faq-question">{content.question}</div>
+      <div class="faq-question">
+        <a
+          data-bs-toggle="collapse"
+          href="#{content.id}"
+          role="button"
+          aria-expanded="false"
+          aria-label={content.id}
+          >{content.question}
+        </a>
+      </div>
     </div>
     <div class="col-2">
       <a
@@ -39,10 +48,12 @@
     padding-left: 5px;
   }
 
-  .faq-question {
+  .faq-question a {
     font-size: 1.25rem;
     font-weight: 400;
     margin-right: 20px;
+    text-decoration: none;
+    color:#000000;
   }
 
   .faq-answer {
