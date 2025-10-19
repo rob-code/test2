@@ -27,38 +27,41 @@
     </div>
     <div class="col-md-7">
       <p class="lead text-body-secondary">
-        As a digital artist I balance technique - the work to find and master
-        tools and processes that fit with what I want to achieve - with a few
-        simple principles; what do I want to say, what is the story I want to
-        tell?
+        My work as a digital artist started in 2022 when I discovered I could
+        work with art and technology in one unified, exploratory practice.
+        Digital art is perhaps redefining what we mean by art, and also how we
+        experience art. At its most adventourous, it is inspiring, magical and
+        even astonishing. I find it represents a place of challenge and of
+        comfort, where I can combine skills developed over a lifetime of work in
+        science, technology and education, within a rich world of visual
+        possibility.
       </p>
 
       <p class="lead text-body-secondary">
         Ideas come from many places; from observation, a chance encounter, or
-        they grow unexpectedly from exploration. Increasingly I
-        see my images as visual poems, a small
-        fragment of life portrayed in visual form.
+        they grow unexpectedly from exploration. Increasingly I see my images as
+        visual poems, a small fragment of life portrayed in visual form. But I'm
+        just getting started and in this world of evolving toolkits, platforms
+        and technologies, I am continually challenged to refine my artistic
+        vision. The projects shown here reflect both learning and developing
+        process. It feels chaotic, uncertain, but exciting and rich in
+        possibility. Mastery, a long way off.
       </p>
 
       <p class="lead text-body-secondary">
-        There is a unique and distinctive visual language that emerges in digital art. While my process is based on code, in-built randomness, and the
-        prospect of enchantment in unexpected outcomes, the challenge remains
-        the idea and its execution in the form of an image which is both
-        eloquent and enjoyable.
+        There is a unique and distinctive visual language that emerges in
+        digital art. While my process is based on code, in-built randomness, and
+        the prospect of enchantment in unexpected outcomes, the challenge
+        remains the idea and its execution in the form of an image or an
+        animation which is both eloquent and enjoyable.
       </p>
 
       <p class="lead text-body-secondary">
-        My goal is to keep developing my craft
-        through explorations in this space. But to be clear, code is there to
-        serve, not dictate. I do not make images using AI. If I have any sort of
-        manifesto, it is that my work will be built with human and not
-        artificial intelligence.
-      </p>
-      <p class="lead text-body-secondary">
-        Alongside my career in renewable energy and physics teaching, I have
-        pursued life long interests in music and art. My work as a digital
-        artist started in 2022 when I discovered I could work with art and
-        technology in one unified practice.
+        My goal is to keep developing my craft through explorations in this
+        space. But to be clear, code is there to serve, not dictate. I do not
+        make using AI. If I have any sort of manifesto, it is that my work will
+        be built with, and aim to build, human intelligence rather than anything
+        artificial.
       </p>
     </div>
   </div>
