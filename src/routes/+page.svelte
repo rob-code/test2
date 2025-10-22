@@ -78,7 +78,7 @@
 <section class="container">
   <h2 class="fw-light text-center project-page-header header-link-button">
     <a class="btn btn-light" href="../shop" role="button"
-      >Favourite collections now available as art quality prints</a
+      >Art Prints For Sale</a
     >
   </h2>
 </section>
@@ -151,7 +151,6 @@
         <p class="lead text-body-secondary">
           All images are available as giclée prints on conservation grade paper.
           They can also be commissioned in any configuration of colour and size.
-          Please <a href="/contact">get in touch</a> for details.
         </p>
       </div>
     </div>
