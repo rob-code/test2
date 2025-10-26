@@ -77,7 +77,7 @@
 
 <section class="container">
   <h2 class="fw-light text-center project-page-header header-link-button">
-    <a class="btn btn-light" href="../shop" role="button"
+    <a class="title-link-button btn btn-light" href="../shop" role="button"
       >Art Prints For Sale</a
     >
   </h2>
@@ -145,7 +145,7 @@
 />
 
 <section class="container">
-  <div class="pt-5 text-center container">
+  <div class="py-3 text-center container">
     <div class="row py-lg-3">
       <div class="col-lg-6 col-md-8 mx-auto">
         <p class="lead text-body-secondary">
@@ -158,9 +158,11 @@
 </section>
 
 <section class="container">
+<hr />
+
   <h2 class="fw-light text-center project-page-header header-link-button">
     <a class="btn btn-light" href="../collections" role="button"
-      >Explore all collections</a
+      >Explore All Collections</a
     >
   </h2>
   <!-- <p class="lead text-body-secondary project-description text-center">
@@ -225,3 +227,16 @@
 <!-- <p class="float-left container">
   <a href="#top" class="link-black">Back to top</a>
 </p> -->
+
+
+<style>
+.btn-light {
+	background: none;
+	color: rgb(33,37,41);
+	border: none;
+	/* padding: 0; */
+	/* font: inherit; */
+	/* cursor: pointer; */
+	/* outline: inherit; */
+}
+</style>
