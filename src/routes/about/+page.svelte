@@ -28,24 +28,23 @@
     <div class="col-md-7">
       <p class="lead text-body-secondary">
         My work as a digital artist started in 2022 when I discovered I could
-        work with art and technology in one unified, exploratory practice.
-        Digital art is perhaps redefining what we mean by art, and also how we
-        experience art. At its most adventourous, it is inspiring, magical and
-        even astonishing. I find it represents a place of challenge and of
-        comfort, where I can combine skills developed over a lifetime of work in
-        science, technology and education, within a rich world of visual
-        possibility.
+        work with art and technology in one unified practice. Digital art
+        represents a place of challenge and familiarity where I can use skills
+        developed over a lifetime of work in science, technology and education
+        in a rich, exploratory world of visual possibility.
       </p>
 
       <p class="lead text-body-secondary">
-        Ideas come from many places; from observation, a chance encounter, or
-        they grow unexpectedly from exploration. Increasingly I see my images as
-        visual poems, a small fragment of life portrayed in visual form. But I'm
-        just getting started and in this world of evolving toolkits, platforms
-        and technologies, I am continually challenged to refine my artistic
-        vision. The projects shown here reflect both learning and developing
-        process. It feels chaotic, uncertain, but exciting and rich in
-        possibility. Mastery, a long way off.
+        Digital art is perhaps redefining what we mean by art, and also how we
+        experience art. At its most adventourous, it is inspiring, magical, even
+        astonishing. Ideas come from many places; from observation, a chance
+        encounter, or they grow unexpectedly from exploration. Increasingly I
+        see my images as visual poems, a small fragment of life portrayed in
+        visual form. But I'm just getting started and in this world of evolving
+        toolkits, platforms and technologies, I am continually challenged to
+        refine my artistic vision. The projects shown here reflect both learning
+        and developing process. It feels chaotic, uncertain, but exciting and
+        rich in possibility. Mastery, a long way off.
       </p>
 
       <p class="lead text-body-secondary">
