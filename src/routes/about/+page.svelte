@@ -29,38 +29,41 @@
       <p class="lead text-body-secondary">
         My work as a digital artist started in 2022 when I discovered I could
         work with art and technology in one unified practice. Digital art
-        represents a place of challenge and familiarity where I can use skills
-        developed over a lifetime of work in science, technology and education
-        in a rich, exploratory world of visual possibility.
+        represents a place of challenge and familiarity: a place where I can use
+        skills developed over a lifetime of work in science, technology and
+        education, in a rich, exploratory world of visual possibility.
       </p>
 
       <p class="lead text-body-secondary">
         Digital art is perhaps redefining what we mean by art, and also how we
-        experience art. At its most adventourous, it is inspiring, magical, even
-        astonishing. Ideas come from many places; from observation, a chance
-        encounter, or they grow unexpectedly from exploration. Increasingly I
-        see my images as visual poems, a small fragment of life portrayed in
-        visual form. But I'm just getting started and in this world of evolving
-        toolkits, platforms and technologies, I am continually challenged to
-        refine my artistic vision. The projects shown here reflect both learning
-        and developing process. It feels chaotic, uncertain, but exciting and
-        rich in possibility. Mastery, a long way off.
+        experience it. At its most effective, it is inspiring, magical, even
+        astonishing. I find fascinating the unique and distinctive visual
+        language that emerges in digital art, and the many processes that are
+        demonstrated for creating it.
       </p>
 
       <p class="lead text-body-secondary">
-        There is a unique and distinctive visual language that emerges in
-        digital art. While my process is based on code, in-built randomness, and
-        the prospect of enchantment in unexpected outcomes, the challenge
-        remains the idea and its execution in the form of an image or an
-        animation which is both eloquent and enjoyable.
+        This site is a repository of projects which reveal some of my
+        explorations of idea and process. Projects often feel chaotic and
+        uncertain but always exciting. Mastery is a long way off but I'm just
+        getting started and in this world of evolving toolkits, platforms and
+        technologies, I am discovering my artistic vision by creating images and
+        animations which are hopefully both eloquent and enjoyable.
       </p>
 
       <p class="lead text-body-secondary">
-        My goal is to keep developing my craft through explorations in this
-        space. But to be clear, code is there to serve, not dictate. I do not
-        make using AI. If I have any sort of manifesto, it is that my work will
-        be built with, and aim to build, human intelligence rather than anything
-        artificial.
+        While my process is based on software, in-built randomness, generative
+        processes and the prospect of enchantment in unexpected outcomes, the
+        work is always underpinned by a powerful, human idea. Code and
+        technology are there to serve, not dictate. Increasingly I see my images
+        as visual poems, small fragments or celebrations of life portrayed in
+        visual form.
+      </p>
+
+      <p class="lead text-body-secondary">
+        I do not make using AI. If I have any sort of manifesto, it is that my
+        work will be built with, and aim to build, human intelligence rather
+        than anything artificial.
       </p>
     </div>
   </div>
