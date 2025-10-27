@@ -16,6 +16,7 @@
 
 
 <div class="container">
+
 {@html `<div class="sr-element sr-products" data-embed="multiple_products"><script type="application/json" data-config="embed">{
     "publishable_key": "sr_live_pk_2c1923c9065693805a48c24b7916889f1744",
     "options": {
@@ -26,7 +27,7 @@
         "exclude_product_categories": [],
         "image_dimension_value": "fit",
         "image_aspect_ratio": "portrait",
-        "button_style": "on_hover",
+        "button_style": "standard",
         "variation_style": "on_hover",
         "open_product_in": "in_page",
         "button_position": "inline",
@@ -61,7 +62,7 @@
         "show_new_product": "0",
         "show_digital_download": "0",
         "show_pwyw": "0",
-        "image_swap": "1",
+        "image_swap": "0",
         "show_button_icons": "1",
         "mobile": {
             "show_search_box": "1",
@@ -144,4 +145,5 @@
         "product_name_font_size": "15"
     }
 }</script></div><script async src="https://cdn.shoprocket.io/loader.js"></script>`}
+
 </div>

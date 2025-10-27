@@ -78,9 +78,10 @@
 <section class="container">
   <h2 class="fw-light text-center project-page-header header-link-button">
     <a class="title-link-button btn btn-light" href="../shop" role="button"
-      >Art Prints For Sale</a
-    >
-  </h2>
+      >Art Prints For Sale</a>
+  <div class="view-all-link"><a href="../shop">view all</a></div>
+    </h2>
+
 </section>
 
 <GridRowWrapper
@@ -158,13 +159,15 @@
 </section>
 
 <section class="container">
-<hr />
+  <hr />
 
   <h2 class="fw-light text-center project-page-header header-link-button">
     <a class="btn btn-light" href="../collections" role="button"
       >Explore All Collections</a
     >
+      <div class="view-all-link"><a href="../collections">view all</a></div>
   </h2>
+
   <!-- <p class="lead text-body-secondary project-description text-center">
     All 2D images
   </p> -->
@@ -228,15 +231,28 @@
   <a href="#top" class="link-black">Back to top</a>
 </p> -->
 
-
 <style>
-.btn-light {
-	background: none;
-	color: rgb(33,37,41);
-	border: none;
-	/* padding: 0; */
-	/* font: inherit; */
-	/* cursor: pointer; */
-	/* outline: inherit; */
-}
+  .btn-light {
+    background: none;
+    color: rgb(33, 37, 41);
+    border: none;
+    padding: 0;
+    /* font: inherit; */
+    /* cursor: pointer; */
+    /* outline: inherit; */
+  }
+
+  .view-all-link {
+    height: auto;
+    line-height: 0px;
+    
+  }
+
+  .view-all-link a{
+    background: none;
+    color: rgb(33, 37, 41);
+    font-size: small;
+    height: fit-content;
+    
+  }
 </style>
