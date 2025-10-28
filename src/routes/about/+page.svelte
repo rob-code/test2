@@ -29,15 +29,15 @@
       <p class="lead text-body-secondary">
         My work as a digital artist started in 2022 when I discovered I could
         work with art and technology in one unified practice. Digital art
-        represents a place of challenge and familiarity: a place where I can use
-        skills developed over a lifetime of work in science, technology and
-        education, in a rich, exploratory world of visual possibility.
+        represents a place of challenge and familiarity: a rich, exploratory
+        world of visual possibility where I can use skills developed over a
+        lifetime of work in science, technology and education.
       </p>
 
       <p class="lead text-body-secondary">
         Digital art is perhaps redefining what we mean by art, and also how we
         experience it. At its most effective, it is inspiring, magical, even
-        astonishing. I find fascinating the unique and distinctive visual
+        astonishing. I am fascinated by the unique and distinctive visual
         language that emerges in digital art, and the many processes that are
         demonstrated for creating it.
       </p>
@@ -45,10 +45,9 @@
       <p class="lead text-body-secondary">
         This site is a repository of projects which reveal some of my
         explorations of idea and process. Projects often feel chaotic and
-        uncertain but always exciting. Mastery is a long way off but I'm just
-        getting started and in this world of evolving toolkits, platforms and
-        technologies, I am discovering my artistic vision by creating images and
-        animations which are hopefully both eloquent and enjoyable.
+        uncertain, but always exciting. As in all art mastery is a long way off,
+        but I am discovering my artistic vision by creating images and animations
+        which are hopefully both eloquent and enjoyable.
       </p>
 
       <p class="lead text-body-secondary">
@@ -62,7 +61,7 @@
 
       <p class="lead text-body-secondary">
         I do not make using AI. If I have any sort of manifesto, it is that my
-        work will be built with, and aim to build, human intelligence rather
+        work is built with, and aims to build, human intelligence rather
         than anything artificial.
       </p>
     </div>
