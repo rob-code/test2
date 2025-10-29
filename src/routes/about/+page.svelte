@@ -39,7 +39,7 @@
         experience it. At its most effective, it is inspiring, magical, even
         astonishing. I am fascinated by the unique and distinctive visual
         language that emerges in digital art, and the many processes that are
-        demonstrated for creating it.
+        available for creating it.
       </p>
 
       <p class="lead text-body-secondary">
