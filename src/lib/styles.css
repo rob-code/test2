@@ -119,6 +119,55 @@ a.link-black {
   padding-bottom: 0px;
 }
 
+
+.slbCOntentOuter{
+  /* margin: 0px;
+  padding: 0px; */
+/* background-color: rgba(0, 0, 0, 0.5); */
+  /* position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 0%); */
+
+  /* background: transparent; */
+
+} 
+
+.slbContent{
+    /* margin: 0px;
+  padding: 0px; */
+
+  /* position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 0%);
+  background-color: rgba(0, 0, 0, 1); */
+
+  /* height: auto;
+width: 70%; */
+
+}
+
+.slbImageWrap{
+  /* padding: 1px;
+/* margin: -1px -5px -5px -1px;
+height: 30%;
+background-color: #424649;*/
+
+background: transparent;
+
+}
+
+img.slbImage {
+
+}
+
+
+
+
+
+
+
 /* ******************** snipcart ***************************************** */
 
 /* 
@@ -160,7 +209,7 @@ a.link-black {
 
 /* ******************** policies ******************** */
 
-.page-title{
+.page-title {
   padding-top: 1.5em;
   padding-bottom: 0em;
   font-size: 180%;
@@ -177,17 +226,17 @@ a.link-black {
 .policy-title {
   padding-top: 25px;
   padding-bottom: 10px;
-  margin-bottom:0px;
+  margin-bottom: 0px;
   font-size: 95%;
   line-height: 105%;
-  color:#000000;
+  color: #000000;
   font-weight: 600;
 }
 
 .policy-text {
-  color:#000000;
+  color: #000000;
   margin-bottom: 5px;
-  font-size:85%;
+  font-size: 85%;
 }
 
 

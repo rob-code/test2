@@ -99,7 +99,7 @@
         "show_digital_download": "0",
         "show_pwyw": "0",
         "show_product_tabs": "1",
-        "image_zoom": "1",
+        "image_zoom": "0",
         "lightbox_gallery": "1",
         "show_stock": "0",
         "show_button_price": "0"
@@ -147,3 +147,4 @@
 }</script></div><script async src="https://cdn.shoprocket.io/loader.js"></script>`}
 
 </div>
+
