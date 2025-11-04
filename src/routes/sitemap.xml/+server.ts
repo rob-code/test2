@@ -1,5 +1,5 @@
-const site = 'https://main.dlt5b3qbh8020.amplifyapp.com/'; // change this to reflect your domain
-const pages: string[] = ["shop", "collections", "about", "contact"]; // populate this with all the slugs you wish to include
+const site = 'https://main.dlt5b3qbh8020.amplifyapp.com'; // change this to reflect your domain
+const pages: string[] = ["", "shop", "collections", "about", "contact"]; // populate this with all the slugs you wish to include
 
 /** @type {import('./$types').RequestHandler} */
 export async function GET({ url }) {
