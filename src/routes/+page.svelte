@@ -33,6 +33,37 @@
 
 <svelte:head>
   <!-- all the other meta tags go in there for the page -->
+  <meta
+    name="google-site-verification"
+    content="KnB5ImfTiUOTy91MVvIRdVayBPSuBc6kz2bhB3-BdFg"
+  />
+  <meta
+    name="description"
+    content="Colourful, optimistic images for print and screen. Made with code. If it works, it might be art."
+  />
+  <meta
+    name="keywords"
+    content="pop art, modern art, art, code, creative coding, software, generative art, processing, art of code, digital design, digital art, technology art, java, everyday icons, images, painting, paintings, sculpture"
+  />
+
+    <meta property="og:url" content="https://www.robertbrice.net">
+    <meta property="og:type" content="website" >
+    <meta property="og:title" content="Robert Brice" >
+    <meta property="og:description" content="Colourful, optimistic images for print and screen. Made with code. If it works, it might be art.">
+    <meta property="og:image" content="https://www.robertbrice.net/assets/robertbrice_on_the_beach2_1200x630.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Thongs, flip flops ... they're all for the beach">
+    <meta property="og:locale" content="en_GB">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_32x32_2.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon_96x96_2.png">
+    <link rel="icon" type="image/png" sizes="180x180" href="assets/favicon_180x180_2.png">
+    <meta name="robots" content="index, follow">
+
+
+
+
   <title>Robert Brice - Art made with Code</title>
 </svelte:head>
 
@@ -78,10 +109,10 @@
 <section class="container">
   <h2 class="fw-light text-center project-page-header header-link-button">
     <a class="title-link-button btn btn-light" href="../shop" role="button"
-      >Art Prints For Sale</a>
-  <div class="view-all-link"><a href="../shop">view all</a></div>
-    </h2>
-
+      >Art Prints For Sale</a
+    >
+    <div class="view-all-link"><a href="../shop">view all</a></div>
+  </h2>
 </section>
 
 <GridRowWrapper
@@ -165,7 +196,7 @@
     <a class="btn btn-light" href="../collections" role="button"
       >Explore All Collections</a
     >
-      <div class="view-all-link"><a href="../collections">view all</a></div>
+    <div class="view-all-link"><a href="../collections">view all</a></div>
   </h2>
 
   <!-- <p class="lead text-body-secondary project-description text-center">
@@ -245,14 +276,12 @@
   .view-all-link {
     height: auto;
     line-height: 0px;
-    
   }
 
-  .view-all-link a{
+  .view-all-link a {
     background: none;
     color: rgb(33, 37, 41);
     font-size: small;
     height: fit-content;
-    
   }
 </style>
