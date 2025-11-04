@@ -7,7 +7,8 @@
 
 <svelte:head>
   <!-- all the other meta tags go in there for the page -->
-  <title>Robert Brice Collections: Everyone Can Play</title>
+  <title>Everyone Can Play | Robert Brice Collections</title>
+  <meta name="description" content="Celebrating inclusivity and diversity in sport.">
 </svelte:head>
 
 

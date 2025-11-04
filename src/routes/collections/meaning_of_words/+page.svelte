@@ -8,7 +8,8 @@
 
 <svelte:head>
   <!-- all the other meta tags go in there for the page -->
-  <title>Robert Brice Collections: A Meaning of Words</title>
+  <title>A Meaning of Words | Robert Brice Collections</title>
+  <meta name="description" content="Playing with the meaning of contrasting words to create new meaning and insight.">
 </svelte:head>
 
 

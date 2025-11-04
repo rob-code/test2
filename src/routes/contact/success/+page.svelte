@@ -1,5 +1,6 @@
 <svelte:head>
-    <title>Robert Brice - Email Sent</title>
+    <title>Email Sent | Robert Brice</title>
+    <meta name="description" content="Email successfully sent">
 </svelte:head>
 
 <main>

@@ -1,6 +1,7 @@
 <svelte:head>
   <!-- all the other meta tags go in there for the page -->
   <title>Terms of Service</title>
+  <meta name="description" content="Read our terms of service">
 </svelte:head>
 
 <div class="container">

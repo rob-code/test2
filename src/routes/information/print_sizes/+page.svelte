@@ -5,6 +5,12 @@
     import frameexample from "$lib/images/frame_example.webp";
 </script>
 
+<svelte:head>
+  <!-- all the other meta tags go in there for the page -->
+  <title>Print Sizes | Robert Brice</title>
+  <meta name="description" content="Print sizes information">
+</svelte:head>
+
 <Hero
     content={{
         image: flipflops,

@@ -1,6 +1,7 @@
 <svelte:head>
   <!-- all the other meta tags go in there for the page -->
   <title>Shipping, Returns and Refunds</title>
+  <meta name="description" content="Information about shipping, returns and refunds.">
 </svelte:head>
 
 <main>

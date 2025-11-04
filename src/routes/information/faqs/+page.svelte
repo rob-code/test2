@@ -5,6 +5,12 @@
 
 </script>
 
+<svelte:head>
+  <!-- all the other meta tags go in there for the page -->
+  <title>Frequently Asked Questions | Robert Brice</title>
+  <meta name="description" content="FAQ's for print purchases">
+</svelte:head>
+
 <Hero content = {{
   image: glasses, 
   text: "FAQ's",

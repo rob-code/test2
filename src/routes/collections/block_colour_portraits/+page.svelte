@@ -8,7 +8,8 @@
 
 <svelte:head>
   <!-- all the other meta tags go in there for the page -->
-  <title>Robert Brice Collections: Block Colour Portraits</title>
+  <title>Block Colour Portraits | Robert Brice Collections</title>
+  <meta name="description" content="Block Colour Portraits">
 </svelte:head>
 
 <section class="container">

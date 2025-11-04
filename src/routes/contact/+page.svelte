@@ -16,7 +16,8 @@
 </script>
 
 <svelte:head>
-  <title>Robert Brice - Contact</title>
+  <title>Contact | Robert Brice</title>
+  <meta name="description" content="Get in touch by email.">
 </svelte:head>
 
 <div class="container">

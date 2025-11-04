@@ -4,7 +4,8 @@
 </script>
 
 <svelte:head>
-  <title>Robert Brice - About</title>
+  <title>About | Robert Brice</title>
+  <meta name="description" content="Robert Brice is a digital artist based in Edinburgh.">
 </svelte:head>
 
 <PageTitle pagetitle="Robert Brice" />

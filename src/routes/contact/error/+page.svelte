@@ -1,5 +1,6 @@
 <svelte:head>
-    <title>Robert Brice - Email Error</title>
+    <title>Email Error | Robert Brice</title>
+    <meta name="description" content="There's been an errror sending the email">
 </svelte:head>
 
 <main>

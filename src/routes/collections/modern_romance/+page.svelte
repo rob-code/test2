@@ -10,7 +10,8 @@
 
 <svelte:head>
   <!-- all the other meta tags go in there for the page -->
-  <title>Robert Brice Collections: Modern Romance</title>
+  <title>Modern Romance | Robert Brice Collections</title>
+  <meta name="description" content="Computer generated roses - a very modern romance.">
 </svelte:head>
 
 

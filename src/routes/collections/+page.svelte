@@ -14,7 +14,9 @@
 
 <svelte:head>
   <!-- all the other meta tags go in there for the page -->
-  <title>Robert Brice Collections</title>
+  <meta name="description" content="All image collections summarised in one page.">
+  <title>Image Collections | Robert Brice</title>
+
 </svelte:head>
 
       <PageTitle pagetitle="Collections" />

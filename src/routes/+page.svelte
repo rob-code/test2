@@ -17,7 +17,12 @@
   import mockbobblehats from "$lib/images/mock-bobblehats.jpg";
   import mockstripedmugs from "$lib/images/mock-stripedmugs.jpg";
   import mocksunglasses from "$lib/images/mock-sunglasses.jpg";
-
+  import og_image from "$lib/assets/robertbrice_on_the_beach_1200x630.png";
+  import twitter_image from "$lib/assets/robertbrice_on_the_beach2_600x600.png";
+  import favicon32x32 from "$lib/assets/favicon_32x32_2.png";
+  import favicon96x96 from "$lib/assets/favicon_96x96_2.png";
+  import favicon180x180 from "$lib/assets/favicon_180x180_2.png";
+  
   import { onMount } from "svelte";
 
   import type { PageProps } from "./$types";
@@ -39,7 +44,7 @@
   />
   <meta
     name="description"
-    content="Colourful, optimistic images for print and screen. Made with code. If it works, it might be art."
+    content="Colourful, optimistic images for print and screen. Made with code. High quality prints now available."
   />
   <meta
     name="keywords"
@@ -49,22 +54,27 @@
     <meta property="og:url" content="https://www.robertbrice.net">
     <meta property="og:type" content="website" >
     <meta property="og:title" content="Robert Brice" >
-    <meta property="og:description" content="Colourful, optimistic images for print and screen. Made with code. If it works, it might be art.">
-    <meta property="og:image" content="https://www.robertbrice.net/assets/robertbrice_on_the_beach2_1200x630.png">
+    <meta property="og:description" content="Colourful, optimistic images for print and screen. Made with code. High quality prints now available.">
+    <meta property="og:image" content={og_image}>
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Thongs, flip flops ... they're all for the beach">
     <meta property="og:locale" content="en_GB">
 
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_32x32_2.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon_96x96_2.png">
-    <link rel="icon" type="image/png" sizes="180x180" href="assets/favicon_180x180_2.png">
+    <meta name="twitter:card" content="summary_large_image" >
+    <meta name="twitter:site" content="@robertbrice_art">
+    <meta name="twitter:creator" content="@robertbrice_art">
+    <meta name="twitter:title" content="Robert Brice">
+    <meta name="twitter:description" content="Colourful, optimistic images for print and screen. Made with code. High quality prints now available.">
+    <meta name="twitter:image" content={twitter_image}>
+
+    <link rel="icon" type="image/png" sizes="32x32" href={favicon32x32}>
+    <link rel="icon" type="image/png" sizes="96x96" href={favicon96x96}>
+    <link rel="icon" type="image/png" sizes="180x180" href={favicon180x180}>
+    
     <meta name="robots" content="index, follow">
-
-
-
-
-  <title>Robert Brice - Art made with Code</title>
+    <meta name="googlebot" content="index, follow">
+  <title>Art made with Code | Robert Brice </title>
 </svelte:head>
 
 {#if !data.isCookieSet && mounted}

@@ -12,7 +12,8 @@
       
 <svelte:head>
   <!-- all the other meta tags go in there for the page -->
-  <title>Robert Brice Collections: Colour Fields</title>
+  <title>Colour Fields | Robert Brice Collections</title>
+  <meta name="description" content="Colour Fields">
 </svelte:head>
 
 

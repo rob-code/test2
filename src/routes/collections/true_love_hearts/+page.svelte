@@ -5,7 +5,8 @@
 
 <svelte:head>
   <!-- all the other meta tags go in there for the page -->
-  <title>Robert Brice Collections: True Love Hearts</title>
+  <title>True Love Hearts| Robert Brice Collections</title>
+  <meta name="description" content="Love hearts - a childhood favourite which stills fizzes with loving messages.">
 </svelte:head>
 
 <section class="container">

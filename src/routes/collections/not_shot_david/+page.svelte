@@ -9,7 +9,8 @@
 </script>
 <svelte:head>
   <!-- all the other meta tags go in there for the page -->
-  <title>Robert Brice Collections: Not Shot David</title>
+  <title>Not Shot David | Robert Brice Collections</title>
+  <meta name="description" content="Celebrating diversity with a mashup of iconography.">
 </svelte:head>
   
     <section class="container">

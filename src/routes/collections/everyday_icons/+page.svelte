@@ -28,7 +28,8 @@
 
 <svelte:head>
   <!-- all the other meta tags go in there for the page -->
-  <title>Robert Brice Collections: Everyday Icons</title>
+  <title>Everyday Icons | Robert Brice Collections</title>
+  <meta name="description" content="Everyday Icons. Inspired by Australian beach life and good times with friends.">
 </svelte:head>
 
 <section class="container">
