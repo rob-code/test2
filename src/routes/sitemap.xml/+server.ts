@@ -24,8 +24,9 @@ const sitemap = (pages: string[]) => `<?xml version="1.0" encoding="UTF-8" ?>
 		(page) => `
   <url>
     <loc>${site}/${page}</loc>
+    <lastmod>2025-11-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url>
   `
 	)
