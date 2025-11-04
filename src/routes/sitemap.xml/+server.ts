@@ -1,4 +1,4 @@
-const site = 'https://main.dlt5b3qbh8020.amplifyapp.com'; // change this to reflect your domain
+const site = 'https://main.dlt5b3qbh8020.amplifyapp.com/'; // change this to reflect your domain
 const pages: string[] = ["shop", "collections", "about", "contact"]; // populate this with all the slugs you wish to include
 
 /** @type {import('./$types').RequestHandler} */
@@ -10,8 +10,7 @@ export async function GET({ url }) {
 	return response;
 }
 
-const sitemap = (pages: string[]) => `
-<?xml version="1.0" encoding="UTF-8" ?>
+const sitemap = (pages: string[]) => `<?xml version="1.0" encoding="UTF-8" ?>
 <urlset
   xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="https://www.google.com/schemas/sitemap-news/0.9"
