@@ -54,15 +54,16 @@
 
     <meta property="og:url" content="https://www.robertbrice.net"/>
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Robert Brice" />
+    <meta property="og:title" content="Robert Brice | Digital Art" />
     <meta property="og:description" content="Colourful, optimistic images for print and screen. Made with code. High quality prints now available."/>
-    <meta property="og:image" itemprop="image" content="https://www.robertbrice.net/robertbrice_on_the_beach2_1200x630.png"/>
+    <meta property="og:image" itemprop="image" content="https://digital-art-images.s3.eu-west-2.amazonaws.com/robertbrice_on_the_beach2_1200x630.png"/>
     <meta property="og:image:width" content="1200"/>
     <meta property="og:image:height" content="630"/>
+    <meta property="og:site_name" content="Robert Brice Digital Art" />
     
-    <meta property="og:image" content={og_image1}/>
+    <!-- <meta property="og:image" content={og_image1}/>
     <meta property="og:image:width" content="1200"/>
-    <meta property="og:image:height" content="630"/>
+    <meta property="og:image:height" content="630"/> -->
 
    <meta property="og:image" content={og_image2}/>
     <meta property="og:image:width" content="180"/>
@@ -78,9 +79,9 @@
     <meta name="twitter:description" content="Colourful, optimistic images for print and screen. Made with code. High quality prints now available."/>
     <meta name="twitter:image" content={twitter_image}/>
 
-    <link rel="icon" type="image/png" sizes="32x32" href={favicon32x32}>
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href={favicon32x32}>
     <link rel="icon" type="image/png" sizes="96x96" href={favicon96x96}>
-    <link rel="icon" type="image/png" sizes="180x180" href={favicon180x180}>
+    <link rel="icon" type="image/png" sizes="180x180" href={favicon180x180}> -->
     
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
