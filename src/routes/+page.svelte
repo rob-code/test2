@@ -51,22 +51,22 @@
     content="pop art, modern art, art, code, creative coding, software, generative art, processing, art of code, digital design, digital art, technology art, java, everyday icons, images, painting, paintings, sculpture"
   />
 
-    <meta property="og:url" content="https://www.robertbrice.net">
-    <meta property="og:type" content="website" >
-    <meta property="og:title" content="Robert Brice" >
-    <meta property="og:description" content="Colourful, optimistic images for print and screen. Made with code. High quality prints now available.">
-    <meta property="og:image" content={og_image}>
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Thongs, flip flops ... they're all for the beach">
-    <meta property="og:locale" content="en_GB">
+    <meta property="og:url" content="https://www.robertbrice.net"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Robert Brice" />
+    <meta property="og:description" content="Colourful, optimistic images for print and screen. Made with code. High quality prints now available."/>
+    <meta property="og:image" content={og_image}/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:image:alt" content="Thongs, flip flops ... they're all for the beach"/>
+    <meta property="og:locale" content="en_GB"/>
 
-    <meta name="twitter:card" content="summary_large_image" >
-    <meta name="twitter:site" content="@robertbrice_art">
-    <meta name="twitter:creator" content="@robertbrice_art">
-    <meta name="twitter:title" content="Robert Brice">
-    <meta name="twitter:description" content="Colourful, optimistic images for print and screen. Made with code. High quality prints now available.">
-    <meta name="twitter:image" content={twitter_image}>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@robertbrice_art"/>
+    <meta name="twitter:creator" content="@robertbrice_art"/>
+    <meta name="twitter:title" content="Robert Brice"/>
+    <meta name="twitter:description" content="Colourful, optimistic images for print and screen. Made with code. High quality prints now available."/>
+    <meta name="twitter:image" content={twitter_image}/>
 
     <link rel="icon" type="image/png" sizes="32x32" href={favicon32x32}>
     <link rel="icon" type="image/png" sizes="96x96" href={favicon96x96}>
