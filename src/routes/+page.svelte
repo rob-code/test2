@@ -17,7 +17,8 @@
   import mockbobblehats from "$lib/images/mock-bobblehats.jpg";
   import mockstripedmugs from "$lib/images/mock-stripedmugs.jpg";
   import mocksunglasses from "$lib/images/mock-sunglasses.jpg";
-  import og_image from "$lib/assets/robertbrice_on_the_beach2_1200x630.png";
+  import og_image1 from "$lib/assets/robertbrice_on_the_beach2_1200x630.png";
+  import og_image2 from "$lib/assets/favicon_180x180_2.png";
   import twitter_image from "$lib/assets/robertbrice_on_the_beach2_600x600.png";
   import favicon32x32 from "$lib/assets/favicon_32x32_2.png";
   import favicon96x96 from "$lib/assets/favicon_96x96_2.png";
@@ -55,9 +56,13 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Robert Brice" />
     <meta property="og:description" content="Colourful, optimistic images for print and screen. Made with code. High quality prints now available."/>
-    <meta property="og:image" content={og_image}/>
+    <meta property="og:image" content={og_image1}/>
     <meta property="og:image:width" content="1200"/>
     <meta property="og:image:height" content="630"/>
+   <meta property="og:image" content={og_image2}/>
+    <meta property="og:image:width" content="180"/>
+    <meta property="og:image:height" content="180"/>
+
     <meta property="og:image:alt" content="Thongs, flip flops ... they're all for the beach"/>
     <meta property="og:locale" content="en_GB"/>
 
