@@ -48,7 +48,7 @@
     name="keywords"
     content="pop art, modern art, art, code, creative coding, software, generative art, processing, art of code, digital design, digital art, technology art, java, everyday icons, images, painting, paintings, sculpture"
   />
-  <link rel="canonical" href="https://www.robertbrice.net">
+  <link rel="canonical" href="https://robertbrice.net">
 
     <!-- <meta property="og:url" content="https://www.robertbrice.net"/>
     <meta property="og:type" content="website" />
