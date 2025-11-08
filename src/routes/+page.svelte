@@ -78,9 +78,9 @@
     <meta name="twitter:description" content="Colourful, optimistic images for print and screen. Made with code. High quality prints now available."/>
     <meta name="twitter:image" content="https://digital-art-images.s3.eu-west-2.amazonaws.com/robertbrice_on_the_beach2_1200x630.png"/>
 
-    <!-- <link rel="icon" type="image/png" sizes="32x32" href={favicon32x32}>
+    <link rel="icon" type="image/png" sizes="32x32" href={favicon32x32}>
     <link rel="icon" type="image/png" sizes="96x96" href={favicon96x96}>
-    <link rel="icon" type="image/png" sizes="180x180" href={favicon180x180}> -->
+    <link rel="icon" type="image/png" sizes="180x180" href={favicon180x180}>
     
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
