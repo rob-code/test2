@@ -17,9 +17,6 @@
   import mockbobblehats from "$lib/images/mock-bobblehats.jpg";
   import mockstripedmugs from "$lib/images/mock-stripedmugs.jpg";
   import mocksunglasses from "$lib/images/mock-sunglasses.jpg";
-  import og_image1 from "$lib/assets/robertbrice_on_the_beach2_1200x630.png";
-  import og_image2 from "$lib/assets/favicon_180x180_2.png";
-  import twitter_image from "$lib/assets/robertbrice_on_the_beach2_600x600.png";
   import favicon32x32 from "$lib/assets/favicon_32x32_2.png";
   import favicon96x96 from "$lib/assets/favicon_96x96_2.png";
   import favicon180x180 from "$lib/assets/favicon_180x180_2.png";
