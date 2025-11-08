@@ -72,9 +72,8 @@
 
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@robertbrice_art"/>
-    <meta name="twitter:creator" content="@robertbrice_art"/>
-    <meta name="twitter:title" content="Robert Brice"/>
+    <meta name="twitter:url" content="http://robertbrice.net"/>
+    <meta name="twitter:title" content="Robert Brice | Digital Art"/>
     <meta name="twitter:description" content="Colourful, optimistic images for print and screen. Made with code. High quality prints now available."/>
     <meta name="twitter:image" content="https://digital-art-images.s3.eu-west-2.amazonaws.com/robertbrice_on_the_beach2_1200x630.png"/>
 
