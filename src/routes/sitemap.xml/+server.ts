@@ -1,4 +1,4 @@
-const site = 'https://main.dlt5b3qbh8020.amplifyapp.com'; // change this to reflect your domain
+const site = 'https://www.robertbrice.net'; // change this to reflect your domain
 const pages: string[] = ["", "shop", "collections", "about", "contact"]; // populate this with all the slugs you wish to include
 
 /** @type {import('./$types').RequestHandler} */
