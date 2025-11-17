@@ -39,21 +39,21 @@
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-label="blah blah" href="/shop">Shop</a
+          <a class="nav-link active" aria-label="Shop for prints" href="/shop">Shop</a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-label="blah blah" href="/collections"
+          <a class="nav-link active" aria-label="View all image collections" href="/collections"
             >Collections</a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-label="blah blah" href="/about"
+          <a class="nav-link active" aria-label="Learn a bit about RObert Brice and his approach" href="/about"
             >About</a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-label="blah blah" href="/contact"
+          <a class="nav-link active" aria-label="Get in touch" href="/contact"
             >Contact</a
           >
         </li>
