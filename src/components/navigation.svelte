@@ -120,7 +120,7 @@
       <hr />
       <a
         href="https://www.instagram.com/robertbrice_art"
-        aria-label="blah blah"
+        aria-label="Instagram"
         target="_blank"
       >
         <svg
