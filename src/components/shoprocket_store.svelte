@@ -3,14 +3,14 @@
     import { afterNavigate } from "$app/navigation";
     let { title } = $props();
     
-    // onMount(() => {
-    //     afterNavigate(() => {
-    //         // if the embed exposes a safe re-init, call it; otherwise this is a no-op
-    //         // (doesn't change the standard snippet — just lets it see new DOM)
-    //         // @ts-ignore
-    //         window.Shoprocket?.init?.();
-    //     });
-    // });
+    onMount(() => {
+        afterNavigate(() => {
+            // if the embed exposes a safe re-init, call it; otherwise this is a no-op
+            // (doesn't change the standard snippet — just lets it see new DOM)
+            // @ts-ignore
+            window.Shoprocket?.init?.();
+        });
+    });
 
 </script>
 
