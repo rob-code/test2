@@ -1,13 +1,20 @@
 <script>
-  let {images} = $props();
+  let { images } = $props();
 </script>
 
 <div class="scroll-container">
   {#each images as image}
     <div class="scroll-item">
-    <a href={image.link}>
-      <img src={image.img} alt={image.alt} />
-    </a>
+      {#if image.option}
+        <a href={image.link} data-sveltekit-reload>
+          <img src={image.img} alt={image.alt} />
+        </a>
+      {:else}
+        <a href={image.link}>
+          <img src={image.img} alt={image.alt} />
+        </a>
+      {/if}
+
       <div class="print-title">{image.title}</div>
       <div class="price">{image.price}</div>
     </div>

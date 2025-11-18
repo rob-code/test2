@@ -1,7 +1,6 @@
 <script lang="ts">
   import CookieConsent from "../components/cookieconsent.svelte";
   import GridRowWrapper from "../components/gridrowwrapper.svelte";
-  import Carousel from "../components/carousel.svelte";
 
   import cricketball from "$lib/images/cricketball-index.png";
   import thongs from "$lib/images/thongs8.webp";
@@ -127,7 +126,7 @@
     <a class="title-link-button btn btn-light" href="../shop" role="button"
       >Art Prints For Sale</a
     >
-    <div class="view-all-link"><a href="../shop">view all</a></div>
+    <div class="view-all-link"><a href="../shop" data-sveltekit-reload>view all</a></div>
   </h2>
 </section>
 
@@ -139,6 +138,7 @@
       title: "Flip Flops",
       price: "",
       link: "/shop#!/flip-flops",
+      option: true
     },
     {
       img: mockburgers,
@@ -146,6 +146,7 @@
       title: "Burgers",
       price: "",
       link: "/shop#!/burgers",
+      option: true
     },
     {
       img: mocklongboards,
@@ -153,6 +154,7 @@
       title: "Longboards",
       price: "",
       link: "/shop#!/long-boards",
+      option: true
     },
     {
       img: mockempirebiscuits,
@@ -160,6 +162,7 @@
       title: "Empire Biscuits",
       price: "",
       link: "/shop#!/empire-biscuits",
+      option: true
     },
     {
       img: mocksswimshorts,
@@ -167,6 +170,7 @@
       title: "Swimshorts",
       price: "",
       link: "/shop#!/swim-shorts",
+      option: true
     },
     {
       img: mockbobblehats,
@@ -174,6 +178,7 @@
       title: "Bobble Hats",
       price: "",
       link: "/shop#!/bobble-hats",
+      option: true
     },
     {
       img: mocksunglasses,
@@ -181,6 +186,7 @@
       title: "Sunglasses",
       price: "",
       link: "/shop#!/sunglasses",
+      option: true
     },
     {
       img: mockstripedmugs,
@@ -188,6 +194,7 @@
       title: "Striped Mugs",
       price: "",
       link: "/shop#!/striped-mugs",
+      option: true
     },
   ]}
 />
@@ -228,6 +235,7 @@
       title: "Everyone Can Play ",
       price: "",
       link: "../collections/everyone_can_play",
+      option: false
     },
     {
       img: thongs,
@@ -235,6 +243,7 @@
       title: "Everyday Icons",
       price: "",
       link: "../collections/everyday_icons",
+      option: false
     },
     {
       img: xrays,
@@ -242,6 +251,7 @@
       title: "Block Colour Portraits",
       price: "",
       link: "../collections/block_colour_portraits",
+      option: false
     },
     {
       img: mow,
@@ -249,6 +259,7 @@
       title: "Meaning of Words",
       price: "",
       link: "../collections/meaning_of_words",
+      option: false
     },
     {
       img: david,
@@ -256,6 +267,7 @@
       title: "Not Shot David",
       price: "",
       link: "../collections/not_shot_david",
+      option: false
     },
     {
       img: modernromance,
@@ -263,20 +275,10 @@
       title: "Modern Romance",
       price: "",
       link: "../collections/modern_romance",
+      option: false
     },
   ]}
 />
-
-<!-- <section class="container">
-  <h2 class="fw-light text-center project-page-header">Animations</h2>
-  <p class="lead text-body-secondary project-description text-center">
-    A selection of animated projects and explorations of different frameworks
-  </p>
-</section> -->
-
-<!-- <p class="float-left container">
-  <a href="#top" class="link-black">Back to top</a>
-</p> -->
 
 <style>
   .btn-light {

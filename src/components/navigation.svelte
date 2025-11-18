@@ -39,7 +39,7 @@
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-label="Shop for prints" href="/shop">Shop</a
+          <a class="nav-link active" aria-label="Shop for prints" href="/shop" data-sveltekit-reload>Shop</a
           >
         </li>
         <li class="nav-item">
@@ -48,7 +48,7 @@
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-label="Learn a bit about RObert Brice and his approach" href="/about"
+          <a class="nav-link active" aria-label="Learn a bit about Robert Brice and his approach" href="/about"
             >About</a
           >
         </li>
@@ -102,7 +102,7 @@
           <a class="nav-link active" href="/">Home</a>
         </li> -->
         <li class="nav-item" data-bs-toggle="offcanvas">
-          <a class="nav-link active" href="/shop">Shop</a>
+          <a class="nav-link active" href="/shop" data-sveltekit-reload>Shop</a>
         </li>
         <li class="nav-item" data-bs-toggle="offcanvas">
           <a class="nav-link active" href="/collections">Collections</a>
@@ -202,28 +202,5 @@
     height: 18px;
     width: 18px;
   }
-
-  /* 
-.btn-close.offcanvas-text {
-  --bs-btn-close-color: #FFF;
-  color: #FFF;
-} */
-
-  /* .nav-scroller {
-  position: relative;
-  z-index: 2;
-  height: 2.75rem;
-  overflow-y: hidden;
-} */
-
-  /* .nav-scroller .nav {
-  display: flex;
-  flex-wrap: nowrap;
-  padding-bottom: 1rem;
-  margin-top: -1px;
-  overflow-x: auto;
-  text-align: center;
-  white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
-} */
+  
 </style>
