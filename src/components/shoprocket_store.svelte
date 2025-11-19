@@ -53,7 +53,7 @@
         "show_product_price": "1",
         "show_product_image": "1",
         "show_product_summary": "1",
-        "open_modal_on_image_click": "0",
+        "open_modal_on_image_click": "1",
         "show_view_product_button": "1",
         "show_add_to_cart_button": "0",
         "show_min_max_order_quantity": "1",
