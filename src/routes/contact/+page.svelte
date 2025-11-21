@@ -71,9 +71,7 @@
 
       <div class="row email-row">
         <div class="col-md-2">
-          <label class="email-field-title" for="emailaddress"
-            >Email Address</label
-          >
+          <label class="email-field-title" for="emailaddress">Email Address</label>
         </div>
         <div class="col-md-10">
           <input
@@ -83,6 +81,22 @@
             placeholder="Email Address"
             name="Email Address"
             required
+            autocomplete="off"
+          />
+        </div>
+      </div>
+
+      <div class="row email-row emailnumber">
+        <div class="col-md-2">
+          <label class="email-field-title" for="phonenumber">Phone Number</label>
+        </div>
+        <div class="col-md-10">
+          <input
+            class="form-field input-field"
+            id="phonenumber"
+            type="email"
+            placeholder="Phone Number"
+            name="Phone Number"
           />
         </div>
       </div>
@@ -123,9 +137,7 @@
       <div class="row email-row">
         <div class="col-md-2">
           <label class="email-field-title" for="spam-input-field"
-            >What is <span id="number-1">{a}</span> +
-            <span id="number-2">{b}</span> ?</label
-          >
+            >What is <span id="number-1">{a}</span> + <span id="number-2">{b}</span> ?</label>
         </div>
         <div class="col-md-10">
           <input
@@ -174,6 +186,13 @@
 </div>
 
 <style>
+
+  .emailnumber{
+    display:none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
   #send-button {
     width: 150px;
     text-align: center;
