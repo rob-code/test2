@@ -94,7 +94,7 @@
           <input
             class="form-field input-field"
             id="phonenumber"
-            type="email"
+            type="text"
             placeholder="Phone Number"
             name="Phone Number"
           />

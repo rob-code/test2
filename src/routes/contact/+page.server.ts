@@ -7,6 +7,7 @@ export const actions = {
 		const firstname = data.get('First Name');
 		const secondname = data.get('Last Name');
 		const emailaddress = data.get('Email Address');
+		const phonenumber = data.get('Phone Number');
 		const subject = data.get('Subject');
 		const message = data.get('Message');
 		const spamfilter = data.get('Spam Filter');
@@ -22,7 +23,7 @@ export const actions = {
 		 	redirect(308, '../contact/error');
 		} else {
 			console.log(response.status + " " + response.statusText);
-			console.log(firstname + " " + secondname + " " + emailaddress + " " + subject + " " + message + " " + spamfilter?.toString());
+			console.log(firstname + " " + secondname + " " + emailaddress + " " + "Phonenumber=" + phonenumber + " " + subject + " " + message + " " + spamfilter?.toString());
 			redirect(303, '../contact/success')
 		}
 
