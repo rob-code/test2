@@ -81,7 +81,6 @@
             placeholder="Email Address"
             name="Email Address"
             required
-            autocomplete="off"
           />
         </div>
       </div>
@@ -98,7 +97,8 @@
             placeholder="Phone Number"
             name="Phone Number"
             tabindex="-1"
-      
+            autocomplete="off"
+            value=""
           />
         </div>
       </div>
