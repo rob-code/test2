@@ -60,7 +60,7 @@
     <hr class="line"/>
 
     <div class="bottom-text-with-icon">
-      <img src={faviconWhite} class="favicon mx-auto" alt="favicon" />
+      <img src={faviconWhite} class="favicon mx-auto" alt="colourful thongs favicon" />
 
 {#if iw < 768}
       <p class="text-center bottom-text">Robert Brice makes images and animations using
