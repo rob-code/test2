@@ -115,97 +115,20 @@ a.link-black {
 
 /* ******************** shoprocket ***************************************** */
 
-.sr-image-holder {
-  padding-bottom: 0px;
-}
+/* .sr-image-holder {} 
 
-/*
-.slbCOntentOuter{
-  /* margin: 0px;
-  padding: 0px; */
-/* background-color: rgba(0, 0, 0, 0.5); */
-  /* position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, 0%); */
 
-  /* background: transparent; 
+div.slbContentOuter {}
 
-} 
+div.slbContent {}
 
-.slbContent{
-    /* margin: 0px;
-  padding: 0px; */
-
-  /* position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, 0%);
-  background-color: rgba(0, 0, 0, 1); */
-
-  /* height: auto;
-width: 70%; 
-
-}
-
-.slbImageWrap{
-  /* padding: 1px;
-/* margin: -1px -5px -5px -1px;
-height: 30%;
-background-color: #424649;
-
-background: transparent;
-
-}
-
-img.slbImage {
-
-}
+div.slbImageWrap {}
 */
 
-
-
-
-
-
-/* ******************** snipcart ***************************************** */
-
-/* 
-.snipcart-modal__container {
-  margin-top: 0px;
-  z-index: 1100;
+img.slbImage {
+  min-width: 100.2%;
+  transform: translate(-.5px, 0%);
 }
-
-
-.cart-button {
-  border-style: none;
-  background: none;
-}
-
-.cart-icon {
-  fill: #FFFFFF;
-  transform: scale(1.4);
-  width: 26px;
-  height: 26px;
-  padding-top: 4px;
-}
-
-.badge {
-  margin-left: -14px;
-  margin-top: -4px;
-  font-size: .6rem;
-  font-weight: light;
-}
-
-.snipcart-button-primary {
-  background-color: black;
-}
-
-.snipcart-button-primary:hover {
-  background-color: #424649;
-}
- */
-
 
 /* ******************** policies ******************** */
 
