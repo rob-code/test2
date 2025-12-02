@@ -1,4 +1,5 @@
 import type { Actions } from './$types';
+import { redirect } from '@sveltejs/kit';
 
 let isCookieSet = new Boolean(false);
 const cookiename = 'euconsent';
@@ -23,11 +24,13 @@ export const actions = {
 
     consent: async ({ cookies, request }) => {
         cookies.set(cookiename, 'accepted', { path: '/', secure: true, maxAge: duration});
+        redirect(302, '/');
         return { isCookieSet : true};
     },
 
     reject: async ({ cookies, request }) => {
         cookies.set(cookiename, 'rejected', { path: '/', secure: true, maxAge: duration});
+        redirect(302, '/');
         return { isCookieSet : true};
     },
 
