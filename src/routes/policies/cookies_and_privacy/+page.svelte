@@ -19,9 +19,9 @@
 
 <p class="policy-text">Analytics. Google Analytics leave cookies on your browser to gather information that helps us understand how visitors interact with our website including what pages are visited most. This allows us to create a better experience for our visitors. Our users may also implement Google Analytics on their own websites.</p>
 
-<p class="policy-text">Third Party Embedded Content. We make use of third party applications and services to enhance the experience of website visitors. This includes social media platforms such as Instagram through the use of link buttons, and embedded content from Youtube and Vimeo. The shopping cart is provided by Shoprocket Ltd, and the checkout is provided by Stripe and Paypal. As a result, cookies may be set by these third parties and used by them to track your online activity. We have no direct control over the information that is collected by these cookies and do not have access to that data.</p>
+<p class="policy-text">Third Party Embedded Content. We make use of third party applications and services to enhance the experience of website visitors. This includes social media platforms such as Instagram through the use of link buttons. The shopping cart is provided by Shoprocket Ltd, and the checkout is provided by Stripe. As a result, cookies may be set by these third parties and used by them to track your online activity. We have no direct control over the information that is collected by these cookies and do not have access to that data.</p>
 
-<p class="policy-text">EU Cookie Law Banner. We leave a cookie which remembers the state of visitor acceptance to the EU Cookie Law banner.</p>
+<p class="policy-text">EU Cookie Law Banner. We leave a cookie which remembers the state of visitor acceptance to the EU Cookie Law banner. However we do not currently track user behaviour on our site.</p>
 
 <p class="display-6 policy-title">CONTROLLING COOKIES</p>
 
