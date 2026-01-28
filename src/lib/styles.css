@@ -59,6 +59,22 @@ a.link-black {
   color: #FF0266
 }
 
+/****************** education ****************************** */
+
+.ed-card-heading {
+font-size: 1.25rem;
+padding-top: 0.5rem;
+padding-bottom: 0.1rem;
+padding-left: 0.5rem;
+}
+
+.ed-card-heading-2 {
+font-size: 1.0rem;
+padding-top: 0rem;
+padding-bottom: 0.25rem;
+padding-left: 0.5rem;
+}
+
 /****************** grid row wrapper component ************** */
 
 .print-title {

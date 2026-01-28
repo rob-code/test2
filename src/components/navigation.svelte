@@ -48,6 +48,11 @@
           >
         </li>
         <li class="nav-item">
+          <a class="nav-link active" aria-label="View all image collections" href="/courses"
+            >Courses</a
+          >
+        </li>
+        <li class="nav-item">
           <a class="nav-link active" aria-label="Learn a bit about Robert Brice and his approach" href="/about"
             >About</a
           >
@@ -106,6 +111,9 @@
         </li>
         <li class="nav-item" data-bs-toggle="offcanvas">
           <a class="nav-link active" href="/collections">Collections</a>
+        </li>
+        <li class="nav-item" data-bs-toggle="offcanvas">
+          <a class="nav-link active" href="/courses">Courses</a>
         </li>
         <li class="nav-item" data-bs-toggle="offcanvas">
           <a class="nav-link active" href="/about">About</a>
