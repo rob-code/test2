@@ -15,19 +15,23 @@
 <div class="container">
   <PageTitle pagetitle="Courses" />
 
-  <p class="lead text-body-secondary project-description-left" style="padding-bottom: 2rem">
+  <p
+    class="lead text-body-secondary project-description-left"
+    style="padding-bottom: 2rem"
+  >
     With experience in running courses for various clients, and as one of the
     first chartered high school physics teachers to qualify in Scotland, Robert
     is an experienced educator who puts participants at the center of his
     teaching. Courses are rooted in Robert's current art and coding practice and
     aim to give participants a creative, inspiring learning experience which
     encourages participation and conversation as well as being relaxed and
-    enjoyable. Each week you will make a new artwork. Please <a href="/contact" class="get-in-touch-link">get in touch</a> to learn more.
+    enjoyable. Each week you will make a new artwork. Please <a
+      href="/contact"
+      class="get-in-touch-link">get in touch</a
+    > to enquire about a course.
   </p>
 
-    <p class="lead text-body-secondary project-description-left" >
-
-  </p>
+  <p class="lead text-body-secondary project-description-left"></p>
 
   <div class="row">
     <div class="col-sm-6 mb-3 mb-sm-0">
@@ -99,14 +103,10 @@
   </div>
 </div>
 
-
 <style>
-
   .get-in-touch-link {
     height: auto;
     color: rgba(33, 37, 41, 0.75);
     line-height: 0px;
-
   }
-
 </style>
