@@ -47,7 +47,7 @@
             Duration: 2.5 Hours
           </h5>
           <p class="card-text">
-            This one off session combines a lecture and guided code-along. The
+            This one off workshop combines a lecture and guided code-along. The
             lecture segment introduces participants to digital art and presents
             a selection of work from some of the most innovative, ground
             breaking digital artists working today. There are now many artists
