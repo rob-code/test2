@@ -19,13 +19,14 @@
     class="lead text-body-secondary project-description-left"
     style="padding-bottom: 2rem"
   >
-    With experience in running courses for various clients, and as one of the
-    first chartered high school physics teachers to qualify in Scotland, Robert
-    is an experienced educator who puts participants at the center of his
-    teaching. Courses are rooted in Robert's current art and coding practice and
-    aim to give participants a creative, inspiring learning experience which
-    encourages participation and conversation as well as being relaxed and
-    enjoyable. Each week you will make a new artwork. Please <a
+    With experience in running courses and workshops for various clients, and as
+    one of the first chartered high school physics teachers to qualify in
+    Scotland, Robert is an experienced educator who puts participants at the
+    center of his teaching. Courses are rooted in Robert's current art and
+    coding practice and aim to give participants a creative, inspiring learning
+    experience which encourages participation and conversation as well as being
+    relaxed and enjoyable. Each course is focused on learning new skills and
+    practising them through the creation of new artworks. Please <a
       href="/contact"
       class="get-in-touch-link">get in touch</a
     > to enquire about a course.
@@ -81,9 +82,9 @@
             This 6 week introductory level course introduces participants to
             digital art and develops artisanal coding skills in an expressive,
             creative context. By the end of the course, participants will have
-            developed a solid foundation from which to make digital artworks of
-            their own and to keep on learning. Prior coding experience is not
-            required.
+            developed a solid foundation of knowledge and skills to enable them to
+            keep on learning and to make digital artworks of their own. Prior
+            coding experience is not required.
           </p>
           <p class="card-text">
             Week 1 will include an overview of contemporary digital art practice
