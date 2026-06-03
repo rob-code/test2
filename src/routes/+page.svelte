@@ -31,6 +31,7 @@
   onMount(() => {
     mounted = true;
   });
+
 </script>
 
 <svelte:head>

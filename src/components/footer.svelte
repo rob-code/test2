@@ -3,6 +3,13 @@
   let col_class = "col-md-4";
 
   let iw = $state(0);
+
+  import { VERSION as v1 } from 'svelte/compiler';
+  const svelte_version = v1;
+
+  import { VERSION as v2} from '@sveltejs/kit';
+  const sveltekit_version = v2;
+
 </script>
 
 <svelte:window bind:innerWidth={iw} />
@@ -72,7 +79,10 @@
         reproduced without permission.</p>
 {/if}
 
-      <p class="text-center bottom-text">© 2025 Robert Brice.</p>
+      <p class="text-center bottom-text">© 2026 Robert Brice.</p>
+
+      <p class="text-center bottom-text" style="font-size: 60%">Svelte v.{svelte_version} and Sveltekit v.{sveltekit_version}</p>
+
     </div>
   </div>
 </div>
