@@ -81,7 +81,7 @@
 
       <p class="text-center bottom-text">© 2026 Robert Brice.</p>
 
-      <p class="text-center bottom-text" style="font-size: 60%">Svelte v.{svelte_version} and Sveltekit v.{sveltekit_version}</p>
+      <p class="text-center bottom-text" style="font-size: 60%">Svelte v.{svelte_version}/Sveltekit v.{sveltekit_version}</p>
 
     </div>
   </div>
