@@ -23,5 +23,8 @@
 		"sveltekit-adapter-aws": "^4.5.1",
 		"typescript": "^5.0.0",
 		"vite": "^7.0.4"
+	},
+	"dependencies": {
+		"devalue": "^5.8.1"
 	}
 }
