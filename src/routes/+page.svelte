@@ -19,7 +19,7 @@
   import favicon32x32 from "$lib/assets/favicon_32x32_2.png";
   import favicon96x96 from "$lib/assets/favicon_96x96_2.png";
   import favicon180x180 from "$lib/assets/favicon_180x180_2.png";
-  
+
   import { onMount } from "svelte";
 
   import type { PageProps } from "./$types";
@@ -31,7 +31,6 @@
   onMount(() => {
     mounted = true;
   });
-
 </script>
 
 <svelte:head>
@@ -48,9 +47,9 @@
     name="keywords"
     content="pop art, modern art, art, code, creative coding, software, generative art, processing, art of code, digital design, digital art, technology art, java, everyday icons, images, painting, paintings, sculpture"
   />
-  <link rel="canonical" href="https://robertbrice.net">
+  <link rel="canonical" href="https://robertbrice.net" />
 
-    <!-- <meta property="og:url" content="https://www.robertbrice.net"/>
+  <!-- <meta property="og:url" content="https://www.robertbrice.net"/>
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Robert Brice | Digital Art" />
     <meta property="og:description" content="Colourful, optimistic images for print and screen. Made with code. High quality prints now available."/>
@@ -58,29 +57,34 @@
     <meta property="og:image:width" content="1200"/>
     <meta property="og:image:height" content="630"/>
     <meta property="og:site_name" content="Robert Brice Digital Art" /> -->
-    
-    <!-- <meta property="og:image" content={og_image1}/>
+
+  <!-- <meta property="og:image" content={og_image1}/>
     <meta property="og:image:width" content="1200"/>
     <meta property="og:image:height" content="630"/> -->
 
-   <!-- <meta property="og:image" content={og_image2}/>
+  <!-- <meta property="og:image" content={og_image2}/>
     <meta property="og:image:width" content="180"/>
     <meta property="og:image:height" content="180"/> -->
 
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="http://robertbrice.net" />
+  <meta name="twitter:title" content="Robert Brice | Digital Art" />
+  <meta
+    name="twitter:description"
+    content="Colourful, optimistic images for print and screen. Made with code. High quality prints now available."
+  />
+  <meta
+    name="twitter:image"
+    content="https://digital-art-images.s3.eu-west-2.amazonaws.com/robertbrice_on_the_beach2_1200x630.png"
+  />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="http://robertbrice.net"/>
-    <meta name="twitter:title" content="Robert Brice | Digital Art"/>
-    <meta name="twitter:description" content="Colourful, optimistic images for print and screen. Made with code. High quality prints now available."/>
-    <meta name="twitter:image" content="https://digital-art-images.s3.eu-west-2.amazonaws.com/robertbrice_on_the_beach2_1200x630.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href={favicon32x32} />
+  <link rel="icon" type="image/png" sizes="96x96" href={favicon96x96} />
+  <link rel="icon" type="image/png" sizes="180x180" href={favicon180x180} />
 
-    <link rel="icon" type="image/png" sizes="32x32" href={favicon32x32}>
-    <link rel="icon" type="image/png" sizes="96x96" href={favicon96x96}>
-    <link rel="icon" type="image/png" sizes="180x180" href={favicon180x180}>
-    
-    <meta name="robots" content="index, follow">
-    <meta name="googlebot" content="index, follow">
-  <title>Art made with Code | Robert Brice </title>
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow" />
+  <title>Art made with Code | Robert Brice</title>
 </svelte:head>
 
 {#if !data.isCookieSet && mounted}
@@ -124,10 +128,78 @@
 
 <section class="container">
   <h2 class="fw-light text-center project-page-header header-link-button">
+    <a class="btn btn-light" href="../collections" role="button"
+      >Explore All Collections</a
+    >
+    <div class="view-all-link"><a href="../collections">view all</a></div>
+  </h2>
+</section>
+
+<GridRowWrapper
+  images={[
+    {
+      img: cricketball,
+      alt: "cricketball",
+      title: "Everyone Can Play ",
+      price: "",
+      link: "../collections/everyone_can_play",
+      option: false,
+    },
+    {
+      img: thongs,
+      alt: "thongs",
+      title: "Everyday Icons",
+      price: "",
+      link: "../collections/everyday_icons",
+      option: false,
+    },
+    {
+      img: xrays,
+      alt: "xrays",
+      title: "Block Colour Portraits",
+      price: "",
+      link: "../collections/block_colour_portraits",
+      option: false,
+    },
+    {
+      img: mow,
+      alt: "meaning of words",
+      title: "Meaning of Words",
+      price: "",
+      link: "../collections/meaning_of_words",
+      option: false,
+    },
+    {
+      img: david,
+      alt: "david",
+      title: "Not Shot David",
+      price: "",
+      link: "../collections/not_shot_david",
+      option: false,
+    },
+    {
+      img: modernromance,
+      alt: "modernromance",
+      title: "Modern Romance",
+      price: "",
+      link: "../collections/modern_romance",
+      option: false,
+    },
+  ]}
+/>
+
+<div class="container hr-title spacer">
+  <hr />
+</div>
+
+<section class="container">
+  <h2 class="fw-light text-center project-page-header header-link-button">
     <a class="title-link-button btn btn-light" href="../shop" role="button"
       >Art Prints For Sale</a
     >
-    <div class="view-all-link"><a href="../shop" data-sveltekit-reload>view all</a></div>
+    <div class="view-all-link">
+      <a href="../shop" data-sveltekit-reload>view all</a>
+    </div>
   </h2>
 </section>
 
@@ -139,7 +211,7 @@
       title: "Flip Flops",
       price: "",
       link: "/shop#!/flip-flops",
-      option: true
+      option: true,
     },
     {
       img: mockburgers,
@@ -147,7 +219,7 @@
       title: "Burgers",
       price: "",
       link: "/shop#!/burgers",
-      option: true
+      option: true,
     },
     {
       img: mocklongboards,
@@ -155,7 +227,7 @@
       title: "Longboards",
       price: "",
       link: "/shop#!/long-boards",
-      option: true
+      option: true,
     },
     {
       img: mockempirebiscuits,
@@ -163,7 +235,7 @@
       title: "Empire Biscuits",
       price: "",
       link: "/shop#!/empire-biscuits",
-      option: true
+      option: true,
     },
     {
       img: mocksswimshorts,
@@ -171,7 +243,7 @@
       title: "Swimshorts",
       price: "",
       link: "/shop#!/swim-shorts",
-      option: true
+      option: true,
     },
     {
       img: mockbobblehats,
@@ -179,7 +251,7 @@
       title: "Bobble Hats",
       price: "",
       link: "/shop#!/bobble-hats",
-      option: true
+      option: true,
     },
     {
       img: mocksunglasses,
@@ -187,7 +259,7 @@
       title: "Sunglasses",
       price: "",
       link: "/shop#!/sunglasses",
-      option: true
+      option: true,
     },
     {
       img: mockstripedmugs,
@@ -195,7 +267,7 @@
       title: "Striped Mugs",
       price: "",
       link: "/shop#!/striped-mugs",
-      option: true
+      option: true,
     },
   ]}
 />
@@ -213,75 +285,13 @@
   </div>
 </section>
 
-<section class="container">
-  <hr />
 
-  <h2 class="fw-light text-center project-page-header header-link-button">
-    <a class="btn btn-light" href="../collections" role="button"
-      >Explore All Collections</a
-    >
-    <div class="view-all-link"><a href="../collections">view all</a></div>
-  </h2>
 
-  <!-- <p class="lead text-body-secondary project-description text-center">
-    All 2D images
-  </p> -->
-</section>
-
-<GridRowWrapper
-  images={[
-    {
-      img: cricketball,
-      alt: "cricketball",
-      title: "Everyone Can Play ",
-      price: "",
-      link: "../collections/everyone_can_play",
-      option: false
-    },
-    {
-      img: thongs,
-      alt: "thongs",
-      title: "Everyday Icons",
-      price: "",
-      link: "../collections/everyday_icons",
-      option: false
-    },
-    {
-      img: xrays,
-      alt: "xrays",
-      title: "Block Colour Portraits",
-      price: "",
-      link: "../collections/block_colour_portraits",
-      option: false
-    },
-    {
-      img: mow,
-      alt: "meaning of words",
-      title: "Meaning of Words",
-      price: "",
-      link: "../collections/meaning_of_words",
-      option: false
-    },
-    {
-      img: david,
-      alt: "david",
-      title: "Not Shot David",
-      price: "",
-      link: "../collections/not_shot_david",
-      option: false
-    },
-    {
-      img: modernromance,
-      alt: "modernromance",
-      title: "Modern Romance",
-      price: "",
-      link: "../collections/modern_romance",
-      option: false
-    },
-  ]}
-/>
 
 <style>
+  .spacer {
+    padding-top: 50px;
+  }
   .btn-light {
     background: none;
     color: rgb(33, 37, 41);
